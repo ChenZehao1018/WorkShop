@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Dec 23 02:33:06 2022 
+Best design point: 1
+Design specs: 
+	project_4x:RowDecoder_256_4xP_TB:1	corner	Nominal - 
+	delay timeWL1		281.1p
+	delay timeWL0		284.1p
+Design parameters: 
+
+Interactive.53
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.53 completed. 
+Current time: Fri Dec 23 02:35:30 2022 

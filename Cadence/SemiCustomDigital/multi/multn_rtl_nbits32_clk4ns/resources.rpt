@@ -1,0 +1,35 @@
+ 
+****************************************
+Report : resources
+Design : multn_NBITS32
+Version: Q-2019.12
+Date   : Sat Dec  3 23:44:24 2022
+****************************************
+
+Resource Sharing Report for design multn_NBITS32 in file ./HDL/RTL/multn.vhd
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r391     | DW_cmp       | width=32   |               | lt_38                |
+| r393     | DW_cmp       | width=32   |               | lt_38_2              |
+| r395     | DW01_sub     | width=33   |               | sub_abs_43           |
+| r397     | DW01_sub     | width=32   |               | sub_abs_44           |
+| r399     | DW01_add     | width=64   |               | add_54               |
+| r401     | DW01_sub     | width=64   |               | sub_66               |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_abs_44         | DW01_sub         | pparch (area,speed)                 |
+| sub_abs_43         | DW01_sub         | pparch (area,speed)                 |
+| sub_66             | DW01_sub         | pparch (area,speed)                 |
+| add_54             | DW01_add         | pparch (area,speed)                 |
+===============================================================================
+
+1

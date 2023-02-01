@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Oct 11 15:20:38 2022 
+Best design point: 1
+Design specs: 
+	EDATP:NAND_TB:1	corner	Nominal - 
+Design parameters: 
+	VDD		1.2
+	period		2n
+	Tsim		64n
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Tue Oct 11 15:20:43 2022 

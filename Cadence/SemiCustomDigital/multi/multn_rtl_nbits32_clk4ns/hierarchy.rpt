@@ -1,0 +1,64 @@
+ 
+****************************************
+Report : hierarchy
+Design : multn_NBITS32
+Version: Q-2019.12
+Date   : Sat Dec  3 23:44:24 2022
+****************************************
+
+Attributes:
+    r - licensed design
+
+multn_NBITS32      r
+    AN2M2R                           uk65lscllmvbbr_108c125_wc
+    AO22B10M2R                       uk65lscllmvbbr_108c125_wc
+    AO222M2RA                        uk65lscllmvbbr_108c125_wc
+    BUFM2R                           uk65lscllmvbbr_108c125_wc
+    CKMUX2M2R                        uk65lscllmvbbr_108c125_wc
+    DFEQM2RA                         uk65lscllmvbbr_108c125_wc
+    DFEQRM2RA                        uk65lscllmvbbr_108c125_wc
+    INVM2R                           uk65lscllmvbbr_108c125_wc
+    MOAI22M2RA                       uk65lscllmvbbr_108c125_wc
+    ND2M2R                           uk65lscllmvbbr_108c125_wc
+    ND4B2M2R                         uk65lscllmvbbr_108c125_wc
+    NR2M2R                           uk65lscllmvbbr_108c125_wc
+    NR4M1R                           uk65lscllmvbbr_108c125_wc
+    OAI21B20M2R                      uk65lscllmvbbr_108c125_wc
+    OAI31M2R                         uk65lscllmvbbr_108c125_wc
+    OAI211M2R                        uk65lscllmvbbr_108c125_wc
+    OR2M2R                           uk65lscllmvbbr_108c125_wc
+    OR4M2R                           uk65lscllmvbbr_108c125_wc
+    XOR2M2RA                         uk65lscllmvbbr_108c125_wc
+    multn_NBITS32_DW01_add_1                   r
+        AN2M2R                       uk65lscllmvbbr_108c125_wc
+        AOI21B01M2R                  uk65lscllmvbbr_108c125_wc
+        AOI21M2R                     uk65lscllmvbbr_108c125_wc
+        INVM2R                       uk65lscllmvbbr_108c125_wc
+        ND2M2R                       uk65lscllmvbbr_108c125_wc
+        NR2M2R                       uk65lscllmvbbr_108c125_wc
+        OAI21B01M2R                  uk65lscllmvbbr_108c125_wc
+        OAI21M2R                     uk65lscllmvbbr_108c125_wc
+        OR2M2R                       uk65lscllmvbbr_108c125_wc
+        XNR2M2RA                     uk65lscllmvbbr_108c125_wc
+        XOR2M2RA                     uk65lscllmvbbr_108c125_wc
+    multn_NBITS32_DW01_sub_3                   r
+        ADHM1RA                      uk65lscllmvbbr_108c125_wc
+        BUFM2R                       uk65lscllmvbbr_108c125_wc
+        INVM2R                       uk65lscllmvbbr_108c125_wc
+        ND2M2R                       uk65lscllmvbbr_108c125_wc
+        NR2B1M2R                     uk65lscllmvbbr_108c125_wc
+        NR2M2R                       uk65lscllmvbbr_108c125_wc
+        XNR2M2RA                     uk65lscllmvbbr_108c125_wc
+        XOR2M2RA                     uk65lscllmvbbr_108c125_wc
+    multn_NBITS32_DW01_sub_4                   r
+        ADHM1RA                      uk65lscllmvbbr_108c125_wc
+        BUFM2R                       uk65lscllmvbbr_108c125_wc
+        INVM2R                       uk65lscllmvbbr_108c125_wc
+        NR2M2R                       uk65lscllmvbbr_108c125_wc
+        XNR2M2RA                     uk65lscllmvbbr_108c125_wc
+    multn_NBITS32_DW01_sub_5                   r
+        ADHM1RA                      uk65lscllmvbbr_108c125_wc
+        BUFM2R                       uk65lscllmvbbr_108c125_wc
+        INVM2R                       uk65lscllmvbbr_108c125_wc
+        XNR2M2RA                     uk65lscllmvbbr_108c125_wc
+1

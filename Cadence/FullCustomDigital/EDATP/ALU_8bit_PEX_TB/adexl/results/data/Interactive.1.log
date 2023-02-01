@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Oct 28 15:42:39 2022 
+Best design point: 1
+Design specs: 
+	EDATP:ALU_8bit_PEX_TB:1	corner	Nominal - 
+Design parameters: 
+	period		2n
+	vdd		1.2
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Fri Oct 28 15:43:10 2022 

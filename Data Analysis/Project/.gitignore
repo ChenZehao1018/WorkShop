@@ -1,0 +1,12 @@
+.ipynb_checkpoints
+*.DS_Store
+*.DS_Store?
+.idea
+.vscode
+data/corenlp_plot_summaries
+data/corenlp_plot_summaries.tar
+data/GloVe/glove.6B.100d.txt
+data/GloVe/*.txt
+data/GloVe/*.zip
+data/MovieSummaries/*.tsv
+data/MovieSummaries/*.txt

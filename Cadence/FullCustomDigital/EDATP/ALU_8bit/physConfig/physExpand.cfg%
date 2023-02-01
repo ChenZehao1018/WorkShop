@@ -1,0 +1,17 @@
+//Revision 4
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config ALU_8bit;
+design EDATP.ALU_8bit:schematic;
+liblist EDATP;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+
+endconfig

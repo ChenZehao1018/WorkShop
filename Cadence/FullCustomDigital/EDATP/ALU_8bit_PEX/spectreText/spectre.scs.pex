@@ -1,0 +1,5882 @@
+// File: /home/edauser64/edalab2022_fullcust/CDS_VISO/EDATP/ALU_8bit_PEX/spectreText/spectre.scs.pex
+// Created: Fri Oct 28 19:02:42 2022
+// Program "Calibre xRC"
+// Version "v2020.1_17.9"
+// Nominal Temperature: 25C
+// Circuit Temperature: 25C
+// 
+simulator lang=spectre
+subckt PM_ALU_8BIT\%GND ( 1 4 8 18 22 32 36 46 50 60 64 74 78 88 92 102 106 \
+ 128 131 146 148 151 154 169 171 174 177 192 194 197 200 215 217 220 223 238 \
+ 240 243 246 261 263 266 269 284 286 289 292 307 309 311 317 319 321 323 325 \
+ 327 329 331 335 339 343 347 351 355 359 361 363 365 367 369 371 373 377 381 \
+ 385 389 393 397 401 403 405 407 409 411 413 415 417 419 425 441 447 463 469 \
+ 485 491 507 513 529 535 551 557 573 579 844 849 857 862 867 883 2276 2278 \
+ 2279 2281 2283 2285 2287 2289 2291 2293 2295 2297 2299 2301 2303 2305 2307 \
+ 2309 2311 )
+c0 ( 2314 0 ) capacitor c=0.281818f
+c1 ( 2221 0 ) capacitor c=0.548654f
+c2 ( 2212 0 ) capacitor c=0.199242f
+c3 ( 2203 0 ) capacitor c=0.144573f
+c4 ( 2196 0 ) capacitor c=0.136601f
+c5 ( 2187 0 ) capacitor c=0.144573f
+c6 ( 2180 0 ) capacitor c=0.136601f
+c7 ( 2171 0 ) capacitor c=0.144573f
+c8 ( 2164 0 ) capacitor c=0.136601f
+c9 ( 2155 0 ) capacitor c=0.144573f
+c10 ( 2148 0 ) capacitor c=0.136601f
+c11 ( 2139 0 ) capacitor c=0.144573f
+c12 ( 2132 0 ) capacitor c=0.136601f
+c13 ( 2123 0 ) capacitor c=0.144573f
+c14 ( 2116 0 ) capacitor c=0.136601f
+c15 ( 2107 0 ) capacitor c=0.144573f
+c16 ( 2100 0 ) capacitor c=0.136601f
+c17 ( 2091 0 ) capacitor c=0.144573f
+c18 ( 2086 0 ) capacitor c=0.151716f
+c19 ( 2082 0 ) capacitor c=0.137044f
+c20 ( 2074 0 ) capacitor c=0.321152f
+c21 ( 2042 0 ) capacitor c=3.46311f
+c22 ( 2028 0 ) capacitor c=2.07814f
+c23 ( 1960 0 ) capacitor c=0.495697f
+c24 ( 1921 0 ) capacitor c=0.676253f
+c25 ( 1901 0 ) capacitor c=0.539727f
+c26 ( 1882 0 ) capacitor c=0.154374f
+c27 ( 1814 0 ) capacitor c=0.510716f
+c28 ( 1775 0 ) capacitor c=0.676947f
+c29 ( 1755 0 ) capacitor c=0.538289f
+c30 ( 1736 0 ) capacitor c=0.154383f
+c31 ( 1668 0 ) capacitor c=0.513564f
+c32 ( 1629 0 ) capacitor c=0.676253f
+c33 ( 1609 0 ) capacitor c=0.538921f
+c34 ( 1590 0 ) capacitor c=0.154374f
+c35 ( 1522 0 ) capacitor c=0.513165f
+c36 ( 1483 0 ) capacitor c=0.6766f
+c37 ( 1463 0 ) capacitor c=0.539011f
+c38 ( 1444 0 ) capacitor c=0.154379f
+c39 ( 1376 0 ) capacitor c=0.513065f
+c40 ( 1337 0 ) capacitor c=0.676253f
+c41 ( 1317 0 ) capacitor c=0.538231f
+c42 ( 1298 0 ) capacitor c=0.154374f
+c43 ( 1230 0 ) capacitor c=0.513212f
+c44 ( 1191 0 ) capacitor c=0.676947f
+c45 ( 1171 0 ) capacitor c=0.541017f
+c46 ( 1152 0 ) capacitor c=0.154383f
+c47 ( 1084 0 ) capacitor c=0.513167f
+c48 ( 1045 0 ) capacitor c=0.676253f
+c49 ( 1025 0 ) capacitor c=0.541475f
+c50 ( 1006 0 ) capacitor c=0.154374f
+c51 ( 932 0 ) capacitor c=0.51355f
+c52 ( 906 0 ) capacitor c=0.410952f
+c53 ( 896 0 ) capacitor c=0.243581f
+c54 ( 883 0 ) capacitor c=0.236973f
+c55 ( 867 0 ) capacitor c=0.299871f
+c56 ( 862 0 ) capacitor c=0.152009f
+c57 ( 857 0 ) capacitor c=0.223696f
+c58 ( 849 0 ) capacitor c=0.125431f
+c59 ( 311 0 ) capacitor c=2.93468f
+c60 ( 1 0 ) capacitor c=2.13007f
+r61 (  2324 2326 ) resistor r=4.16297
+r62 (  2324 2325 ) resistor r=11.5288
+r63 (  2319 2321 ) resistor r=11.5787
+r64 (  2319 2320 ) resistor r=11.5787
+r65 (  2319 2338 ) resistor r=30
+r66 (  2245 2324 ) resistor r=30.1515
+r67 (  2221 2338 ) resistor r=2.22295
+r68 (  2221 2245 ) resistor r=2.53373
+r69 (  2221 2234 ) resistor r=1.50102
+r70 (  2212 2234 ) resistor r=2.89356
+r71 (  2204 2311 ) resistor r=2.75
+r72 (  2203 2204 ) resistor r=35.2354
+r73 (  2203 2204 ) resistor r=35
+r74 (  2197 2309 ) resistor r=2.75
+r75 (  2196 2197 ) resistor r=35.2466
+r76 (  2196 2197 ) resistor r=35
+r77 (  2188 2307 ) resistor r=2.75
+r78 (  2187 2188 ) resistor r=35.2354
+r79 (  2187 2188 ) resistor r=35
+r80 (  2181 2305 ) resistor r=2.75
+r81 (  2180 2181 ) resistor r=35.2466
+r82 (  2180 2181 ) resistor r=35
+r83 (  2172 2303 ) resistor r=2.75
+r84 (  2171 2172 ) resistor r=35.2354
+r85 (  2171 2172 ) resistor r=35
+r86 (  2165 2301 ) resistor r=2.75
+r87 (  2164 2165 ) resistor r=35.2466
+r88 (  2164 2165 ) resistor r=35
+r89 (  2156 2299 ) resistor r=2.75
+r90 (  2155 2156 ) resistor r=35.2354
+r91 (  2155 2156 ) resistor r=35
+r92 (  2149 2297 ) resistor r=2.75
+r93 (  2148 2149 ) resistor r=35.2466
+r94 (  2148 2149 ) resistor r=35
+r95 (  2140 2295 ) resistor r=2.75
+r96 (  2139 2140 ) resistor r=35.2354
+r97 (  2139 2140 ) resistor r=35
+r98 (  2133 2293 ) resistor r=2.75
+r99 (  2132 2133 ) resistor r=35.2466
+r100 (  2132 2133 ) resistor r=35
+r101 (  2124 2291 ) resistor r=2.75
+r102 (  2123 2124 ) resistor r=35.2354
+r103 (  2123 2124 ) resistor r=35
+r104 (  2117 2289 ) resistor r=2.75
+r105 (  2116 2117 ) resistor r=35.2466
+r106 (  2116 2117 ) resistor r=35
+r107 (  2108 2287 ) resistor r=2.75
+r108 (  2107 2108 ) resistor r=35.2354
+r109 (  2107 2108 ) resistor r=35
+r110 (  2101 2285 ) resistor r=2.7775
+r111 (  2100 2101 ) resistor r=35.2466
+r112 (  2100 2101 ) resistor r=35
+r113 (  2092 2283 ) resistor r=2.7775
+r114 (  2091 2092 ) resistor r=35.2354
+r115 (  2091 2092 ) resistor r=35
+r116 (  2087 2281 ) resistor r=2.7775
+r117 (  2086 2087 ) resistor r=35.2457
+r118 (  2086 2087 ) resistor r=35
+r119 (  2083 2278 ) resistor r=2.7225
+r120 (  2083 2279 ) resistor r=2.7775
+r121 (  2082 2083 ) resistor r=35.2466
+r122 (  2082 2083 ) resistor r=35
+r123 (  2042 2074 ) resistor r=2.30809
+r124 (  2028 2074 ) resistor r=4.27255
+r125 (  1960 2042 ) resistor r=0.123344
+r126 (  1921 2028 ) resistor r=0.134134
+r127 (  1921 2203 ) resistor r=0.393103
+r128 (  1921 2196 ) resistor r=0.393103
+r129 (  1901 1960 ) resistor r=0.235154
+r130 (  1882 1921 ) resistor r=0.555362
+r131 (  1814 1901 ) resistor r=0.456852
+r132 (  1775 1882 ) resistor r=0.134134
+r133 (  1775 2187 ) resistor r=0.393103
+r134 (  1775 2180 ) resistor r=0.393103
+r135 (  1755 1814 ) resistor r=0.249571
+r136 (  1736 1775 ) resistor r=0.560069
+r137 (  1668 1755 ) resistor r=0.450445
+r138 (  1629 1736 ) resistor r=0.134134
+r139 (  1629 2171 ) resistor r=0.393103
+r140 (  1629 2164 ) resistor r=0.393103
+r141 (  1609 1668 ) resistor r=0.255978
+r142 (  1590 1629 ) resistor r=0.555362
+r143 (  1522 1609 ) resistor r=0.452047
+r144 (  1483 1590 ) resistor r=0.134134
+r145 (  1483 2155 ) resistor r=0.393103
+r146 (  1483 2148 ) resistor r=0.393103
+r147 (  1463 1522 ) resistor r=0.254697
+r148 (  1444 1483 ) resistor r=0.557716
+r149 (  1376 1463 ) resistor r=0.451726
+r150 (  1337 1444 ) resistor r=0.134134
+r151 (  1337 2139 ) resistor r=0.393103
+r152 (  1337 2132 ) resistor r=0.393103
+r153 (  1317 1376 ) resistor r=0.254697
+r154 (  1298 1337 ) resistor r=0.555362
+r155 (  1230 1317 ) resistor r=0.451726
+r156 (  1191 1298 ) resistor r=0.134134
+r157 (  1191 2123 ) resistor r=0.393103
+r158 (  1191 2116 ) resistor r=0.393103
+r159 (  1171 1230 ) resistor r=0.254697
+r160 (  1152 1191 ) resistor r=0.560069
+r161 (  1084 1171 ) resistor r=0.451726
+r162 (  1045 1152 ) resistor r=0.134134
+r163 (  1045 2107 ) resistor r=0.393103
+r164 (  1045 2100 ) resistor r=0.393103
+r165 (  1025 1084 ) resistor r=0.254697
+r166 (  1006 1045 ) resistor r=0.555362
+r167 (  932 1025 ) resistor r=0.451726
+r168 (  906 2212 ) resistor r=2.25025
+r169 (  906 1006 ) resistor r=0.134134
+r170 (  906 2091 ) resistor r=0.393103
+r171 (  906 2086 ) resistor r=0.393103
+r172 (  906 2082 ) resistor r=0.393103
+r173 (  902 2314 ) resistor r=11.5787
+r174 (  901 2234 ) resistor r=2.2573
+r175 (  901 902 ) resistor r=30
+r176 (  899 2276 ) resistor r=2.7225
+r177 (  896 899 ) resistor r=35.1208
+r178 (  896 906 ) resistor r=0.373469
+r179 (  896 899 ) resistor r=35
+r180 (  883 932 ) resistor r=0.254697
+r181 (  875 2326 ) resistor r=6.46884
+r182 (  874 875 ) resistor r=130
+r183 (  873 2325 ) resistor r=15
+r184 (  870 874 ) resistor r=6.36951
+r185 (  870 871 ) resistor r=38
+r186 (  865 873 ) resistor r=6.36951
+r187 (  865 867 ) resistor r=258
+r188 (  860 871 ) resistor r=6.36951
+r189 (  860 862 ) resistor r=206
+r190 (  857 2321 ) resistor r=329
+r191 (  847 849 ) resistor r=181
+r192 (  842 844 ) resistor r=134
+r193 (  841 902 ) resistor r=4.11337
+r194 (  840 847 ) resistor r=6.36951
+r195 (  840 841 ) resistor r=32
+r196 (  838 842 ) resistor r=6.36951
+r197 (  838 839 ) resistor r=55
+r198 (  836 839 ) resistor r=6.36951
+r199 (  836 2314 ) resistor r=278
+r200 (  578 1901 ) resistor r=35.3771
+r201 (  578 579 ) resistor r=5.445
+r202 (  573 578 ) resistor r=5.555
+r203 (  556 1755 ) resistor r=35.3771
+r204 (  556 557 ) resistor r=5.445
+r205 (  551 556 ) resistor r=5.555
+r206 (  534 1609 ) resistor r=35.3771
+r207 (  534 535 ) resistor r=5.445
+r208 (  529 534 ) resistor r=5.555
+r209 (  512 1463 ) resistor r=35.3771
+r210 (  512 513 ) resistor r=5.445
+r211 (  507 512 ) resistor r=5.555
+r212 (  490 1317 ) resistor r=35.3771
+r213 (  490 491 ) resistor r=5.445
+r214 (  485 490 ) resistor r=5.555
+r215 (  468 1171 ) resistor r=35.3771
+r216 (  468 469 ) resistor r=5.445
+r217 (  463 468 ) resistor r=5.555
+r218 (  446 1025 ) resistor r=35.3771
+r219 (  446 447 ) resistor r=5.445
+r220 (  441 446 ) resistor r=5.555
+r221 (  424 883 ) resistor r=35.3771
+r222 (  424 425 ) resistor r=5.445
+r223 (  419 424 ) resistor r=5.555
+r224 (  403 899 ) resistor r=2.7775
+r225 (  400 1921 ) resistor r=17.872
+r226 (  400 401 ) resistor r=2.7225
+r227 (  400 417 ) resistor r=2.7775
+r228 (  396 1775 ) resistor r=17.872
+r229 (  396 397 ) resistor r=2.7225
+r230 (  396 415 ) resistor r=2.7775
+r231 (  392 1629 ) resistor r=17.872
+r232 (  392 393 ) resistor r=2.7225
+r233 (  392 413 ) resistor r=2.7775
+r234 (  388 1483 ) resistor r=17.872
+r235 (  388 389 ) resistor r=2.7225
+r236 (  388 411 ) resistor r=2.7775
+r237 (  384 1337 ) resistor r=17.872
+r238 (  384 385 ) resistor r=2.7225
+r239 (  384 409 ) resistor r=2.7775
+r240 (  380 1191 ) resistor r=17.872
+r241 (  380 381 ) resistor r=2.7225
+r242 (  380 407 ) resistor r=2.7775
+r243 (  376 1045 ) resistor r=17.872
+r244 (  376 377 ) resistor r=2.7225
+r245 (  376 405 ) resistor r=2.7775
+r246 (  373 2197 ) resistor r=2.75
+r247 (  371 2181 ) resistor r=2.75
+r248 (  369 2165 ) resistor r=2.75
+r249 (  367 2149 ) resistor r=2.75
+r250 (  365 2133 ) resistor r=2.75
+r251 (  363 2117 ) resistor r=2.75
+r252 (  361 2101 ) resistor r=2.7225
+r253 (  358 1921 ) resistor r=17.8914
+r254 (  358 359 ) resistor r=2.7225
+r255 (  354 1775 ) resistor r=17.8914
+r256 (  354 355 ) resistor r=2.7225
+r257 (  350 1629 ) resistor r=17.8914
+r258 (  350 351 ) resistor r=2.7225
+r259 (  346 1483 ) resistor r=17.8914
+r260 (  346 347 ) resistor r=2.7225
+r261 (  342 1337 ) resistor r=17.8914
+r262 (  342 343 ) resistor r=2.7225
+r263 (  338 1191 ) resistor r=17.8914
+r264 (  338 339 ) resistor r=2.7225
+r265 (  334 1045 ) resistor r=17.8914
+r266 (  334 335 ) resistor r=2.7225
+r267 (  331 358 ) resistor r=2.7775
+r268 (  329 354 ) resistor r=2.7775
+r269 (  327 350 ) resistor r=2.7775
+r270 (  325 346 ) resistor r=2.7775
+r271 (  323 342 ) resistor r=2.7775
+r272 (  321 338 ) resistor r=2.7775
+r273 (  319 334 ) resistor r=2.7775
+r274 (  317 2087 ) resistor r=2.7225
+r275 (  311 2320 ) resistor r=277
+r276 (  306 1960 ) resistor r=35.5843
+r277 (  306 309 ) resistor r=5.445
+r278 (  304 1960 ) resistor r=35.5827
+r279 (  304 307 ) resistor r=5.555
+r280 (  292 306 ) resistor r=5.555
+r281 (  289 304 ) resistor r=5.445
+r282 (  283 1814 ) resistor r=35.5843
+r283 (  283 286 ) resistor r=5.445
+r284 (  281 1814 ) resistor r=35.5827
+r285 (  281 284 ) resistor r=5.555
+r286 (  269 283 ) resistor r=5.555
+r287 (  266 281 ) resistor r=5.445
+r288 (  260 1668 ) resistor r=35.5843
+r289 (  260 263 ) resistor r=5.445
+r290 (  258 1668 ) resistor r=35.5827
+r291 (  258 261 ) resistor r=5.555
+r292 (  246 260 ) resistor r=5.555
+r293 (  243 258 ) resistor r=5.445
+r294 (  237 1522 ) resistor r=35.5843
+r295 (  237 240 ) resistor r=5.445
+r296 (  235 1522 ) resistor r=35.5827
+r297 (  235 238 ) resistor r=5.555
+r298 (  223 237 ) resistor r=5.555
+r299 (  220 235 ) resistor r=5.445
+r300 (  214 1376 ) resistor r=35.5843
+r301 (  214 217 ) resistor r=5.445
+r302 (  212 1376 ) resistor r=35.5827
+r303 (  212 215 ) resistor r=5.555
+r304 (  200 214 ) resistor r=5.555
+r305 (  197 212 ) resistor r=5.445
+r306 (  191 1230 ) resistor r=35.5843
+r307 (  191 194 ) resistor r=5.445
+r308 (  189 1230 ) resistor r=35.5827
+r309 (  189 192 ) resistor r=5.555
+r310 (  177 191 ) resistor r=5.555
+r311 (  174 189 ) resistor r=5.445
+r312 (  168 1084 ) resistor r=35.5843
+r313 (  168 171 ) resistor r=5.445
+r314 (  166 1084 ) resistor r=35.5827
+r315 (  166 169 ) resistor r=5.555
+r316 (  154 168 ) resistor r=5.555
+r317 (  151 166 ) resistor r=5.445
+r318 (  145 932 ) resistor r=35.5843
+r319 (  145 148 ) resistor r=5.445
+r320 (  143 932 ) resistor r=35.5827
+r321 (  143 146 ) resistor r=5.555
+r322 (  131 145 ) resistor r=5.555
+r323 (  128 143 ) resistor r=5.445
+r324 (  106 2204 ) resistor r=2.75
+r325 (  101 2028 ) resistor r=17.8914
+r326 (  101 102 ) resistor r=2.7225
+r327 (  92 2188 ) resistor r=2.75
+r328 (  87 1882 ) resistor r=17.8914
+r329 (  87 88 ) resistor r=2.7225
+r330 (  78 2172 ) resistor r=2.75
+r331 (  73 1736 ) resistor r=17.8914
+r332 (  73 74 ) resistor r=2.7225
+r333 (  64 2156 ) resistor r=2.75
+r334 (  59 1590 ) resistor r=17.8914
+r335 (  59 60 ) resistor r=2.7225
+r336 (  50 2140 ) resistor r=2.75
+r337 (  45 1444 ) resistor r=17.8914
+r338 (  45 46 ) resistor r=2.7225
+r339 (  36 2124 ) resistor r=2.75
+r340 (  31 1298 ) resistor r=17.8914
+r341 (  31 32 ) resistor r=2.7225
+r342 (  22 2108 ) resistor r=2.75
+r343 (  17 1152 ) resistor r=17.8914
+r344 (  17 18 ) resistor r=2.7225
+r345 (  8 2092 ) resistor r=2.7225
+r346 (  3 1006 ) resistor r=17.8914
+r347 (  3 4 ) resistor r=2.7225
+r348 (  1 906 ) resistor r=783.875
+r349 (  1 2042 ) resistor r=783.912
+r350 (  1 883 ) resistor r=783.875
+r351 (  1 2028 ) resistor r=783.912
+ends PM_ALU_8BIT\%GND
+
+subckt PM_ALU_8BIT\%A\<0\> ( 1 10 30 43 51 56 67 72 77 82 229 )
+c0 ( 229 0 ) capacitor c=0.149466f
+c1 ( 220 0 ) capacitor c=0.164311f
+c2 ( 208 0 ) capacitor c=0.198506f
+c3 ( 177 0 ) capacitor c=0.200706f
+c4 ( 148 0 ) capacitor c=0.197536f
+c5 ( 147 0 ) capacitor c=0.484861f
+c6 ( 141 0 ) capacitor c=0.172074f
+c7 ( 118 0 ) capacitor c=0.15866f
+c8 ( 117 0 ) capacitor c=0.298914f
+c9 ( 95 0 ) capacitor c=0.318738f
+c10 ( 82 0 ) capacitor c=0.209648f
+c11 ( 72 0 ) capacitor c=0.299261f
+c12 ( 67 0 ) capacitor c=0.161696f
+c13 ( 56 0 ) capacitor c=0.269527f
+c14 ( 51 0 ) capacitor c=0.116582f
+c15 ( 43 0 ) capacitor c=0.163316f
+c16 ( 23 0 ) capacitor c=0.25103f
+c17 ( 10 0 ) capacitor c=0.110278f
+c18 ( 1 0 ) capacitor c=0.288496f
+r19 (  211 215 ) resistor r=8.18483
+r20 (  205 229 ) resistor r=30.2547
+r21 (  205 206 ) resistor r=11.3877
+r22 (  201 205 ) resistor r=4.65689
+r23 (  177 215 ) resistor r=30.12
+r24 (  148 177 ) resistor r=3.88636
+r25 (  147 148 ) resistor r=3.6428
+r26 (  147 229 ) resistor r=2.74112
+r27 (  139 221 ) resistor r=4.11337
+r28 (  139 220 ) resistor r=11.5787
+r29 (  139 141 ) resistor r=30.1229
+r30 (  117 118 ) resistor r=1.77711
+r31 (  117 141 ) resistor r=1.26659
+r32 (  114 118 ) resistor r=30.6571
+r33 (  102 209 ) resistor r=3.88074
+r34 (  102 208 ) resistor r=11.4582
+r35 (  101 102 ) resistor r=30
+r36 (  95 229 ) resistor r=1.8391
+r37 (  95 118 ) resistor r=0.335977
+r38 (  95 101 ) resistor r=1.37916
+r39 (  89 220 ) resistor r=278
+r40 (  87 221 ) resistor r=6.63832
+r41 (  87 88 ) resistor r=32
+r42 (  85 89 ) resistor r=6.36951
+r43 (  85 86 ) resistor r=55
+r44 (  80 88 ) resistor r=6.36951
+r45 (  80 82 ) resistor r=181
+r46 (  75 86 ) resistor r=6.36951
+r47 (  75 77 ) resistor r=134
+r48 (  70 72 ) resistor r=296
+r49 (  65 67 ) resistor r=243
+r50 (  63 70 ) resistor r=6.36951
+r51 (  63 64 ) resistor r=29
+r52 (  62 114 ) resistor r=12.8571
+r53 (  61 65 ) resistor r=6.36951
+r54 (  61 62 ) resistor r=29
+r55 (  60 64 ) resistor r=6.36951
+r56 (  59 114 ) resistor r=10.7622
+r57 (  59 60 ) resistor r=36
+r58 (  54 56 ) resistor r=220
+r59 (  49 51 ) resistor r=170
+r60 (  48 209 ) resistor r=6.46884
+r61 (  47 54 ) resistor r=6.36951
+r62 (  47 48 ) resistor r=23
+r63 (  45 49 ) resistor r=6.36951
+r64 (  45 46 ) resistor r=45
+r65 (  41 211 ) resistor r=6.46884
+r66 (  41 43 ) resistor r=147
+r67 (  38 211 ) resistor r=6.46884
+r68 (  36 46 ) resistor r=6.36951
+r69 (  36 208 ) resistor r=204
+r70 (  28 30 ) resistor r=97
+r71 (  26 33 ) resistor r=6.36951
+r72 (  26 206 ) resistor r=40
+r73 (  24 28 ) resistor r=6.36951
+r74 (  24 25 ) resistor r=64
+r75 (  23 201 ) resistor r=6.46884
+r76 (  22 25 ) resistor r=6.36951
+r77 (  22 23 ) resistor r=357
+r78 (  10 38 ) resistor r=156
+r79 (  1 33 ) resistor r=140
+ends PM_ALU_8BIT\%A\<0\>
+
+subckt PM_ALU_8BIT\%B\<0\> ( 1 8 21 26 66 75 80 88 97 102 107 112 281 )
+c0 ( 274 0 ) capacitor c=0.279929f
+c1 ( 271 0 ) capacitor c=0.114896f
+c2 ( 214 0 ) capacitor c=0.368451f
+c3 ( 202 0 ) capacitor c=0.41788f
+c4 ( 171 0 ) capacitor c=0.307355f
+c5 ( 154 0 ) capacitor c=0.231915f
+c6 ( 148 0 ) capacitor c=0.302424f
+c7 ( 112 0 ) capacitor c=0.211266f
+c8 ( 107 0 ) capacitor c=0.128683f
+c9 ( 102 0 ) capacitor c=0.220933f
+c10 ( 97 0 ) capacitor c=0.195852f
+c11 ( 80 0 ) capacitor c=0.468886f
+c12 ( 75 0 ) capacitor c=0.156672f
+c13 ( 48 0 ) capacitor c=0.686617f
+c14 ( 1 0 ) capacitor c=0.263325f
+r15 (  266 274 ) resistor r=30
+r16 (  257 258 ) resistor r=12.1291
+r17 (  257 284 ) resistor r=30
+r18 (  251 281 ) resistor r=30
+r19 (  224 284 ) resistor r=2
+r20 (  214 274 ) resistor r=2.73533
+r21 (  214 224 ) resistor r=1.20891
+r22 (  202 224 ) resistor r=3.36389
+r23 (  202 281 ) resistor r=2.13934
+r24 (  196 272 ) resistor r=3.88074
+r25 (  196 271 ) resistor r=11.4582
+r26 (  171 196 ) resistor r=30.6484
+r27 (  168 269 ) resistor r=11.4582
+r28 (  168 268 ) resistor r=11.4582
+r29 (  166 168 ) resistor r=30
+r30 (  154 171 ) resistor r=1.23716
+r31 (  154 166 ) resistor r=1.01326
+r32 (  150 260 ) resistor r=11.5787
+r33 (  148 281 ) resistor r=0.861093
+r34 (  148 154 ) resistor r=0.489317
+r35 (  148 150 ) resistor r=30.75
+r36 (  119 271 ) resistor r=204
+r37 (  117 272 ) resistor r=6.46884
+r38 (  117 118 ) resistor r=23
+r39 (  115 119 ) resistor r=6.36951
+r40 (  115 116 ) resistor r=45
+r41 (  110 118 ) resistor r=6.36951
+r42 (  110 112 ) resistor r=220
+r43 (  105 116 ) resistor r=6.36951
+r44 (  105 107 ) resistor r=170
+r45 (  102 269 ) resistor r=329
+r46 (  97 268 ) resistor r=277
+r47 (  93 266 ) resistor r=10.8476
+r48 (  93 94 ) resistor r=173
+r49 (  91 94 ) resistor r=6.36951
+r50 (  91 92 ) resistor r=49
+r51 (  89 266 ) resistor r=6.54098
+r52 (  89 90 ) resistor r=49
+r53 (  86 92 ) resistor r=6.36951
+r54 (  86 88 ) resistor r=55.1
+r55 (  83 90 ) resistor r=6.36951
+r56 (  78 80 ) resistor r=258
+r57 (  73 75 ) resistor r=206
+r58 (  72 150 ) resistor r=4.11337
+r59 (  71 78 ) resistor r=6.36951
+r60 (  71 72 ) resistor r=15
+r61 (  69 73 ) resistor r=6.36951
+r62 (  69 70 ) resistor r=38
+r63 (  67 70 ) resistor r=6.36951
+r64 (  67 260 ) resistor r=129
+r65 (  64 66 ) resistor r=55.1
+r66 (  56 257 ) resistor r=5.86543
+r67 (  55 61 ) resistor r=6.36951
+r68 (  55 56 ) resistor r=17
+r69 (  54 251 ) resistor r=8.14286
+r70 (  53 59 ) resistor r=6.36951
+r71 (  53 54 ) resistor r=49
+r72 (  51 57 ) resistor r=6.36951
+r73 (  51 52 ) resistor r=49
+r74 (  49 64 ) resistor r=6.36951
+r75 (  49 50 ) resistor r=50
+r76 (  48 251 ) resistor r=10.7494
+r77 (  47 52 ) resistor r=6.36951
+r78 (  47 48 ) resistor r=426
+r79 (  46 50 ) resistor r=6.36951
+r80 (  46 258 ) resistor r=173
+r81 (  26 83 ) resistor r=50
+r82 (  21 61 ) resistor r=49
+r83 (  8 57 ) resistor r=55.1
+r84 (  1 59 ) resistor r=92.15
+ends PM_ALU_8BIT\%B\<0\>
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET248 ( 1 8 21 26 118 119 123 124 )
+c0 ( 144 0 ) capacitor c=0.113794f
+c1 ( 93 0 ) capacitor c=0.401232f
+c2 ( 78 0 ) capacitor c=0.411924f
+c3 ( 76 0 ) capacitor c=0.226991f
+c4 ( 62 0 ) capacitor c=0.258178f
+c5 ( 43 0 ) capacitor c=0.220211f
+c6 ( 26 0 ) capacitor c=0.199515f
+c7 ( 21 0 ) capacitor c=0.171584f
+c8 ( 8 0 ) capacitor c=0.308138f
+c9 ( 1 0 ) capacitor c=0.187634f
+r10 (  134 136 ) resistor r=11.5787
+r11 (  134 135 ) resistor r=11.5787
+r12 (  134 144 ) resistor r=30
+r13 (  124 127 ) resistor r=2.7775
+r14 (  123 127 ) resistor r=2.7225
+r15 (  121 122 ) resistor r=35
+r16 (  119 122 ) resistor r=1.13625
+r17 (  118 122 ) resistor r=1.11375
+r18 (  93 127 ) resistor r=17.8356
+r19 (  78 144 ) resistor r=3.13919
+r20 (  76 78 ) resistor r=0.923656
+r21 (  65 78 ) resistor r=1.30476
+r22 (  62 76 ) resistor r=2.4696
+r23 (  62 93 ) resistor r=2.1915
+r24 (  58 121 ) resistor r=2.51415
+r25 (  58 65 ) resistor r=1.17352
+r26 (  51 131 ) resistor r=30
+r27 (  51 76 ) resistor r=2
+r28 (  43 122 ) resistor r=23.9743
+r29 (  43 121 ) resistor r=0.323636
+r30 (  43 122 ) resistor r=23.3333
+r31 (  33 131 ) resistor r=10.7888
+r32 (  33 34 ) resistor r=36
+r33 (  31 34 ) resistor r=6.36951
+r34 (  31 32 ) resistor r=29
+r35 (  29 131 ) resistor r=13.1538
+r36 (  29 30 ) resistor r=29
+r37 (  24 32 ) resistor r=6.36951
+r38 (  24 26 ) resistor r=296
+r39 (  19 30 ) resistor r=6.36951
+r40 (  19 21 ) resistor r=243
+r41 (  8 135 ) resistor r=496
+r42 (  1 136 ) resistor r=110
+ends PM_ALU_8BIT\%XI4\/XI18\/NET248
+
+subckt PM_ALU_8BIT\%CTR\<1\> ( 33 40 47 54 61 68 75 82 122 132 142 152 162 172 \
+ 182 192 419 )
+c0 ( 367 0 ) capacitor c=1.26106f
+c1 ( 352 0 ) capacitor c=0.105875f
+c2 ( 323 0 ) capacitor c=0.532819f
+c3 ( 315 0 ) capacitor c=0.513194f
+c4 ( 307 0 ) capacitor c=0.506529f
+c5 ( 299 0 ) capacitor c=0.494308f
+c6 ( 291 0 ) capacitor c=0.507099f
+c7 ( 283 0 ) capacitor c=0.492001f
+c8 ( 277 0 ) capacitor c=0.53303f
+c9 ( 33 0 ) capacitor c=2.20682f
+r10 (  425 457 ) resistor r=2
+r11 (  414 416 ) resistor r=8.11427
+r12 (  413 414 ) resistor r=30
+r13 (  408 410 ) resistor r=8.11427
+r14 (  407 462 ) resistor r=2.17944
+r15 (  407 408 ) resistor r=30
+r16 (  402 404 ) resistor r=8.11427
+r17 (  401 461 ) resistor r=2.19217
+r18 (  401 402 ) resistor r=30
+r19 (  396 398 ) resistor r=8.11427
+r20 (  395 396 ) resistor r=30
+r21 (  390 392 ) resistor r=8.11427
+r22 (  389 459 ) resistor r=2.14636
+r23 (  389 390 ) resistor r=30
+r24 (  384 386 ) resistor r=8.11427
+r25 (  378 380 ) resistor r=8.04371
+r26 (  378 425 ) resistor r=30
+r27 (  372 374 ) resistor r=8.04371
+r28 (  372 419 ) resistor r=30
+r29 (  367 413 ) resistor r=2.17308
+r30 (  352 395 ) resistor r=2.21635
+r31 (  333 419 ) resistor r=2.16968
+r32 (  323 367 ) resistor r=2.31395
+r33 (  315 462 ) resistor r=2.31395
+r34 (  315 323 ) resistor r=4.76836
+r35 (  307 315 ) resistor r=4.85252
+r36 (  307 461 ) resistor r=2.3185
+r37 (  299 307 ) resistor r=4.84757
+r38 (  299 352 ) resistor r=2.3185
+r39 (  291 299 ) resistor r=4.79461
+r40 (  291 459 ) resistor r=2.31395
+r41 (  283 291 ) resistor r=4.82707
+r42 (  283 458 ) resistor r=2.3094
+r43 (  279 333 ) resistor r=2.3094
+r44 (  277 283 ) resistor r=4.78164
+r45 (  277 457 ) resistor r=2.31395
+r46 (  277 279 ) resistor r=4.91858
+r47 (  264 458 ) resistor r=2
+r48 (  264 384 ) resistor r=30
+r49 (  253 255 ) resistor r=16
+r50 (  249 251 ) resistor r=16
+r51 (  245 247 ) resistor r=16
+r52 (  241 243 ) resistor r=16
+r53 (  237 239 ) resistor r=16
+r54 (  233 235 ) resistor r=16
+r55 (  229 231 ) resistor r=16
+r56 (  225 227 ) resistor r=16
+r57 (  221 223 ) resistor r=16
+r58 (  217 219 ) resistor r=16
+r59 (  213 215 ) resistor r=16
+r60 (  209 211 ) resistor r=16
+r61 (  205 207 ) resistor r=16
+r62 (  201 203 ) resistor r=16
+r63 (  197 199 ) resistor r=16
+r64 (  193 195 ) resistor r=16
+r65 (  192 255 ) resistor r=55.7695
+r66 (  185 253 ) resistor r=24.6695
+r67 (  185 416 ) resistor r=6.46884
+r68 (  184 249 ) resistor r=146.67
+r69 (  184 416 ) resistor r=6.46884
+r70 (  182 247 ) resistor r=55.7695
+r71 (  175 245 ) resistor r=24.6695
+r72 (  175 410 ) resistor r=6.46884
+r73 (  174 241 ) resistor r=146.67
+r74 (  174 410 ) resistor r=6.46884
+r75 (  172 239 ) resistor r=55.7695
+r76 (  165 237 ) resistor r=24.6695
+r77 (  165 404 ) resistor r=6.46884
+r78 (  164 233 ) resistor r=146.67
+r79 (  164 404 ) resistor r=6.46884
+r80 (  162 231 ) resistor r=55.7695
+r81 (  155 229 ) resistor r=24.6695
+r82 (  155 398 ) resistor r=6.46884
+r83 (  154 225 ) resistor r=146.67
+r84 (  154 398 ) resistor r=6.46884
+r85 (  152 223 ) resistor r=55.7695
+r86 (  145 221 ) resistor r=24.6695
+r87 (  145 392 ) resistor r=6.46884
+r88 (  144 217 ) resistor r=146.67
+r89 (  144 392 ) resistor r=6.46884
+r90 (  142 215 ) resistor r=55.7695
+r91 (  135 213 ) resistor r=24.6695
+r92 (  135 386 ) resistor r=6.46884
+r93 (  134 209 ) resistor r=146.67
+r94 (  134 386 ) resistor r=6.46884
+r95 (  132 207 ) resistor r=55.7695
+r96 (  125 205 ) resistor r=24.6695
+r97 (  125 380 ) resistor r=6.46884
+r98 (  124 201 ) resistor r=146.67
+r99 (  124 380 ) resistor r=6.46884
+r100 (  122 199 ) resistor r=55.7695
+r101 (  115 197 ) resistor r=24.6695
+r102 (  115 374 ) resistor r=6.46884
+r103 (  114 193 ) resistor r=146.67
+r104 (  114 374 ) resistor r=6.46884
+r105 (  82 251 ) resistor r=51.6695
+r106 (  75 243 ) resistor r=51.6695
+r107 (  68 235 ) resistor r=51.6695
+r108 (  61 227 ) resistor r=51.6695
+r109 (  54 219 ) resistor r=51.6695
+r110 (  47 211 ) resistor r=51.6695
+r111 (  40 203 ) resistor r=51.6695
+r112 (  33 195 ) resistor r=51.6695
+ends PM_ALU_8BIT\%CTR\<1\>
+
+subckt PM_ALU_8BIT\%CTR\<0\> ( 33 40 47 54 61 68 75 82 118 132 146 160 174 188 \
+ 202 216 401 )
+c0 ( 316 0 ) capacitor c=1.76883f
+c1 ( 306 0 ) capacitor c=0.481168f
+c2 ( 296 0 ) capacitor c=0.485947f
+c3 ( 286 0 ) capacitor c=0.487239f
+c4 ( 276 0 ) capacitor c=0.50866f
+c5 ( 266 0 ) capacitor c=0.488493f
+c6 ( 259 0 ) capacitor c=0.499737f
+c7 ( 33 0 ) capacitor c=2.81292f
+r8 (  449 477 ) resistor r=2
+r9 (  442 444 ) resistor r=2
+r10 (  435 473 ) resistor r=2
+r11 (  428 470 ) resistor r=2
+r12 (  421 469 ) resistor r=2
+r13 (  414 462 ) resistor r=2
+r14 (  407 458 ) resistor r=2
+r15 (  401 454 ) resistor r=2
+r16 (  396 449 ) resistor r=30
+r17 (  392 442 ) resistor r=30
+r18 (  388 435 ) resistor r=30
+r19 (  384 428 ) resistor r=30
+r20 (  380 421 ) resistor r=30
+r21 (  376 414 ) resistor r=30
+r22 (  372 407 ) resistor r=30
+r23 (  368 401 ) resistor r=30
+r24 (  316 477 ) resistor r=2.35945
+r25 (  316 321 ) resistor r=1.82967
+r26 (  306 321 ) resistor r=2.95965
+r27 (  306 444 ) resistor r=2.35035
+r28 (  306 311 ) resistor r=1.66266
+r29 (  296 311 ) resistor r=3.07286
+r30 (  296 473 ) resistor r=2.3549
+r31 (  296 301 ) resistor r=1.81733
+r32 (  286 301 ) resistor r=2.95403
+r33 (  286 470 ) resistor r=2.35035
+r34 (  286 291 ) resistor r=1.97191
+r35 (  276 469 ) resistor r=2.3458
+r36 (  276 291 ) resistor r=2.79933
+r37 (  276 281 ) resistor r=1.88887
+r38 (  266 281 ) resistor r=2.90398
+r39 (  266 462 ) resistor r=2.35035
+r40 (  266 271 ) resistor r=2.0418
+r41 (  259 271 ) resistor r=2.71341
+r42 (  259 458 ) resistor r=2.364
+r43 (  257 259 ) resistor r=4.78314
+r44 (  257 454 ) resistor r=2.36855
+r45 (  253 255 ) resistor r=13
+r46 (  249 251 ) resistor r=13
+r47 (  245 247 ) resistor r=13
+r48 (  241 243 ) resistor r=13
+r49 (  237 239 ) resistor r=13
+r50 (  233 235 ) resistor r=13
+r51 (  229 231 ) resistor r=13
+r52 (  225 227 ) resistor r=13
+r53 (  223 396 ) resistor r=10.7657
+r54 (  223 224 ) resistor r=75
+r55 (  221 224 ) resistor r=6.36951
+r56 (  221 222 ) resistor r=16
+r57 (  219 255 ) resistor r=31.6695
+r58 (  219 222 ) resistor r=6.36951
+r59 (  217 396 ) resistor r=9.66667
+r60 (  217 218 ) resistor r=29
+r61 (  216 253 ) resistor r=55.7695
+r62 (  211 218 ) resistor r=6.36951
+r63 (  209 392 ) resistor r=10.7657
+r64 (  209 210 ) resistor r=75
+r65 (  207 210 ) resistor r=6.36951
+r66 (  207 208 ) resistor r=16
+r67 (  205 251 ) resistor r=31.6695
+r68 (  205 208 ) resistor r=6.36951
+r69 (  203 392 ) resistor r=9.66667
+r70 (  203 204 ) resistor r=29
+r71 (  202 249 ) resistor r=55.7695
+r72 (  197 204 ) resistor r=6.36951
+r73 (  195 388 ) resistor r=10.7657
+r74 (  195 196 ) resistor r=75
+r75 (  193 196 ) resistor r=6.36951
+r76 (  193 194 ) resistor r=16
+r77 (  191 247 ) resistor r=31.6695
+r78 (  191 194 ) resistor r=6.36951
+r79 (  189 388 ) resistor r=9.66667
+r80 (  189 190 ) resistor r=29
+r81 (  188 245 ) resistor r=55.7695
+r82 (  183 190 ) resistor r=6.36951
+r83 (  181 384 ) resistor r=10.7657
+r84 (  181 182 ) resistor r=75
+r85 (  179 182 ) resistor r=6.36951
+r86 (  179 180 ) resistor r=16
+r87 (  177 243 ) resistor r=31.6695
+r88 (  177 180 ) resistor r=6.36951
+r89 (  175 384 ) resistor r=9.66667
+r90 (  175 176 ) resistor r=29
+r91 (  174 241 ) resistor r=55.7695
+r92 (  169 176 ) resistor r=6.36951
+r93 (  167 380 ) resistor r=10.7657
+r94 (  167 168 ) resistor r=75
+r95 (  165 168 ) resistor r=6.36951
+r96 (  165 166 ) resistor r=16
+r97 (  163 239 ) resistor r=31.6695
+r98 (  163 166 ) resistor r=6.36951
+r99 (  161 380 ) resistor r=9.66667
+r100 (  161 162 ) resistor r=29
+r101 (  160 237 ) resistor r=55.7695
+r102 (  155 162 ) resistor r=6.36951
+r103 (  153 376 ) resistor r=10.7657
+r104 (  153 154 ) resistor r=75
+r105 (  151 154 ) resistor r=6.36951
+r106 (  151 152 ) resistor r=16
+r107 (  149 235 ) resistor r=31.6695
+r108 (  149 152 ) resistor r=6.36951
+r109 (  147 376 ) resistor r=9.66667
+r110 (  147 148 ) resistor r=29
+r111 (  146 233 ) resistor r=55.7695
+r112 (  141 148 ) resistor r=6.36951
+r113 (  139 372 ) resistor r=10.7657
+r114 (  139 140 ) resistor r=75
+r115 (  137 140 ) resistor r=6.36951
+r116 (  137 138 ) resistor r=16
+r117 (  135 231 ) resistor r=31.6695
+r118 (  135 138 ) resistor r=6.36951
+r119 (  133 372 ) resistor r=9.66667
+r120 (  133 134 ) resistor r=29
+r121 (  132 229 ) resistor r=55.7695
+r122 (  127 134 ) resistor r=6.36951
+r123 (  125 368 ) resistor r=10.7657
+r124 (  125 126 ) resistor r=75
+r125 (  123 126 ) resistor r=6.36951
+r126 (  123 124 ) resistor r=16
+r127 (  121 227 ) resistor r=31.6695
+r128 (  121 124 ) resistor r=6.36951
+r129 (  119 368 ) resistor r=9.66667
+r130 (  119 120 ) resistor r=29
+r131 (  118 225 ) resistor r=55.7695
+r132 (  113 120 ) resistor r=6.36951
+r133 (  82 211 ) resistor r=97
+r134 (  75 197 ) resistor r=97
+r135 (  68 183 ) resistor r=97
+r136 (  61 169 ) resistor r=97
+r137 (  54 155 ) resistor r=97
+r138 (  47 141 ) resistor r=97
+r139 (  40 127 ) resistor r=97
+r140 (  33 113 ) resistor r=97
+ends PM_ALU_8BIT\%CTR\<0\>
+
+subckt PM_ALU_8BIT\%SEL ( 1 10 21 30 41 50 61 70 81 90 101 110 121 130 141 150 \
+ 221 224 244 247 267 270 290 293 313 316 336 339 359 362 382 385 755 )
+c0 ( 794 0 ) capacitor c=0.196018f
+c1 ( 791 0 ) capacitor c=0.138801f
+c2 ( 785 0 ) capacitor c=0.218903f
+c3 ( 779 0 ) capacitor c=0.135684f
+c4 ( 774 0 ) capacitor c=0.21596f
+c5 ( 767 0 ) capacitor c=0.135722f
+c6 ( 760 0 ) capacitor c=0.208461f
+c7 ( 755 0 ) capacitor c=0.145588f
+c8 ( 642 0 ) capacitor c=0.628361f
+c9 ( 634 0 ) capacitor c=0.333557f
+c10 ( 624 0 ) capacitor c=0.242736f
+c11 ( 616 0 ) capacitor c=0.309766f
+c12 ( 606 0 ) capacitor c=0.264069f
+c13 ( 598 0 ) capacitor c=0.327369f
+c14 ( 588 0 ) capacitor c=0.270917f
+c15 ( 580 0 ) capacitor c=0.309168f
+c16 ( 570 0 ) capacitor c=0.276624f
+c17 ( 562 0 ) capacitor c=0.31663f
+c18 ( 552 0 ) capacitor c=0.310302f
+c19 ( 544 0 ) capacitor c=0.311097f
+c20 ( 534 0 ) capacitor c=0.284665f
+c21 ( 530 0 ) capacitor c=0.281746f
+c22 ( 385 0 ) capacitor c=1.30133f
+c23 ( 362 0 ) capacitor c=0.498706f
+c24 ( 339 0 ) capacitor c=0.503828f
+c25 ( 316 0 ) capacitor c=0.503521f
+c26 ( 293 0 ) capacitor c=0.502437f
+c27 ( 270 0 ) capacitor c=0.503307f
+c28 ( 247 0 ) capacitor c=0.503386f
+c29 ( 224 0 ) capacitor c=0.503357f
+c30 ( 1 0 ) capacitor c=0.578526f
+r31 (  794 795 ) resistor r=2
+r32 (  788 791 ) resistor r=2
+r33 (  777 779 ) resistor r=2
+r34 (  764 767 ) resistor r=2
+r35 (  750 751 ) resistor r=7.57748
+r36 (  742 743 ) resistor r=7.57748
+r37 (  734 735 ) resistor r=7.57748
+r38 (  726 727 ) resistor r=7.57748
+r39 (  718 719 ) resistor r=7.57748
+r40 (  710 711 ) resistor r=7.57748
+r41 (  702 703 ) resistor r=7.57748
+r42 (  694 695 ) resistor r=7.57748
+r43 (  675 785 ) resistor r=2
+r44 (  665 774 ) resistor r=2
+r45 (  655 760 ) resistor r=2
+r46 (  651 755 ) resistor r=2
+r47 (  649 651 ) resistor r=2
+r48 (  642 795 ) resistor r=2.3549
+r49 (  634 642 ) resistor r=3.15692
+r50 (  624 634 ) resistor r=2.19066
+r51 (  624 788 ) resistor r=2.26845
+r52 (  616 624 ) resistor r=2.91841
+r53 (  606 616 ) resistor r=2.41684
+r54 (  606 675 ) resistor r=2.3185
+r55 (  598 606 ) resistor r=3.14981
+r56 (  588 598 ) resistor r=2.25877
+r57 (  588 777 ) resistor r=2.28665
+r58 (  580 588 ) resistor r=3.28328
+r59 (  570 665 ) resistor r=2.29575
+r60 (  570 580 ) resistor r=2.11725
+r61 (  562 570 ) resistor r=3.17848
+r62 (  552 764 ) resistor r=2.29575
+r63 (  552 562 ) resistor r=2.1593
+r64 (  544 552 ) resistor r=3.39342
+r65 (  534 544 ) resistor r=1.93917
+r66 (  534 655 ) resistor r=2.273
+r67 (  530 534 ) resistor r=2.51814
+r68 (  530 649 ) resistor r=2.47522
+r69 (  524 750 ) resistor r=8.11427
+r70 (  524 794 ) resistor r=30.2815
+r71 (  518 794 ) resistor r=30.3374
+r72 (  518 744 ) resistor r=8.11427
+r73 (  511 742 ) resistor r=8.11427
+r74 (  511 791 ) resistor r=30.2615
+r75 (  505 791 ) resistor r=30.3595
+r76 (  505 736 ) resistor r=8.11427
+r77 (  498 734 ) resistor r=8.11427
+r78 (  498 785 ) resistor r=30.2765
+r79 (  492 785 ) resistor r=30.3429
+r80 (  492 728 ) resistor r=8.11427
+r81 (  485 726 ) resistor r=8.11427
+r82 (  485 779 ) resistor r=30.2615
+r83 (  479 779 ) resistor r=30.3595
+r84 (  479 720 ) resistor r=8.11427
+r85 (  472 718 ) resistor r=8.11427
+r86 (  472 774 ) resistor r=30.2765
+r87 (  466 774 ) resistor r=30.3429
+r88 (  466 712 ) resistor r=8.11427
+r89 (  459 710 ) resistor r=8.11427
+r90 (  459 767 ) resistor r=30.2665
+r91 (  453 767 ) resistor r=30.354
+r92 (  453 704 ) resistor r=8.11427
+r93 (  446 702 ) resistor r=8.11427
+r94 (  446 760 ) resistor r=30.2665
+r95 (  440 760 ) resistor r=30.354
+r96 (  440 696 ) resistor r=8.18483
+r97 (  434 694 ) resistor r=8.11427
+r98 (  434 755 ) resistor r=30.3807
+r99 (  428 688 ) resistor r=8.18483
+r100 (  428 755 ) resistor r=30.4531
+r101 (  421 423 ) resistor r=15
+r102 (  417 419 ) resistor r=15
+r103 (  413 415 ) resistor r=15
+r104 (  409 411 ) resistor r=15
+r105 (  405 407 ) resistor r=15
+r106 (  401 403 ) resistor r=15
+r107 (  397 399 ) resistor r=15
+r108 (  393 395 ) resistor r=15
+r109 (  392 423 ) resistor r=96.6695
+r110 (  388 750 ) resistor r=6.46884
+r111 (  387 392 ) resistor r=6.36951
+r112 (  387 388 ) resistor r=33
+r113 (  385 751 ) resistor r=163
+r114 (  380 382 ) resistor r=55.1
+r115 (  376 380 ) resistor r=6.36951
+r116 (  376 377 ) resistor r=50
+r117 (  374 378 ) resistor r=6.36951
+r118 (  374 375 ) resistor r=50
+r119 (  373 377 ) resistor r=6.36951
+r120 (  372 744 ) resistor r=6.46884
+r121 (  372 373 ) resistor r=105
+r122 (  371 744 ) resistor r=6.46884
+r123 (  370 375 ) resistor r=6.36951
+r124 (  370 371 ) resistor r=61
+r125 (  369 419 ) resistor r=96.6695
+r126 (  365 742 ) resistor r=6.46884
+r127 (  364 369 ) resistor r=6.36951
+r128 (  364 365 ) resistor r=33
+r129 (  362 743 ) resistor r=163
+r130 (  357 359 ) resistor r=55.1
+r131 (  353 357 ) resistor r=6.36951
+r132 (  353 354 ) resistor r=50
+r133 (  351 355 ) resistor r=6.36951
+r134 (  351 352 ) resistor r=50
+r135 (  350 354 ) resistor r=6.36951
+r136 (  349 736 ) resistor r=6.46884
+r137 (  349 350 ) resistor r=105
+r138 (  348 736 ) resistor r=6.46884
+r139 (  347 352 ) resistor r=6.36951
+r140 (  347 348 ) resistor r=61
+r141 (  346 415 ) resistor r=96.6695
+r142 (  342 734 ) resistor r=6.46884
+r143 (  341 346 ) resistor r=6.36951
+r144 (  341 342 ) resistor r=33
+r145 (  339 735 ) resistor r=163
+r146 (  334 336 ) resistor r=55.1
+r147 (  330 334 ) resistor r=6.36951
+r148 (  330 331 ) resistor r=50
+r149 (  328 332 ) resistor r=6.36951
+r150 (  328 329 ) resistor r=50
+r151 (  327 331 ) resistor r=6.36951
+r152 (  326 728 ) resistor r=6.46884
+r153 (  326 327 ) resistor r=105
+r154 (  325 728 ) resistor r=6.46884
+r155 (  324 329 ) resistor r=6.36951
+r156 (  324 325 ) resistor r=61
+r157 (  323 411 ) resistor r=96.6695
+r158 (  319 726 ) resistor r=6.46884
+r159 (  318 323 ) resistor r=6.36951
+r160 (  318 319 ) resistor r=33
+r161 (  316 727 ) resistor r=163
+r162 (  311 313 ) resistor r=55.1
+r163 (  307 311 ) resistor r=6.36951
+r164 (  307 308 ) resistor r=50
+r165 (  305 309 ) resistor r=6.36951
+r166 (  305 306 ) resistor r=50
+r167 (  304 308 ) resistor r=6.36951
+r168 (  303 720 ) resistor r=6.46884
+r169 (  303 304 ) resistor r=105
+r170 (  302 720 ) resistor r=6.46884
+r171 (  301 306 ) resistor r=6.36951
+r172 (  301 302 ) resistor r=61
+r173 (  300 407 ) resistor r=96.6695
+r174 (  296 718 ) resistor r=6.46884
+r175 (  295 300 ) resistor r=6.36951
+r176 (  295 296 ) resistor r=33
+r177 (  293 719 ) resistor r=163
+r178 (  288 290 ) resistor r=55.1
+r179 (  284 288 ) resistor r=6.36951
+r180 (  284 285 ) resistor r=50
+r181 (  282 286 ) resistor r=6.36951
+r182 (  282 283 ) resistor r=50
+r183 (  281 285 ) resistor r=6.36951
+r184 (  280 712 ) resistor r=6.46884
+r185 (  280 281 ) resistor r=105
+r186 (  279 712 ) resistor r=6.46884
+r187 (  278 283 ) resistor r=6.36951
+r188 (  278 279 ) resistor r=61
+r189 (  277 403 ) resistor r=96.6695
+r190 (  273 710 ) resistor r=6.46884
+r191 (  272 277 ) resistor r=6.36951
+r192 (  272 273 ) resistor r=33
+r193 (  270 711 ) resistor r=163
+r194 (  265 267 ) resistor r=55.1
+r195 (  261 265 ) resistor r=6.36951
+r196 (  261 262 ) resistor r=50
+r197 (  259 263 ) resistor r=6.36951
+r198 (  259 260 ) resistor r=50
+r199 (  258 262 ) resistor r=6.36951
+r200 (  257 704 ) resistor r=6.46884
+r201 (  257 258 ) resistor r=105
+r202 (  256 704 ) resistor r=6.46884
+r203 (  255 260 ) resistor r=6.36951
+r204 (  255 256 ) resistor r=61
+r205 (  254 399 ) resistor r=96.6695
+r206 (  250 702 ) resistor r=6.46884
+r207 (  249 254 ) resistor r=6.36951
+r208 (  249 250 ) resistor r=33
+r209 (  247 703 ) resistor r=163
+r210 (  242 244 ) resistor r=55.1
+r211 (  238 242 ) resistor r=6.36951
+r212 (  238 239 ) resistor r=50
+r213 (  236 240 ) resistor r=6.36951
+r214 (  236 237 ) resistor r=50
+r215 (  235 239 ) resistor r=6.36951
+r216 (  234 696 ) resistor r=6.46884
+r217 (  234 235 ) resistor r=105
+r218 (  233 696 ) resistor r=6.46884
+r219 (  232 237 ) resistor r=6.36951
+r220 (  232 233 ) resistor r=61
+r221 (  231 395 ) resistor r=96.6695
+r222 (  227 694 ) resistor r=6.46884
+r223 (  226 231 ) resistor r=6.36951
+r224 (  226 227 ) resistor r=33
+r225 (  224 695 ) resistor r=163
+r226 (  219 221 ) resistor r=55.1
+r227 (  215 219 ) resistor r=6.36951
+r228 (  215 216 ) resistor r=50
+r229 (  213 217 ) resistor r=6.36951
+r230 (  213 214 ) resistor r=50
+r231 (  212 216 ) resistor r=6.36951
+r232 (  211 688 ) resistor r=6.46884
+r233 (  211 212 ) resistor r=105
+r234 (  210 688 ) resistor r=6.46884
+r235 (  209 214 ) resistor r=6.36951
+r236 (  209 210 ) resistor r=61
+r237 (  150 378 ) resistor r=36.1
+r238 (  141 421 ) resistor r=35.8195
+r239 (  130 355 ) resistor r=36.1
+r240 (  121 417 ) resistor r=35.8195
+r241 (  110 332 ) resistor r=36.1
+r242 (  101 413 ) resistor r=35.8195
+r243 (  90 309 ) resistor r=36.1
+r244 (  81 409 ) resistor r=35.8195
+r245 (  70 286 ) resistor r=36.1
+r246 (  61 405 ) resistor r=35.8195
+r247 (  50 263 ) resistor r=36.1
+r248 (  41 401 ) resistor r=35.8195
+r249 (  30 240 ) resistor r=36.1
+r250 (  21 397 ) resistor r=35.8195
+r251 (  10 217 ) resistor r=36.1
+r252 (  1 393 ) resistor r=35.8195
+ends PM_ALU_8BIT\%SEL
+
+subckt PM_ALU_8BIT\%X\<0\> ( 1 16 17 31 32 39 )
+c0 ( 77 0 ) capacitor c=0.302526f
+c1 ( 69 0 ) capacitor c=0.102631f
+c2 ( 65 0 ) capacitor c=0.11024f
+c3 ( 50 0 ) capacitor c=0.258987f
+c4 ( 1 0 ) capacitor c=0.420075f
+r5 (  69 77 ) resistor r=1.8813
+r6 (  67 104 ) resistor r=8.04371
+r7 (  65 77 ) resistor r=2.25976
+r8 (  65 67 ) resistor r=30
+r9 (  50 69 ) resistor r=2
+r10 (  37 104 ) resistor r=6.46884
+r11 (  37 39 ) resistor r=105
+r12 (  34 104 ) resistor r=6.46884
+r13 (  15 50 ) resistor r=35.9179
+r14 (  15 16 ) resistor r=5.5
+r15 (  15 17 ) resistor r=5.5
+r16 (  13 50 ) resistor r=18.3848
+r17 (  13 31 ) resistor r=2.25
+r18 (  13 32 ) resistor r=2.25
+r19 (  1 34 ) resistor r=181
+ends PM_ALU_8BIT\%X\<0\>
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<0\>\/S_INV ( 1 16 25 32 )
+c0 ( 61 0 ) capacitor c=0.350475f
+c1 ( 58 0 ) capacitor c=0.254782f
+c2 ( 1 0 ) capacitor c=0.303292f
+r3 (  70 82 ) resistor r=11.4582
+r4 (  61 77 ) resistor r=30
+r5 (  58 61 ) resistor r=1.1315
+r6 (  58 70 ) resistor r=30
+r7 (  39 61 ) resistor r=1.0461
+r8 (  30 77 ) resistor r=11.4582
+r9 (  30 32 ) resistor r=58.9
+r10 (  12 16 ) resistor r=5.5
+r11 (  11 58 ) resistor r=1.1204
+r12 (  11 12 ) resistor r=35
+r13 (  10 25 ) resistor r=2.25
+r14 (  10 39 ) resistor r=17.9035
+r15 (  1 82 ) resistor r=39.9
+ends PM_ALU_8BIT\%XI3\/XMUX\<0\>\/S_INV
+
+subckt PM_ALU_8BIT\%S\<0\> ( 5 12 16 38 )
+c0 ( 121 0 ) capacitor c=0.13042f
+c1 ( 92 0 ) capacitor c=0.33152f
+c2 ( 83 0 ) capacitor c=0.473845f
+c3 ( 61 0 ) capacitor c=0.960656f
+c4 ( 47 0 ) capacitor c=0.248187f
+c5 ( 38 0 ) capacitor c=0.111398f
+c6 ( 16 0 ) capacitor c=0.116988f
+c7 ( 10 0 ) capacitor c=0.347833f
+c8 ( 5 0 ) capacitor c=0.112574f
+c9 ( 3 0 ) capacitor c=0.162043f
+r10 (  116 121 ) resistor r=30
+r11 (  112 116 ) resistor r=7.47924
+r12 (  88 92 ) resistor r=2.4708
+r13 (  83 92 ) resistor r=3.00651
+r14 (  83 121 ) resistor r=2.43084
+r15 (  61 88 ) resistor r=2.3689
+r16 (  47 61 ) resistor r=3.18214
+r17 (  36 112 ) resistor r=6.46884
+r18 (  36 38 ) resistor r=146
+r19 (  33 112 ) resistor r=6.46884
+r20 (  16 33 ) resistor r=140
+r21 (  11 12 ) resistor r=2.7225
+r22 (  10 47 ) resistor r=5.15319
+r23 (  10 11 ) resistor r=17.5
+r24 (  4 5 ) resistor r=1.11375
+r25 (  3 4 ) resistor r=18.3643
+r26 (  3 92 ) resistor r=3.48049
+r27 (  3 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%S\<0\>
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET255 ( 1 8 95 96 100 101 )
+c0 ( 108 0 ) capacitor c=0.251135f
+c1 ( 77 0 ) capacitor c=0.305996f
+c2 ( 72 0 ) capacitor c=0.692875f
+c3 ( 63 0 ) capacitor c=0.25815f
+c4 ( 48 0 ) capacitor c=0.27441f
+c5 ( 33 0 ) capacitor c=0.183233f
+c6 ( 1 0 ) capacitor c=0.257801f
+r7 (  107 109 ) resistor r=3.88074
+r8 (  107 108 ) resistor r=11.4582
+r9 (  101 104 ) resistor r=2.7775
+r10 (  100 104 ) resistor r=2.7225
+r11 (  99 115 ) resistor r=35
+r12 (  96 99 ) resistor r=1.13625
+r13 (  95 99 ) resistor r=1.11375
+r14 (  77 104 ) resistor r=17.8356
+r15 (  63 72 ) resistor r=2.70607
+r16 (  51 63 ) resistor r=1.00091
+r17 (  51 115 ) resistor r=2.13195
+r18 (  48 72 ) resistor r=4.29604
+r19 (  48 77 ) resistor r=2.15605
+r20 (  40 107 ) resistor r=30
+r21 (  40 63 ) resistor r=2
+r22 (  33 99 ) resistor r=23.9809
+r23 (  33 115 ) resistor r=0.334334
+r24 (  33 99 ) resistor r=23.3333
+r25 (  29 108 ) resistor r=357
+r26 (  27 109 ) resistor r=6.46884
+r27 (  27 28 ) resistor r=42
+r28 (  25 29 ) resistor r=6.36951
+r29 (  25 26 ) resistor r=64
+r30 (  22 28 ) resistor r=6.36951
+r31 (  19 26 ) resistor r=6.36951
+r32 (  8 19 ) resistor r=97
+r33 (  1 22 ) resistor r=140
+ends PM_ALU_8BIT\%XI4\/XI18\/NET255
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET17 ( 1 4 13 29 30 36 )
+c0 ( 52 0 ) capacitor c=0.336381f
+c1 ( 44 0 ) capacitor c=0.170886f
+c2 ( 2 0 ) capacitor c=0.605735f
+r3 (  44 52 ) resistor r=3.0987
+r4 (  44 46 ) resistor r=30
+r5 (  41 46 ) resistor r=10.8176
+r6 (  41 42 ) resistor r=165
+r7 (  39 42 ) resistor r=6.36951
+r8 (  39 40 ) resistor r=50
+r9 (  37 46 ) resistor r=7.64246
+r10 (  37 38 ) resistor r=50
+r11 (  34 40 ) resistor r=6.36951
+r12 (  34 36 ) resistor r=55.1
+r13 (  32 38 ) resistor r=6.36951
+r14 (  16 29 ) resistor r=2.2725
+r15 (  16 30 ) resistor r=2.2275
+r16 (  15 52 ) resistor r=2.84121
+r17 (  15 16 ) resistor r=17.5
+r18 (  13 32 ) resistor r=36.1
+r19 (  3 4 ) resistor r=5.5
+r20 (  2 52 ) resistor r=2.3822
+r21 (  2 3 ) resistor r=35
+r22 (  1 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET17
+
+subckt PM_ALU_8BIT\%B\<1\> ( 1 6 11 16 23 36 41 83 99 102 122 127 140 )
+c0 ( 279 0 ) capacitor c=0.224078f
+c1 ( 276 0 ) capacitor c=0.114896f
+c2 ( 227 0 ) capacitor c=0.376047f
+c3 ( 215 0 ) capacitor c=0.439751f
+c4 ( 184 0 ) capacitor c=0.307343f
+c5 ( 167 0 ) capacitor c=0.232143f
+c6 ( 161 0 ) capacitor c=0.302898f
+c7 ( 127 0 ) capacitor c=0.266916f
+c8 ( 122 0 ) capacitor c=0.128683f
+c9 ( 102 0 ) capacitor c=0.407735f
+c10 ( 69 0 ) capacitor c=0.746378f
+c11 ( 11 0 ) capacitor c=0.428842f
+c12 ( 6 0 ) capacitor c=0.195852f
+c13 ( 1 0 ) capacitor c=0.220899f
+r14 (  271 279 ) resistor r=30
+r15 (  262 263 ) resistor r=12.1291
+r16 (  262 287 ) resistor r=30
+r17 (  238 287 ) resistor r=2
+r18 (  227 279 ) resistor r=2.73849
+r19 (  227 238 ) resistor r=1.20891
+r20 (  215 238 ) resistor r=3.31956
+r21 (  209 277 ) resistor r=3.88074
+r22 (  209 276 ) resistor r=11.4582
+r23 (  184 209 ) resistor r=30.6484
+r24 (  181 274 ) resistor r=11.4582
+r25 (  181 273 ) resistor r=11.4582
+r26 (  179 181 ) resistor r=30
+r27 (  167 184 ) resistor r=1.23716
+r28 (  167 179 ) resistor r=1.01326
+r29 (  163 265 ) resistor r=11.5787
+r30 (  161 167 ) resistor r=0.489317
+r31 (  161 163 ) resistor r=30.75
+r32 (  140 161 ) resistor r=0.861093
+r33 (  140 256 ) resistor r=30
+r34 (  140 215 ) resistor r=2.11051
+r35 (  134 276 ) resistor r=204
+r36 (  132 277 ) resistor r=6.46884
+r37 (  132 133 ) resistor r=23
+r38 (  130 134 ) resistor r=6.36951
+r39 (  130 131 ) resistor r=45
+r40 (  125 133 ) resistor r=6.36951
+r41 (  125 127 ) resistor r=220
+r42 (  120 131 ) resistor r=6.36951
+r43 (  120 122 ) resistor r=170
+r44 (  112 271 ) resistor r=10.8476
+r45 (  112 113 ) resistor r=173
+r46 (  110 113 ) resistor r=6.36951
+r47 (  110 111 ) resistor r=49
+r48 (  108 271 ) resistor r=6.54098
+r49 (  108 109 ) resistor r=49
+r50 (  100 102 ) resistor r=206
+r51 (  97 111 ) resistor r=6.36951
+r52 (  97 99 ) resistor r=55.1
+r53 (  94 109 ) resistor r=6.36951
+r54 (  93 163 ) resistor r=4.11337
+r55 (  92 105 ) resistor r=6.36951
+r56 (  92 93 ) resistor r=15
+r57 (  90 100 ) resistor r=6.36951
+r58 (  90 91 ) resistor r=38
+r59 (  88 91 ) resistor r=6.36951
+r60 (  88 265 ) resistor r=129
+r61 (  81 83 ) resistor r=55.1
+r62 (  77 262 ) resistor r=5.86543
+r63 (  76 78 ) resistor r=6.36951
+r64 (  76 77 ) resistor r=17
+r65 (  75 256 ) resistor r=8.14286
+r66 (  74 86 ) resistor r=6.36951
+r67 (  74 75 ) resistor r=49
+r68 (  72 84 ) resistor r=6.36951
+r69 (  72 73 ) resistor r=49
+r70 (  70 81 ) resistor r=6.36951
+r71 (  70 71 ) resistor r=50
+r72 (  69 256 ) resistor r=10.7494
+r73 (  68 73 ) resistor r=6.36951
+r74 (  68 69 ) resistor r=426
+r75 (  67 71 ) resistor r=6.36951
+r76 (  67 263 ) resistor r=173
+r77 (  41 94 ) resistor r=50
+r78 (  36 78 ) resistor r=49
+r79 (  23 84 ) resistor r=55.1
+r80 (  16 86 ) resistor r=92.15
+r81 (  11 105 ) resistor r=258
+r82 (  6 273 ) resistor r=277
+r83 (  1 274 ) resistor r=329
+ends PM_ALU_8BIT\%B\<1\>
+
+subckt PM_ALU_8BIT\%A\<1\> ( 9 14 19 24 33 72 81 84 100 105 238 )
+c0 ( 238 0 ) capacitor c=0.133506f
+c1 ( 229 0 ) capacitor c=0.164311f
+c2 ( 217 0 ) capacitor c=0.203057f
+c3 ( 182 0 ) capacitor c=0.408076f
+c4 ( 173 0 ) capacitor c=0.697039f
+c5 ( 164 0 ) capacitor c=0.1914f
+c6 ( 141 0 ) capacitor c=0.157075f
+c7 ( 140 0 ) capacitor c=0.298914f
+c8 ( 118 0 ) capacitor c=0.287158f
+c9 ( 105 0 ) capacitor c=0.209648f
+c10 ( 84 0 ) capacitor c=0.367512f
+c11 ( 81 0 ) capacitor c=0.116582f
+c12 ( 72 0 ) capacitor c=0.164346f
+c13 ( 54 0 ) capacitor c=0.360568f
+c14 ( 33 0 ) capacitor c=0.111956f
+c15 ( 14 0 ) capacitor c=0.342364f
+c16 ( 9 0 ) capacitor c=0.201276f
+r17 (  220 224 ) resistor r=8.18483
+r18 (  214 238 ) resistor r=30.2663
+r19 (  214 215 ) resistor r=11.3877
+r20 (  210 214 ) resistor r=4.65689
+r21 (  201 224 ) resistor r=30.1236
+r22 (  182 201 ) resistor r=2.13189
+r23 (  173 238 ) resistor r=2.84635
+r24 (  171 182 ) resistor r=1.64536
+r25 (  171 173 ) resistor r=4.43489
+r26 (  162 229 ) resistor r=11.5787
+r27 (  162 164 ) resistor r=30.1229
+r28 (  140 141 ) resistor r=1.77711
+r29 (  140 164 ) resistor r=1.26659
+r30 (  137 141 ) resistor r=30.6571
+r31 (  125 218 ) resistor r=3.88074
+r32 (  125 217 ) resistor r=11.4582
+r33 (  124 125 ) resistor r=30
+r34 (  118 238 ) resistor r=1.8391
+r35 (  118 141 ) resistor r=0.335977
+r36 (  118 124 ) resistor r=1.37916
+r37 (  112 229 ) resistor r=278
+r38 (  110 162 ) resistor r=4.11337
+r39 (  110 111 ) resistor r=32
+r40 (  108 112 ) resistor r=6.36951
+r41 (  108 109 ) resistor r=55
+r42 (  103 111 ) resistor r=6.36951
+r43 (  103 105 ) resistor r=181
+r44 (  98 109 ) resistor r=6.36951
+r45 (  98 100 ) resistor r=134
+r46 (  90 95 ) resistor r=6.36951
+r47 (  90 91 ) resistor r=29
+r48 (  89 137 ) resistor r=12.8571
+r49 (  88 92 ) resistor r=6.36951
+r50 (  88 89 ) resistor r=29
+r51 (  87 91 ) resistor r=6.36951
+r52 (  86 137 ) resistor r=10.7622
+r53 (  86 87 ) resistor r=36
+r54 (  82 84 ) resistor r=220
+r55 (  78 81 ) resistor r=170
+r56 (  77 218 ) resistor r=6.46884
+r57 (  76 82 ) resistor r=6.36951
+r58 (  76 77 ) resistor r=23
+r59 (  74 78 ) resistor r=6.36951
+r60 (  74 75 ) resistor r=45
+r61 (  70 220 ) resistor r=6.46884
+r62 (  70 72 ) resistor r=147
+r63 (  67 220 ) resistor r=6.46884
+r64 (  65 75 ) resistor r=6.36951
+r65 (  65 217 ) resistor r=204
+r66 (  57 62 ) resistor r=6.36951
+r67 (  57 215 ) resistor r=40
+r68 (  55 59 ) resistor r=6.36951
+r69 (  55 56 ) resistor r=64
+r70 (  54 210 ) resistor r=6.46884
+r71 (  53 56 ) resistor r=6.36951
+r72 (  53 54 ) resistor r=357
+r73 (  33 67 ) resistor r=156
+r74 (  24 62 ) resistor r=140
+r75 (  19 59 ) resistor r=97
+r76 (  14 92 ) resistor r=243
+r77 (  9 95 ) resistor r=296
+ends PM_ALU_8BIT\%A\<1\>
+
+subckt PM_ALU_8BIT\%XI4\/NET12 ( 5 12 32 55 58 65 71 74 )
+c0 ( 158 0 ) capacitor c=0.282165f
+c1 ( 141 0 ) capacitor c=0.200424f
+c2 ( 122 0 ) capacitor c=0.253614f
+c3 ( 107 0 ) capacitor c=0.142333f
+c4 ( 90 0 ) capacitor c=0.545522f
+c5 ( 74 0 ) capacitor c=0.299871f
+c6 ( 71 0 ) capacitor c=0.158284f
+c7 ( 65 0 ) capacitor c=0.224047f
+c8 ( 58 0 ) capacitor c=0.125431f
+c9 ( 55 0 ) capacitor c=0.101909f
+c10 ( 32 0 ) capacitor c=0.288926f
+c11 ( 4 0 ) capacitor c=0.220273f
+r12 (  168 170 ) resistor r=4.16297
+r13 (  168 169 ) resistor r=11.5288
+r14 (  163 165 ) resistor r=11.5787
+r15 (  163 164 ) resistor r=11.5787
+r16 (  163 177 ) resistor r=30
+r17 (  152 168 ) resistor r=30.1515
+r18 (  122 177 ) resistor r=2.22295
+r19 (  122 152 ) resistor r=2.53373
+r20 (  122 141 ) resistor r=1.50102
+r21 (  101 158 ) resistor r=11.5787
+r22 (  100 141 ) resistor r=2.2573
+r23 (  100 101 ) resistor r=30
+r24 (  90 141 ) resistor r=3.03861
+r25 (  90 107 ) resistor r=1.50866
+r26 (  81 170 ) resistor r=6.46884
+r27 (  80 81 ) resistor r=130
+r28 (  79 169 ) resistor r=15
+r29 (  76 80 ) resistor r=6.36951
+r30 (  76 77 ) resistor r=38
+r31 (  72 79 ) resistor r=6.36951
+r32 (  72 74 ) resistor r=258
+r33 (  68 77 ) resistor r=6.36951
+r34 (  68 71 ) resistor r=206
+r35 (  65 165 ) resistor r=329
+r36 (  56 58 ) resistor r=181
+r37 (  52 55 ) resistor r=134
+r38 (  51 101 ) resistor r=4.11337
+r39 (  50 56 ) resistor r=6.36951
+r40 (  50 51 ) resistor r=32
+r41 (  48 52 ) resistor r=6.36951
+r42 (  48 49 ) resistor r=55
+r43 (  46 49 ) resistor r=6.36951
+r44 (  46 158 ) resistor r=278
+r45 (  32 164 ) resistor r=277
+r46 (  11 12 ) resistor r=2.75
+r47 (  10 90 ) resistor r=2.05918
+r48 (  10 11 ) resistor r=17.5
+r49 (  4 5 ) resistor r=1.125
+r50 (  4 107 ) resistor r=17.5
+r51 (  4 107 ) resistor r=18.1578
+ends PM_ALU_8BIT\%XI4\/NET12
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET35 ( 1 8 41 42 44 45 50 53 )
+c0 ( 149 0 ) capacitor c=0.113794f
+c1 ( 99 0 ) capacitor c=0.463584f
+c2 ( 97 0 ) capacitor c=0.226978f
+c3 ( 83 0 ) capacitor c=0.260735f
+c4 ( 53 0 ) capacitor c=0.428865f
+c5 ( 50 0 ) capacitor c=0.171584f
+c6 ( 23 0 ) capacitor c=0.125363f
+c7 ( 17 0 ) capacitor c=0.176087f
+c8 ( 8 0 ) capacitor c=0.308138f
+c9 ( 1 0 ) capacitor c=0.224694f
+r10 (  139 141 ) resistor r=11.5787
+r11 (  139 140 ) resistor r=11.5787
+r12 (  139 149 ) resistor r=30
+r13 (  99 149 ) resistor r=3.13919
+r14 (  97 99 ) resistor r=0.923656
+r15 (  86 99 ) resistor r=1.30476
+r16 (  83 97 ) resistor r=2.4696
+r17 (  79 86 ) resistor r=1.17352
+r18 (  72 136 ) resistor r=30
+r19 (  72 97 ) resistor r=2
+r20 (  59 136 ) resistor r=10.7888
+r21 (  59 60 ) resistor r=36
+r22 (  57 60 ) resistor r=6.36951
+r23 (  57 58 ) resistor r=29
+r24 (  55 136 ) resistor r=13.1538
+r25 (  55 56 ) resistor r=29
+r26 (  51 58 ) resistor r=6.36951
+r27 (  51 53 ) resistor r=296
+r28 (  47 56 ) resistor r=6.36951
+r29 (  47 50 ) resistor r=243
+r30 (  24 44 ) resistor r=2.75
+r31 (  24 45 ) resistor r=2.75
+r32 (  23 83 ) resistor r=2.52847
+r33 (  23 24 ) resistor r=17.5
+r34 (  18 41 ) resistor r=1.125
+r35 (  18 42 ) resistor r=1.125
+r36 (  17 18 ) resistor r=18.4646
+r37 (  17 79 ) resistor r=2.51415
+r38 (  17 18 ) resistor r=17.5
+r39 (  8 140 ) resistor r=496
+r40 (  1 141 ) resistor r=110
+ends PM_ALU_8BIT\%XI4\/XI9\/NET35
+
+subckt PM_ALU_8BIT\%X\<1\> ( 1 16 17 31 32 39 )
+c0 ( 76 0 ) capacitor c=0.332383f
+c1 ( 71 0 ) capacitor c=0.110895f
+c2 ( 65 0 ) capacitor c=0.113255f
+c3 ( 50 0 ) capacitor c=0.272888f
+c4 ( 1 0 ) capacitor c=0.41998f
+r5 (  71 76 ) resistor r=1.50343
+r6 (  67 101 ) resistor r=8.04371
+r7 (  65 76 ) resistor r=2.25521
+r8 (  65 67 ) resistor r=30
+r9 (  50 71 ) resistor r=2.35377
+r10 (  37 101 ) resistor r=6.46884
+r11 (  37 39 ) resistor r=105
+r12 (  34 101 ) resistor r=6.46884
+r13 (  15 50 ) resistor r=35.8859
+r14 (  15 16 ) resistor r=5.5
+r15 (  15 17 ) resistor r=5.5
+r16 (  13 50 ) resistor r=18.4245
+r17 (  13 31 ) resistor r=2.25
+r18 (  13 32 ) resistor r=2.25
+r19 (  1 34 ) resistor r=181
+ends PM_ALU_8BIT\%X\<1\>
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<1\>\/S_INV ( 1 16 25 32 )
+c0 ( 62 0 ) capacitor c=0.350385f
+c1 ( 59 0 ) capacitor c=0.279533f
+c2 ( 1 0 ) capacitor c=0.275428f
+r3 (  70 81 ) resistor r=11.4582
+r4 (  62 76 ) resistor r=30
+r5 (  59 62 ) resistor r=1.16719
+r6 (  59 70 ) resistor r=30
+r7 (  39 62 ) resistor r=1.0461
+r8 (  30 76 ) resistor r=11.4582
+r9 (  30 32 ) resistor r=58.9
+r10 (  12 59 ) resistor r=35.9599
+r11 (  12 16 ) resistor r=5.5
+r12 (  10 25 ) resistor r=2.25
+r13 (  10 39 ) resistor r=17.9035
+r14 (  1 81 ) resistor r=39.9
+ends PM_ALU_8BIT\%XI3\/XMUX\<1\>\/S_INV
+
+subckt PM_ALU_8BIT\%S\<1\> ( 5 12 16 38 )
+c0 ( 94 0 ) capacitor c=0.285316f
+c1 ( 85 0 ) capacitor c=0.482406f
+c2 ( 63 0 ) capacitor c=0.94704f
+c3 ( 49 0 ) capacitor c=0.250243f
+c4 ( 46 0 ) capacitor c=0.178045f
+c5 ( 38 0 ) capacitor c=0.11164f
+c6 ( 16 0 ) capacitor c=0.115894f
+c7 ( 10 0 ) capacitor c=0.347881f
+c8 ( 5 0 ) capacitor c=0.112574f
+c9 ( 3 0 ) capacitor c=0.162035f
+r10 (  90 94 ) resistor r=2.38994
+r11 (  85 94 ) resistor r=2.95285
+r12 (  63 90 ) resistor r=2.3689
+r13 (  49 63 ) resistor r=3.18214
+r14 (  48 114 ) resistor r=7.40868
+r15 (  46 85 ) resistor r=2.41294
+r16 (  46 48 ) resistor r=30
+r17 (  36 114 ) resistor r=6.46884
+r18 (  36 38 ) resistor r=146
+r19 (  33 114 ) resistor r=6.46884
+r20 (  16 33 ) resistor r=140
+r21 (  11 12 ) resistor r=2.7225
+r22 (  10 49 ) resistor r=5.15319
+r23 (  10 11 ) resistor r=17.5
+r24 (  4 5 ) resistor r=1.11375
+r25 (  3 4 ) resistor r=18.3643
+r26 (  3 94 ) resistor r=3.48049
+r27 (  3 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%S\<1\>
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET7 ( 1 8 31 32 34 35 )
+c0 ( 118 0 ) capacitor c=0.168825f
+c1 ( 111 0 ) capacitor c=0.204496f
+c2 ( 85 0 ) capacitor c=0.724053f
+c3 ( 76 0 ) capacitor c=0.258109f
+c4 ( 61 0 ) capacitor c=0.275369f
+c5 ( 19 0 ) capacitor c=0.43504f
+c6 ( 1 0 ) capacitor c=0.157616f
+r7 (  110 112 ) resistor r=3.88074
+r8 (  110 111 ) resistor r=11.4582
+r9 (  76 85 ) resistor r=2.70607
+r10 (  64 76 ) resistor r=1.00091
+r11 (  64 118 ) resistor r=2.13195
+r12 (  61 85 ) resistor r=4.29604
+r13 (  53 110 ) resistor r=30
+r14 (  53 76 ) resistor r=2
+r15 (  47 111 ) resistor r=357
+r16 (  45 112 ) resistor r=6.46884
+r17 (  45 46 ) resistor r=42
+r18 (  43 47 ) resistor r=6.36951
+r19 (  43 44 ) resistor r=64
+r20 (  40 46 ) resistor r=6.36951
+r21 (  37 44 ) resistor r=6.36951
+r22 (  20 34 ) resistor r=2.75
+r23 (  20 35 ) resistor r=2.75
+r24 (  19 61 ) resistor r=2.49302
+r25 (  19 20 ) resistor r=17.5
+r26 (  18 31 ) resistor r=1.125
+r27 (  18 32 ) resistor r=1.125
+r28 (  18 118 ) resistor r=17.5
+r29 (  18 118 ) resistor r=18.4819
+r30 (  8 37 ) resistor r=97
+r31 (  1 40 ) resistor r=140
+ends PM_ALU_8BIT\%XI4\/XI9\/NET7
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET17 ( 1 4 13 29 30 36 )
+c0 ( 52 0 ) capacitor c=0.332586f
+c1 ( 44 0 ) capacitor c=0.155456f
+c2 ( 2 0 ) capacitor c=0.605326f
+r3 (  44 52 ) resistor r=3.07237
+r4 (  44 46 ) resistor r=30
+r5 (  41 46 ) resistor r=10.8176
+r6 (  41 42 ) resistor r=165
+r7 (  39 42 ) resistor r=6.36951
+r8 (  39 40 ) resistor r=50
+r9 (  37 46 ) resistor r=7.64246
+r10 (  37 38 ) resistor r=50
+r11 (  34 40 ) resistor r=6.36951
+r12 (  34 36 ) resistor r=55.1
+r13 (  32 38 ) resistor r=6.36951
+r14 (  16 29 ) resistor r=2.2725
+r15 (  16 30 ) resistor r=2.2275
+r16 (  15 52 ) resistor r=2.80481
+r17 (  15 16 ) resistor r=17.5
+r18 (  13 32 ) resistor r=36.1
+r19 (  3 4 ) resistor r=5.5
+r20 (  2 52 ) resistor r=2.3822
+r21 (  2 3 ) resistor r=35
+r22 (  1 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET17
+
+subckt PM_ALU_8BIT\%B\<2\> ( 1 6 11 16 23 36 41 83 99 102 122 127 287 )
+c0 ( 280 0 ) capacitor c=0.276531f
+c1 ( 277 0 ) capacitor c=0.114896f
+c2 ( 228 0 ) capacitor c=0.43176f
+c3 ( 218 0 ) capacitor c=0.441105f
+c4 ( 187 0 ) capacitor c=0.307307f
+c5 ( 170 0 ) capacitor c=0.232141f
+c6 ( 164 0 ) capacitor c=0.303019f
+c7 ( 127 0 ) capacitor c=0.211266f
+c8 ( 122 0 ) capacitor c=0.128683f
+c9 ( 102 0 ) capacitor c=0.407526f
+c10 ( 69 0 ) capacitor c=0.685492f
+c11 ( 11 0 ) capacitor c=0.429916f
+c12 ( 6 0 ) capacitor c=0.195852f
+c13 ( 1 0 ) capacitor c=0.220832f
+r14 (  272 280 ) resistor r=30
+r15 (  263 264 ) resistor r=12.1291
+r16 (  263 290 ) resistor r=30
+r17 (  259 263 ) resistor r=5.86543
+r18 (  257 287 ) resistor r=30
+r19 (  239 290 ) resistor r=2
+r20 (  228 280 ) resistor r=2.73849
+r21 (  228 239 ) resistor r=1.20891
+r22 (  218 239 ) resistor r=3.29234
+r23 (  218 287 ) resistor r=2.27381
+r24 (  212 278 ) resistor r=3.88074
+r25 (  212 277 ) resistor r=11.4582
+r26 (  187 212 ) resistor r=30.6484
+r27 (  184 275 ) resistor r=11.4582
+r28 (  184 274 ) resistor r=11.4582
+r29 (  182 184 ) resistor r=30
+r30 (  170 187 ) resistor r=1.23716
+r31 (  170 182 ) resistor r=1.01326
+r32 (  166 267 ) resistor r=4.11337
+r33 (  166 266 ) resistor r=11.5787
+r34 (  164 287 ) resistor r=0.861093
+r35 (  164 170 ) resistor r=0.489317
+r36 (  164 166 ) resistor r=30.75
+r37 (  134 277 ) resistor r=204
+r38 (  132 278 ) resistor r=6.46884
+r39 (  132 133 ) resistor r=23
+r40 (  130 134 ) resistor r=6.36951
+r41 (  130 131 ) resistor r=45
+r42 (  125 133 ) resistor r=6.36951
+r43 (  125 127 ) resistor r=220
+r44 (  120 131 ) resistor r=6.36951
+r45 (  120 122 ) resistor r=170
+r46 (  112 272 ) resistor r=10.8476
+r47 (  112 113 ) resistor r=173
+r48 (  110 113 ) resistor r=6.36951
+r49 (  110 111 ) resistor r=49
+r50 (  108 272 ) resistor r=6.54098
+r51 (  108 109 ) resistor r=49
+r52 (  100 102 ) resistor r=206
+r53 (  97 111 ) resistor r=6.36951
+r54 (  97 99 ) resistor r=55.1
+r55 (  94 109 ) resistor r=6.36951
+r56 (  93 267 ) resistor r=6.63832
+r57 (  92 105 ) resistor r=6.36951
+r58 (  92 93 ) resistor r=15
+r59 (  90 100 ) resistor r=6.36951
+r60 (  90 91 ) resistor r=38
+r61 (  88 91 ) resistor r=6.36951
+r62 (  88 266 ) resistor r=129
+r63 (  81 83 ) resistor r=55.1
+r64 (  77 259 ) resistor r=8.13825
+r65 (  76 78 ) resistor r=6.36951
+r66 (  76 77 ) resistor r=17
+r67 (  75 257 ) resistor r=7.24855
+r68 (  74 86 ) resistor r=6.36951
+r69 (  74 75 ) resistor r=49
+r70 (  72 84 ) resistor r=6.36951
+r71 (  72 73 ) resistor r=49
+r72 (  70 81 ) resistor r=6.36951
+r73 (  70 71 ) resistor r=50
+r74 (  69 257 ) resistor r=10.7775
+r75 (  68 73 ) resistor r=6.36951
+r76 (  68 69 ) resistor r=428
+r77 (  67 71 ) resistor r=6.36951
+r78 (  67 264 ) resistor r=173
+r79 (  41 94 ) resistor r=50
+r80 (  36 78 ) resistor r=49
+r81 (  23 84 ) resistor r=55.1
+r82 (  16 86 ) resistor r=92.15
+r83 (  11 105 ) resistor r=258
+r84 (  6 274 ) resistor r=277
+r85 (  1 275 ) resistor r=329
+ends PM_ALU_8BIT\%B\<2\>
+
+subckt PM_ALU_8BIT\%A\<2\> ( 9 14 19 24 33 72 81 84 100 105 239 )
+c0 ( 239 0 ) capacitor c=0.136536f
+c1 ( 230 0 ) capacitor c=0.164311f
+c2 ( 218 0 ) capacitor c=0.203272f
+c3 ( 202 0 ) capacitor c=0.22578f
+c4 ( 173 0 ) capacitor c=0.662716f
+c5 ( 171 0 ) capacitor c=0.206473f
+c6 ( 164 0 ) capacitor c=0.172074f
+c7 ( 141 0 ) capacitor c=0.157072f
+c8 ( 140 0 ) capacitor c=0.298914f
+c9 ( 118 0 ) capacitor c=0.285805f
+c10 ( 105 0 ) capacitor c=0.209648f
+c11 ( 84 0 ) capacitor c=0.367507f
+c12 ( 81 0 ) capacitor c=0.116582f
+c13 ( 72 0 ) capacitor c=0.167498f
+c14 ( 54 0 ) capacitor c=0.360565f
+c15 ( 33 0 ) capacitor c=0.111783f
+c16 ( 14 0 ) capacitor c=0.342354f
+c17 ( 9 0 ) capacitor c=0.201276f
+r18 (  221 225 ) resistor r=8.11427
+r19 (  215 239 ) resistor r=30.2483
+r20 (  215 216 ) resistor r=11.4582
+r21 (  211 215 ) resistor r=4.58633
+r22 (  202 225 ) resistor r=30.1127
+r23 (  173 239 ) resistor r=2.82161
+r24 (  171 202 ) resistor r=3.69833
+r25 (  171 173 ) resistor r=4.26227
+r26 (  162 230 ) resistor r=11.5787
+r27 (  162 164 ) resistor r=30.1229
+r28 (  140 141 ) resistor r=1.77711
+r29 (  140 164 ) resistor r=1.26659
+r30 (  137 141 ) resistor r=30.6571
+r31 (  125 219 ) resistor r=3.88074
+r32 (  125 218 ) resistor r=11.4582
+r33 (  124 125 ) resistor r=30
+r34 (  118 239 ) resistor r=1.87531
+r35 (  118 141 ) resistor r=0.335977
+r36 (  118 124 ) resistor r=1.37916
+r37 (  112 230 ) resistor r=278
+r38 (  110 162 ) resistor r=4.11337
+r39 (  110 111 ) resistor r=32
+r40 (  108 112 ) resistor r=6.36951
+r41 (  108 109 ) resistor r=55
+r42 (  103 111 ) resistor r=6.36951
+r43 (  103 105 ) resistor r=181
+r44 (  98 109 ) resistor r=6.36951
+r45 (  98 100 ) resistor r=134
+r46 (  90 95 ) resistor r=6.36951
+r47 (  90 91 ) resistor r=29
+r48 (  89 137 ) resistor r=12.8571
+r49 (  88 92 ) resistor r=6.36951
+r50 (  88 89 ) resistor r=29
+r51 (  87 91 ) resistor r=6.36951
+r52 (  86 137 ) resistor r=10.7622
+r53 (  86 87 ) resistor r=36
+r54 (  82 84 ) resistor r=220
+r55 (  78 81 ) resistor r=170
+r56 (  77 219 ) resistor r=6.46884
+r57 (  76 82 ) resistor r=6.36951
+r58 (  76 77 ) resistor r=23
+r59 (  74 78 ) resistor r=6.36951
+r60 (  74 75 ) resistor r=45
+r61 (  70 221 ) resistor r=6.46884
+r62 (  70 72 ) resistor r=147
+r63 (  67 221 ) resistor r=6.46884
+r64 (  65 75 ) resistor r=6.36951
+r65 (  65 218 ) resistor r=204
+r66 (  57 62 ) resistor r=6.36951
+r67 (  57 216 ) resistor r=40
+r68 (  55 59 ) resistor r=6.36951
+r69 (  55 56 ) resistor r=64
+r70 (  54 211 ) resistor r=6.46884
+r71 (  53 56 ) resistor r=6.36951
+r72 (  53 54 ) resistor r=357
+r73 (  33 67 ) resistor r=156
+r74 (  24 62 ) resistor r=140
+r75 (  19 59 ) resistor r=97
+r76 (  14 92 ) resistor r=243
+r77 (  9 95 ) resistor r=296
+ends PM_ALU_8BIT\%A\<2\>
+
+subckt PM_ALU_8BIT\%XI4\/NET16 ( 5 12 32 55 58 65 71 74 )
+c0 ( 159 0 ) capacitor c=0.282178f
+c1 ( 142 0 ) capacitor c=0.201431f
+c2 ( 122 0 ) capacitor c=0.253621f
+c3 ( 107 0 ) capacitor c=0.142219f
+c4 ( 90 0 ) capacitor c=0.545936f
+c5 ( 74 0 ) capacitor c=0.299871f
+c6 ( 71 0 ) capacitor c=0.158284f
+c7 ( 65 0 ) capacitor c=0.224047f
+c8 ( 58 0 ) capacitor c=0.125434f
+c9 ( 55 0 ) capacitor c=0.101909f
+c10 ( 32 0 ) capacitor c=0.288926f
+c11 ( 4 0 ) capacitor c=0.220269f
+r12 (  169 171 ) resistor r=4.23353
+r13 (  169 170 ) resistor r=11.4582
+r14 (  164 166 ) resistor r=11.5787
+r15 (  164 165 ) resistor r=11.5787
+r16 (  164 178 ) resistor r=30
+r17 (  153 169 ) resistor r=30.1515
+r18 (  122 178 ) resistor r=2.22295
+r19 (  122 153 ) resistor r=2.53373
+r20 (  122 142 ) resistor r=1.50102
+r21 (  101 160 ) resistor r=4.11337
+r22 (  101 159 ) resistor r=11.5787
+r23 (  100 142 ) resistor r=2.2573
+r24 (  100 101 ) resistor r=30
+r25 (  90 142 ) resistor r=3.03861
+r26 (  90 107 ) resistor r=1.50866
+r27 (  81 171 ) resistor r=6.46884
+r28 (  80 81 ) resistor r=130
+r29 (  79 170 ) resistor r=15
+r30 (  76 80 ) resistor r=6.36951
+r31 (  76 77 ) resistor r=38
+r32 (  72 79 ) resistor r=6.36951
+r33 (  72 74 ) resistor r=258
+r34 (  68 77 ) resistor r=6.36951
+r35 (  68 71 ) resistor r=206
+r36 (  65 166 ) resistor r=329
+r37 (  56 58 ) resistor r=181
+r38 (  52 55 ) resistor r=134
+r39 (  51 160 ) resistor r=6.63832
+r40 (  50 56 ) resistor r=6.36951
+r41 (  50 51 ) resistor r=32
+r42 (  48 52 ) resistor r=6.36951
+r43 (  48 49 ) resistor r=55
+r44 (  46 49 ) resistor r=6.36951
+r45 (  46 159 ) resistor r=278
+r46 (  32 165 ) resistor r=277
+r47 (  11 12 ) resistor r=2.75
+r48 (  10 90 ) resistor r=2.05918
+r49 (  10 11 ) resistor r=17.5
+r50 (  4 5 ) resistor r=1.125
+r51 (  4 107 ) resistor r=17.5
+r52 (  4 107 ) resistor r=18.1578
+ends PM_ALU_8BIT\%XI4\/NET16
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET35 ( 1 8 41 42 44 45 50 53 )
+c0 ( 149 0 ) capacitor c=0.113794f
+c1 ( 99 0 ) capacitor c=0.463584f
+c2 ( 97 0 ) capacitor c=0.226978f
+c3 ( 83 0 ) capacitor c=0.26074f
+c4 ( 53 0 ) capacitor c=0.428863f
+c5 ( 50 0 ) capacitor c=0.171584f
+c6 ( 23 0 ) capacitor c=0.125361f
+c7 ( 17 0 ) capacitor c=0.176099f
+c8 ( 8 0 ) capacitor c=0.308138f
+c9 ( 1 0 ) capacitor c=0.224693f
+r10 (  139 141 ) resistor r=11.5787
+r11 (  139 140 ) resistor r=11.5787
+r12 (  139 149 ) resistor r=30
+r13 (  99 149 ) resistor r=3.13919
+r14 (  97 99 ) resistor r=0.923656
+r15 (  86 99 ) resistor r=1.30476
+r16 (  83 97 ) resistor r=2.4696
+r17 (  79 86 ) resistor r=1.17352
+r18 (  72 136 ) resistor r=30
+r19 (  72 97 ) resistor r=2
+r20 (  59 136 ) resistor r=10.7888
+r21 (  59 60 ) resistor r=36
+r22 (  57 60 ) resistor r=6.36951
+r23 (  57 58 ) resistor r=29
+r24 (  55 136 ) resistor r=13.1538
+r25 (  55 56 ) resistor r=29
+r26 (  51 58 ) resistor r=6.36951
+r27 (  51 53 ) resistor r=296
+r28 (  47 56 ) resistor r=6.36951
+r29 (  47 50 ) resistor r=243
+r30 (  24 44 ) resistor r=2.75
+r31 (  24 45 ) resistor r=2.75
+r32 (  23 83 ) resistor r=2.52847
+r33 (  23 24 ) resistor r=17.5
+r34 (  18 41 ) resistor r=1.125
+r35 (  18 42 ) resistor r=1.125
+r36 (  17 18 ) resistor r=18.4646
+r37 (  17 79 ) resistor r=2.51415
+r38 (  17 18 ) resistor r=17.5
+r39 (  8 140 ) resistor r=496
+r40 (  1 141 ) resistor r=110
+ends PM_ALU_8BIT\%XI4\/XI10\/NET35
+
+subckt PM_ALU_8BIT\%X\<2\> ( 1 16 17 31 32 39 )
+c0 ( 72 0 ) capacitor c=0.341165f
+c1 ( 65 0 ) capacitor c=0.221018f
+c2 ( 41 0 ) capacitor c=0.270849f
+c3 ( 1 0 ) capacitor c=0.419276f
+r4 (  67 102 ) resistor r=8.11427
+r5 (  65 72 ) resistor r=3.76284
+r6 (  65 67 ) resistor r=30
+r7 (  41 72 ) resistor r=2.15342
+r8 (  37 102 ) resistor r=6.46884
+r9 (  37 39 ) resistor r=105
+r10 (  34 102 ) resistor r=6.46884
+r11 (  15 41 ) resistor r=35.8806
+r12 (  15 16 ) resistor r=5.5
+r13 (  15 17 ) resistor r=5.5
+r14 (  13 41 ) resistor r=18.3846
+r15 (  13 31 ) resistor r=2.25
+r16 (  13 32 ) resistor r=2.25
+r17 (  1 34 ) resistor r=181
+ends PM_ALU_8BIT\%X\<2\>
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<2\>\/S_INV ( 1 16 25 32 )
+c0 ( 62 0 ) capacitor c=0.350218f
+c1 ( 59 0 ) capacitor c=0.279671f
+c2 ( 1 0 ) capacitor c=0.275277f
+r3 (  70 81 ) resistor r=11.4582
+r4 (  62 76 ) resistor r=30
+r5 (  59 62 ) resistor r=1.16719
+r6 (  59 70 ) resistor r=30
+r7 (  39 62 ) resistor r=1.0461
+r8 (  30 76 ) resistor r=11.4582
+r9 (  30 32 ) resistor r=58.9
+r10 (  12 59 ) resistor r=35.9589
+r11 (  12 16 ) resistor r=5.5
+r12 (  10 25 ) resistor r=2.25
+r13 (  10 39 ) resistor r=17.9035
+r14 (  1 81 ) resistor r=39.9
+ends PM_ALU_8BIT\%XI3\/XMUX\<2\>\/S_INV
+
+subckt PM_ALU_8BIT\%S\<2\> ( 5 12 16 38 )
+c0 ( 120 0 ) capacitor c=0.134954f
+c1 ( 92 0 ) capacitor c=0.326814f
+c2 ( 83 0 ) capacitor c=0.466623f
+c3 ( 61 0 ) capacitor c=0.94539f
+c4 ( 47 0 ) capacitor c=0.250252f
+c5 ( 38 0 ) capacitor c=0.111907f
+c6 ( 16 0 ) capacitor c=0.115932f
+c7 ( 10 0 ) capacitor c=0.347881f
+c8 ( 5 0 ) capacitor c=0.112574f
+c9 ( 3 0 ) capacitor c=0.162032f
+r10 (  115 120 ) resistor r=30
+r11 (  111 115 ) resistor r=7.40868
+r12 (  88 92 ) resistor r=2.37702
+r13 (  83 92 ) resistor r=2.92186
+r14 (  83 120 ) resistor r=2.41786
+r15 (  61 88 ) resistor r=2.3689
+r16 (  47 61 ) resistor r=3.18214
+r17 (  36 111 ) resistor r=6.46884
+r18 (  36 38 ) resistor r=146
+r19 (  33 111 ) resistor r=6.46884
+r20 (  16 33 ) resistor r=140
+r21 (  11 12 ) resistor r=2.7225
+r22 (  10 47 ) resistor r=5.15319
+r23 (  10 11 ) resistor r=17.5
+r24 (  4 5 ) resistor r=1.11375
+r25 (  3 4 ) resistor r=18.3643
+r26 (  3 92 ) resistor r=3.48049
+r27 (  3 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%S\<2\>
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET7 ( 1 8 31 32 34 35 )
+c0 ( 118 0 ) capacitor c=0.168825f
+c1 ( 111 0 ) capacitor c=0.204496f
+c2 ( 85 0 ) capacitor c=0.724109f
+c3 ( 76 0 ) capacitor c=0.25799f
+c4 ( 61 0 ) capacitor c=0.275364f
+c5 ( 19 0 ) capacitor c=0.43504f
+c6 ( 1 0 ) capacitor c=0.157616f
+r7 (  110 112 ) resistor r=3.88074
+r8 (  110 111 ) resistor r=11.4582
+r9 (  76 85 ) resistor r=2.70607
+r10 (  64 76 ) resistor r=1.00091
+r11 (  64 118 ) resistor r=2.13195
+r12 (  61 85 ) resistor r=4.29604
+r13 (  53 110 ) resistor r=30
+r14 (  53 76 ) resistor r=2
+r15 (  47 111 ) resistor r=357
+r16 (  45 112 ) resistor r=6.46884
+r17 (  45 46 ) resistor r=42
+r18 (  43 47 ) resistor r=6.36951
+r19 (  43 44 ) resistor r=64
+r20 (  40 46 ) resistor r=6.36951
+r21 (  37 44 ) resistor r=6.36951
+r22 (  20 34 ) resistor r=2.75
+r23 (  20 35 ) resistor r=2.75
+r24 (  19 61 ) resistor r=2.49302
+r25 (  19 20 ) resistor r=17.5
+r26 (  18 31 ) resistor r=1.125
+r27 (  18 32 ) resistor r=1.125
+r28 (  18 118 ) resistor r=17.5
+r29 (  18 118 ) resistor r=18.4819
+r30 (  8 37 ) resistor r=97
+r31 (  1 40 ) resistor r=140
+ends PM_ALU_8BIT\%XI4\/XI10\/NET7
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET17 ( 1 4 13 29 30 36 )
+c0 ( 52 0 ) capacitor c=0.334816f
+c1 ( 44 0 ) capacitor c=0.157918f
+c2 ( 2 0 ) capacitor c=0.605494f
+r3 (  44 52 ) resistor r=3.08947
+r4 (  44 46 ) resistor r=30
+r5 (  41 46 ) resistor r=10.8176
+r6 (  41 42 ) resistor r=165
+r7 (  39 42 ) resistor r=6.36951
+r8 (  39 40 ) resistor r=50
+r9 (  37 46 ) resistor r=7.64246
+r10 (  37 38 ) resistor r=50
+r11 (  34 40 ) resistor r=6.36951
+r12 (  34 36 ) resistor r=55.1
+r13 (  32 38 ) resistor r=6.36951
+r14 (  16 29 ) resistor r=2.2725
+r15 (  16 30 ) resistor r=2.2275
+r16 (  15 52 ) resistor r=2.81793
+r17 (  15 16 ) resistor r=17.5
+r18 (  13 32 ) resistor r=36.1
+r19 (  3 4 ) resistor r=5.5
+r20 (  2 52 ) resistor r=2.3822
+r21 (  2 3 ) resistor r=35
+r22 (  1 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET17
+
+subckt PM_ALU_8BIT\%B\<3\> ( 1 6 11 16 23 36 41 83 99 102 122 127 285 )
+c0 ( 278 0 ) capacitor c=0.275438f
+c1 ( 275 0 ) capacitor c=0.114896f
+c2 ( 226 0 ) capacitor c=0.432738f
+c3 ( 216 0 ) capacitor c=0.465026f
+c4 ( 185 0 ) capacitor c=0.307295f
+c5 ( 168 0 ) capacitor c=0.232143f
+c6 ( 162 0 ) capacitor c=0.302887f
+c7 ( 127 0 ) capacitor c=0.211266f
+c8 ( 122 0 ) capacitor c=0.128683f
+c9 ( 102 0 ) capacitor c=0.408436f
+c10 ( 69 0 ) capacitor c=0.68487f
+c11 ( 11 0 ) capacitor c=0.429866f
+c12 ( 6 0 ) capacitor c=0.195852f
+c13 ( 1 0 ) capacitor c=0.220832f
+r14 (  270 278 ) resistor r=30
+r15 (  261 262 ) resistor r=12.1291
+r16 (  261 287 ) resistor r=30
+r17 (  257 261 ) resistor r=5.86543
+r18 (  255 285 ) resistor r=30
+r19 (  237 287 ) resistor r=2
+r20 (  226 278 ) resistor r=2.71704
+r21 (  226 237 ) resistor r=1.22765
+r22 (  216 237 ) resistor r=3.36718
+r23 (  216 285 ) resistor r=2.27381
+r24 (  210 276 ) resistor r=3.88074
+r25 (  210 275 ) resistor r=11.4582
+r26 (  185 210 ) resistor r=30.6484
+r27 (  182 273 ) resistor r=11.4582
+r28 (  182 272 ) resistor r=11.4582
+r29 (  180 182 ) resistor r=30
+r30 (  168 185 ) resistor r=1.23716
+r31 (  168 180 ) resistor r=1.01326
+r32 (  164 265 ) resistor r=4.11337
+r33 (  164 264 ) resistor r=11.5787
+r34 (  162 285 ) resistor r=0.976686
+r35 (  162 168 ) resistor r=0.489317
+r36 (  162 164 ) resistor r=30.75
+r37 (  134 275 ) resistor r=204
+r38 (  132 276 ) resistor r=6.46884
+r39 (  132 133 ) resistor r=23
+r40 (  130 134 ) resistor r=6.36951
+r41 (  130 131 ) resistor r=45
+r42 (  125 133 ) resistor r=6.36951
+r43 (  125 127 ) resistor r=220
+r44 (  120 131 ) resistor r=6.36951
+r45 (  120 122 ) resistor r=170
+r46 (  112 270 ) resistor r=10.8476
+r47 (  112 113 ) resistor r=173
+r48 (  110 113 ) resistor r=6.36951
+r49 (  110 111 ) resistor r=49
+r50 (  108 270 ) resistor r=6.54098
+r51 (  108 109 ) resistor r=49
+r52 (  100 102 ) resistor r=206
+r53 (  97 111 ) resistor r=6.36951
+r54 (  97 99 ) resistor r=55.1
+r55 (  94 109 ) resistor r=6.36951
+r56 (  93 265 ) resistor r=6.63832
+r57 (  92 105 ) resistor r=6.36951
+r58 (  92 93 ) resistor r=15
+r59 (  90 100 ) resistor r=6.36951
+r60 (  90 91 ) resistor r=38
+r61 (  88 91 ) resistor r=6.36951
+r62 (  88 264 ) resistor r=129
+r63 (  81 83 ) resistor r=55.1
+r64 (  77 257 ) resistor r=8.13825
+r65 (  76 78 ) resistor r=6.36951
+r66 (  76 77 ) resistor r=17
+r67 (  75 255 ) resistor r=8.14286
+r68 (  74 86 ) resistor r=6.36951
+r69 (  74 75 ) resistor r=49
+r70 (  72 84 ) resistor r=6.36951
+r71 (  72 73 ) resistor r=49
+r72 (  70 81 ) resistor r=6.36951
+r73 (  70 71 ) resistor r=50
+r74 (  69 255 ) resistor r=10.7494
+r75 (  68 73 ) resistor r=6.36951
+r76 (  68 69 ) resistor r=426
+r77 (  67 71 ) resistor r=6.36951
+r78 (  67 262 ) resistor r=173
+r79 (  41 94 ) resistor r=50
+r80 (  36 78 ) resistor r=49
+r81 (  23 84 ) resistor r=55.1
+r82 (  16 86 ) resistor r=92.15
+r83 (  11 105 ) resistor r=258
+r84 (  6 272 ) resistor r=277
+r85 (  1 273 ) resistor r=329
+ends PM_ALU_8BIT\%B\<3\>
+
+subckt PM_ALU_8BIT\%A\<3\> ( 9 14 19 24 33 72 81 84 100 105 238 )
+c0 ( 238 0 ) capacitor c=0.131921f
+c1 ( 229 0 ) capacitor c=0.164311f
+c2 ( 217 0 ) capacitor c=0.202516f
+c3 ( 182 0 ) capacitor c=0.417075f
+c4 ( 173 0 ) capacitor c=0.696305f
+c5 ( 164 0 ) capacitor c=0.172074f
+c6 ( 141 0 ) capacitor c=0.157075f
+c7 ( 140 0 ) capacitor c=0.298914f
+c8 ( 118 0 ) capacitor c=0.287056f
+c9 ( 105 0 ) capacitor c=0.209648f
+c10 ( 84 0 ) capacitor c=0.367512f
+c11 ( 81 0 ) capacitor c=0.116582f
+c12 ( 72 0 ) capacitor c=0.169236f
+c13 ( 54 0 ) capacitor c=0.360568f
+c14 ( 33 0 ) capacitor c=0.111995f
+c15 ( 14 0 ) capacitor c=0.342372f
+c16 ( 9 0 ) capacitor c=0.201276f
+r17 (  220 224 ) resistor r=8.11427
+r18 (  214 238 ) resistor r=30.2547
+r19 (  214 215 ) resistor r=11.4582
+r20 (  210 214 ) resistor r=4.58633
+r21 (  201 224 ) resistor r=30.1491
+r22 (  182 201 ) resistor r=2.35339
+r23 (  174 182 ) resistor r=1.65913
+r24 (  173 238 ) resistor r=2.81145
+r25 (  173 174 ) resistor r=4.22213
+r26 (  162 229 ) resistor r=11.5787
+r27 (  162 164 ) resistor r=30.1229
+r28 (  140 141 ) resistor r=1.77711
+r29 (  140 164 ) resistor r=1.26659
+r30 (  137 141 ) resistor r=30.6571
+r31 (  125 218 ) resistor r=3.88074
+r32 (  125 217 ) resistor r=11.4582
+r33 (  124 125 ) resistor r=30
+r34 (  118 238 ) resistor r=1.85647
+r35 (  118 141 ) resistor r=0.335977
+r36 (  118 124 ) resistor r=1.37916
+r37 (  112 229 ) resistor r=278
+r38 (  110 162 ) resistor r=4.11337
+r39 (  110 111 ) resistor r=32
+r40 (  108 112 ) resistor r=6.36951
+r41 (  108 109 ) resistor r=55
+r42 (  103 111 ) resistor r=6.36951
+r43 (  103 105 ) resistor r=181
+r44 (  98 109 ) resistor r=6.36951
+r45 (  98 100 ) resistor r=134
+r46 (  90 95 ) resistor r=6.36951
+r47 (  90 91 ) resistor r=29
+r48 (  89 137 ) resistor r=12.8571
+r49 (  88 92 ) resistor r=6.36951
+r50 (  88 89 ) resistor r=29
+r51 (  87 91 ) resistor r=6.36951
+r52 (  86 137 ) resistor r=10.7622
+r53 (  86 87 ) resistor r=36
+r54 (  82 84 ) resistor r=220
+r55 (  78 81 ) resistor r=170
+r56 (  77 218 ) resistor r=6.46884
+r57 (  76 82 ) resistor r=6.36951
+r58 (  76 77 ) resistor r=23
+r59 (  74 78 ) resistor r=6.36951
+r60 (  74 75 ) resistor r=45
+r61 (  70 220 ) resistor r=6.46884
+r62 (  70 72 ) resistor r=147
+r63 (  67 220 ) resistor r=6.46884
+r64 (  65 75 ) resistor r=6.36951
+r65 (  65 217 ) resistor r=204
+r66 (  57 62 ) resistor r=6.36951
+r67 (  57 215 ) resistor r=40
+r68 (  55 59 ) resistor r=6.36951
+r69 (  55 56 ) resistor r=64
+r70 (  54 210 ) resistor r=6.46884
+r71 (  53 56 ) resistor r=6.36951
+r72 (  53 54 ) resistor r=357
+r73 (  33 67 ) resistor r=156
+r74 (  24 62 ) resistor r=140
+r75 (  19 59 ) resistor r=97
+r76 (  14 92 ) resistor r=243
+r77 (  9 95 ) resistor r=296
+ends PM_ALU_8BIT\%A\<3\>
+
+subckt PM_ALU_8BIT\%XI4\/NET18 ( 5 12 32 55 58 65 71 74 )
+c0 ( 159 0 ) capacitor c=0.282165f
+c1 ( 142 0 ) capacitor c=0.200077f
+c2 ( 122 0 ) capacitor c=0.253614f
+c3 ( 107 0 ) capacitor c=0.142137f
+c4 ( 90 0 ) capacitor c=0.54469f
+c5 ( 74 0 ) capacitor c=0.299871f
+c6 ( 71 0 ) capacitor c=0.158284f
+c7 ( 65 0 ) capacitor c=0.224047f
+c8 ( 58 0 ) capacitor c=0.125431f
+c9 ( 55 0 ) capacitor c=0.101909f
+c10 ( 32 0 ) capacitor c=0.288926f
+c11 ( 4 0 ) capacitor c=0.220211f
+r12 (  169 171 ) resistor r=4.23353
+r13 (  169 170 ) resistor r=11.4582
+r14 (  164 166 ) resistor r=11.5787
+r15 (  164 165 ) resistor r=11.5787
+r16 (  164 178 ) resistor r=30
+r17 (  153 169 ) resistor r=30.1515
+r18 (  122 178 ) resistor r=2.22295
+r19 (  122 153 ) resistor r=2.53373
+r20 (  122 142 ) resistor r=1.50102
+r21 (  101 160 ) resistor r=4.11337
+r22 (  101 159 ) resistor r=11.5787
+r23 (  100 142 ) resistor r=2.2573
+r24 (  100 101 ) resistor r=30
+r25 (  90 142 ) resistor r=3.03861
+r26 (  90 107 ) resistor r=1.50866
+r27 (  81 171 ) resistor r=6.46884
+r28 (  80 81 ) resistor r=130
+r29 (  79 170 ) resistor r=15
+r30 (  76 80 ) resistor r=6.36951
+r31 (  76 77 ) resistor r=38
+r32 (  72 79 ) resistor r=6.36951
+r33 (  72 74 ) resistor r=258
+r34 (  68 77 ) resistor r=6.36951
+r35 (  68 71 ) resistor r=206
+r36 (  65 166 ) resistor r=329
+r37 (  56 58 ) resistor r=181
+r38 (  52 55 ) resistor r=134
+r39 (  51 160 ) resistor r=6.63832
+r40 (  50 56 ) resistor r=6.36951
+r41 (  50 51 ) resistor r=32
+r42 (  48 52 ) resistor r=6.36951
+r43 (  48 49 ) resistor r=55
+r44 (  46 49 ) resistor r=6.36951
+r45 (  46 159 ) resistor r=278
+r46 (  32 165 ) resistor r=277
+r47 (  11 12 ) resistor r=2.75
+r48 (  10 90 ) resistor r=2.05918
+r49 (  10 11 ) resistor r=17.5
+r50 (  4 5 ) resistor r=1.125
+r51 (  4 107 ) resistor r=17.5
+r52 (  4 107 ) resistor r=18.1578
+ends PM_ALU_8BIT\%XI4\/NET18
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET35 ( 1 8 41 42 44 45 50 53 )
+c0 ( 149 0 ) capacitor c=0.113794f
+c1 ( 99 0 ) capacitor c=0.463584f
+c2 ( 97 0 ) capacitor c=0.226978f
+c3 ( 83 0 ) capacitor c=0.260735f
+c4 ( 53 0 ) capacitor c=0.42887f
+c5 ( 50 0 ) capacitor c=0.171584f
+c6 ( 23 0 ) capacitor c=0.125363f
+c7 ( 17 0 ) capacitor c=0.1761f
+c8 ( 8 0 ) capacitor c=0.308138f
+c9 ( 1 0 ) capacitor c=0.224696f
+r10 (  139 141 ) resistor r=11.5787
+r11 (  139 140 ) resistor r=11.5787
+r12 (  139 149 ) resistor r=30
+r13 (  99 149 ) resistor r=3.13919
+r14 (  97 99 ) resistor r=0.923656
+r15 (  86 99 ) resistor r=1.30476
+r16 (  83 97 ) resistor r=2.4696
+r17 (  79 86 ) resistor r=1.17352
+r18 (  72 136 ) resistor r=30
+r19 (  72 97 ) resistor r=2
+r20 (  59 136 ) resistor r=10.7888
+r21 (  59 60 ) resistor r=36
+r22 (  57 60 ) resistor r=6.36951
+r23 (  57 58 ) resistor r=29
+r24 (  55 136 ) resistor r=13.1538
+r25 (  55 56 ) resistor r=29
+r26 (  51 58 ) resistor r=6.36951
+r27 (  51 53 ) resistor r=296
+r28 (  47 56 ) resistor r=6.36951
+r29 (  47 50 ) resistor r=243
+r30 (  24 44 ) resistor r=2.75
+r31 (  24 45 ) resistor r=2.75
+r32 (  23 83 ) resistor r=2.52847
+r33 (  23 24 ) resistor r=17.5
+r34 (  18 41 ) resistor r=1.125
+r35 (  18 42 ) resistor r=1.125
+r36 (  17 18 ) resistor r=18.4646
+r37 (  17 79 ) resistor r=2.51415
+r38 (  17 18 ) resistor r=17.5
+r39 (  8 140 ) resistor r=496
+r40 (  1 141 ) resistor r=110
+ends PM_ALU_8BIT\%XI4\/XI11\/NET35
+
+subckt PM_ALU_8BIT\%X\<3\> ( 1 16 17 31 32 39 )
+c0 ( 78 0 ) capacitor c=0.329234f
+c1 ( 72 0 ) capacitor c=0.110639f
+c2 ( 65 0 ) capacitor c=0.113887f
+c3 ( 50 0 ) capacitor c=0.271597f
+c4 ( 1 0 ) capacitor c=0.421388f
+r5 (  72 78 ) resistor r=1.43693
+r6 (  67 102 ) resistor r=8.11427
+r7 (  65 78 ) resistor r=2.24386
+r8 (  65 67 ) resistor r=30
+r9 (  50 72 ) resistor r=2.17641
+r10 (  37 102 ) resistor r=6.46884
+r11 (  37 39 ) resistor r=105
+r12 (  34 102 ) resistor r=6.46884
+r13 (  15 50 ) resistor r=35.8806
+r14 (  15 16 ) resistor r=5.5
+r15 (  15 17 ) resistor r=5.5
+r16 (  13 50 ) resistor r=18.4232
+r17 (  13 31 ) resistor r=2.25
+r18 (  13 32 ) resistor r=2.25
+r19 (  1 34 ) resistor r=181
+ends PM_ALU_8BIT\%X\<3\>
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<3\>\/S_INV ( 1 16 25 32 )
+c0 ( 62 0 ) capacitor c=0.351308f
+c1 ( 59 0 ) capacitor c=0.278028f
+c2 ( 1 0 ) capacitor c=0.276947f
+r3 (  72 83 ) resistor r=11.4582
+r4 (  62 78 ) resistor r=30
+r5 (  59 62 ) resistor r=1.10264
+r6 (  59 72 ) resistor r=30
+r7 (  39 62 ) resistor r=1.0461
+r8 (  30 78 ) resistor r=11.4582
+r9 (  30 32 ) resistor r=58.9
+r10 (  12 59 ) resistor r=35.9734
+r11 (  12 16 ) resistor r=5.5
+r12 (  10 25 ) resistor r=2.25
+r13 (  10 39 ) resistor r=17.9035
+r14 (  1 83 ) resistor r=39.9
+ends PM_ALU_8BIT\%XI3\/XMUX\<3\>\/S_INV
+
+subckt PM_ALU_8BIT\%S\<3\> ( 5 12 16 38 )
+c0 ( 121 0 ) capacitor c=0.131676f
+c1 ( 92 0 ) capacitor c=0.318861f
+c2 ( 83 0 ) capacitor c=0.492668f
+c3 ( 61 0 ) capacitor c=0.955518f
+c4 ( 47 0 ) capacitor c=0.250243f
+c5 ( 38 0 ) capacitor c=0.112019f
+c6 ( 16 0 ) capacitor c=0.11585f
+c7 ( 10 0 ) capacitor c=0.347881f
+c8 ( 5 0 ) capacitor c=0.112574f
+c9 ( 3 0 ) capacitor c=0.162038f
+r10 (  116 121 ) resistor r=30
+r11 (  112 116 ) resistor r=7.40868
+r12 (  88 92 ) resistor r=2.44319
+r13 (  83 92 ) resistor r=2.87118
+r14 (  83 121 ) resistor r=2.45203
+r15 (  61 88 ) resistor r=2.3689
+r16 (  47 61 ) resistor r=3.18214
+r17 (  36 112 ) resistor r=6.46884
+r18 (  36 38 ) resistor r=146
+r19 (  33 112 ) resistor r=6.46884
+r20 (  16 33 ) resistor r=140
+r21 (  11 12 ) resistor r=2.7225
+r22 (  10 47 ) resistor r=5.15319
+r23 (  10 11 ) resistor r=17.5
+r24 (  4 5 ) resistor r=1.11375
+r25 (  3 4 ) resistor r=18.3643
+r26 (  3 92 ) resistor r=3.48049
+r27 (  3 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%S\<3\>
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET7 ( 1 8 31 32 34 35 )
+c0 ( 118 0 ) capacitor c=0.168825f
+c1 ( 111 0 ) capacitor c=0.204496f
+c2 ( 85 0 ) capacitor c=0.724051f
+c3 ( 76 0 ) capacitor c=0.257953f
+c4 ( 61 0 ) capacitor c=0.275367f
+c5 ( 19 0 ) capacitor c=0.43504f
+c6 ( 1 0 ) capacitor c=0.157616f
+r7 (  110 112 ) resistor r=3.88074
+r8 (  110 111 ) resistor r=11.4582
+r9 (  76 85 ) resistor r=2.70607
+r10 (  64 76 ) resistor r=1.00091
+r11 (  64 118 ) resistor r=2.13195
+r12 (  61 85 ) resistor r=4.29604
+r13 (  53 110 ) resistor r=30
+r14 (  53 76 ) resistor r=2
+r15 (  47 111 ) resistor r=357
+r16 (  45 112 ) resistor r=6.46884
+r17 (  45 46 ) resistor r=42
+r18 (  43 47 ) resistor r=6.36951
+r19 (  43 44 ) resistor r=64
+r20 (  40 46 ) resistor r=6.36951
+r21 (  37 44 ) resistor r=6.36951
+r22 (  20 34 ) resistor r=2.75
+r23 (  20 35 ) resistor r=2.75
+r24 (  19 61 ) resistor r=2.49302
+r25 (  19 20 ) resistor r=17.5
+r26 (  18 31 ) resistor r=1.125
+r27 (  18 32 ) resistor r=1.125
+r28 (  18 118 ) resistor r=17.5
+r29 (  18 118 ) resistor r=18.4819
+r30 (  8 37 ) resistor r=97
+r31 (  1 40 ) resistor r=140
+ends PM_ALU_8BIT\%XI4\/XI11\/NET7
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET17 ( 1 4 13 29 30 36 )
+c0 ( 52 0 ) capacitor c=0.336789f
+c1 ( 44 0 ) capacitor c=0.16257f
+c2 ( 2 0 ) capacitor c=0.605967f
+r3 (  44 52 ) resistor r=3.11425
+r4 (  44 46 ) resistor r=30
+r5 (  41 46 ) resistor r=10.8176
+r6 (  41 42 ) resistor r=165
+r7 (  39 42 ) resistor r=6.36951
+r8 (  39 40 ) resistor r=50
+r9 (  37 46 ) resistor r=7.64246
+r10 (  37 38 ) resistor r=50
+r11 (  34 40 ) resistor r=6.36951
+r12 (  34 36 ) resistor r=55.1
+r13 (  32 38 ) resistor r=6.36951
+r14 (  16 29 ) resistor r=2.2725
+r15 (  16 30 ) resistor r=2.2275
+r16 (  15 52 ) resistor r=2.83693
+r17 (  15 16 ) resistor r=17.5
+r18 (  13 32 ) resistor r=36.1
+r19 (  3 4 ) resistor r=5.5
+r20 (  2 52 ) resistor r=2.3822
+r21 (  2 3 ) resistor r=35
+r22 (  1 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET17
+
+subckt PM_ALU_8BIT\%B\<4\> ( 1 6 11 16 23 36 41 83 99 102 122 127 288 )
+c0 ( 281 0 ) capacitor c=0.278781f
+c1 ( 278 0 ) capacitor c=0.114896f
+c2 ( 229 0 ) capacitor c=0.424517f
+c3 ( 217 0 ) capacitor c=0.434805f
+c4 ( 186 0 ) capacitor c=0.307273f
+c5 ( 169 0 ) capacitor c=0.232142f
+c6 ( 163 0 ) capacitor c=0.302986f
+c7 ( 127 0 ) capacitor c=0.211266f
+c8 ( 122 0 ) capacitor c=0.128683f
+c9 ( 102 0 ) capacitor c=0.407798f
+c10 ( 69 0 ) capacitor c=0.686341f
+c11 ( 11 0 ) capacitor c=0.430021f
+c12 ( 6 0 ) capacitor c=0.195852f
+c13 ( 1 0 ) capacitor c=0.220832f
+r14 (  273 281 ) resistor r=30
+r15 (  264 265 ) resistor r=12.1291
+r16 (  264 291 ) resistor r=30
+r17 (  260 264 ) resistor r=5.86543
+r18 (  258 288 ) resistor r=30
+r19 (  240 291 ) resistor r=2
+r20 (  229 281 ) resistor r=2.7741
+r21 (  229 240 ) resistor r=1.14324
+r22 (  217 240 ) resistor r=3.26098
+r23 (  217 288 ) resistor r=2.10163
+r24 (  211 279 ) resistor r=3.88074
+r25 (  211 278 ) resistor r=11.4582
+r26 (  186 211 ) resistor r=30.6484
+r27 (  183 276 ) resistor r=11.4582
+r28 (  183 275 ) resistor r=11.4582
+r29 (  181 183 ) resistor r=30
+r30 (  169 186 ) resistor r=1.23716
+r31 (  169 181 ) resistor r=1.01326
+r32 (  165 268 ) resistor r=4.11337
+r33 (  165 267 ) resistor r=11.5787
+r34 (  163 169 ) resistor r=0.489317
+r35 (  163 165 ) resistor r=30.75
+r36 (  163 288 ) resistor r=0.861093
+r37 (  134 278 ) resistor r=204
+r38 (  132 279 ) resistor r=6.46884
+r39 (  132 133 ) resistor r=23
+r40 (  130 134 ) resistor r=6.36951
+r41 (  130 131 ) resistor r=45
+r42 (  125 133 ) resistor r=6.36951
+r43 (  125 127 ) resistor r=220
+r44 (  120 131 ) resistor r=6.36951
+r45 (  120 122 ) resistor r=170
+r46 (  112 273 ) resistor r=10.8476
+r47 (  112 113 ) resistor r=173
+r48 (  110 113 ) resistor r=6.36951
+r49 (  110 111 ) resistor r=49
+r50 (  108 273 ) resistor r=6.54098
+r51 (  108 109 ) resistor r=49
+r52 (  100 102 ) resistor r=206
+r53 (  97 111 ) resistor r=6.36951
+r54 (  97 99 ) resistor r=55.1
+r55 (  94 109 ) resistor r=6.36951
+r56 (  93 268 ) resistor r=6.63832
+r57 (  92 105 ) resistor r=6.36951
+r58 (  92 93 ) resistor r=15
+r59 (  90 100 ) resistor r=6.36951
+r60 (  90 91 ) resistor r=38
+r61 (  88 91 ) resistor r=6.36951
+r62 (  88 267 ) resistor r=129
+r63 (  81 83 ) resistor r=55.1
+r64 (  77 260 ) resistor r=8.13825
+r65 (  76 78 ) resistor r=6.36951
+r66 (  76 77 ) resistor r=17
+r67 (  75 258 ) resistor r=8.14286
+r68 (  74 86 ) resistor r=6.36951
+r69 (  74 75 ) resistor r=49
+r70 (  72 84 ) resistor r=6.36951
+r71 (  72 73 ) resistor r=49
+r72 (  70 81 ) resistor r=6.36951
+r73 (  70 71 ) resistor r=50
+r74 (  69 258 ) resistor r=10.7494
+r75 (  68 73 ) resistor r=6.36951
+r76 (  68 69 ) resistor r=426
+r77 (  67 71 ) resistor r=6.36951
+r78 (  67 265 ) resistor r=173
+r79 (  41 94 ) resistor r=50
+r80 (  36 78 ) resistor r=49
+r81 (  23 84 ) resistor r=55.1
+r82 (  16 86 ) resistor r=92.15
+r83 (  11 105 ) resistor r=258
+r84 (  6 275 ) resistor r=277
+r85 (  1 276 ) resistor r=329
+ends PM_ALU_8BIT\%B\<4\>
+
+subckt PM_ALU_8BIT\%A\<4\> ( 9 14 19 24 33 70 81 84 100 105 239 )
+c0 ( 239 0 ) capacitor c=0.135974f
+c1 ( 230 0 ) capacitor c=0.164311f
+c2 ( 218 0 ) capacitor c=0.205125f
+c3 ( 181 0 ) capacitor c=0.403479f
+c4 ( 173 0 ) capacitor c=0.680387f
+c5 ( 164 0 ) capacitor c=0.192492f
+c6 ( 141 0 ) capacitor c=0.157073f
+c7 ( 140 0 ) capacitor c=0.298914f
+c8 ( 118 0 ) capacitor c=0.286912f
+c9 ( 105 0 ) capacitor c=0.209648f
+c10 ( 84 0 ) capacitor c=0.367508f
+c11 ( 81 0 ) capacitor c=0.116582f
+c12 ( 70 0 ) capacitor c=0.168708f
+c13 ( 54 0 ) capacitor c=0.360566f
+c14 ( 33 0 ) capacitor c=0.11235f
+c15 ( 14 0 ) capacitor c=0.342372f
+c16 ( 9 0 ) capacitor c=0.201276f
+r17 (  221 225 ) resistor r=8.11427
+r18 (  215 239 ) resistor r=30.2483
+r19 (  215 216 ) resistor r=11.4582
+r20 (  211 215 ) resistor r=4.58633
+r21 (  202 225 ) resistor r=30.1236
+r22 (  181 202 ) resistor r=2.30683
+r23 (  173 239 ) resistor r=2.82964
+r24 (  171 181 ) resistor r=1.38711
+r25 (  171 173 ) resistor r=4.36627
+r26 (  162 230 ) resistor r=11.5787
+r27 (  162 164 ) resistor r=30.1229
+r28 (  140 141 ) resistor r=1.77711
+r29 (  140 164 ) resistor r=1.26659
+r30 (  137 141 ) resistor r=30.6571
+r31 (  125 219 ) resistor r=3.88074
+r32 (  125 218 ) resistor r=11.4582
+r33 (  124 125 ) resistor r=30
+r34 (  118 239 ) resistor r=1.85274
+r35 (  118 141 ) resistor r=0.335977
+r36 (  118 124 ) resistor r=1.37916
+r37 (  112 230 ) resistor r=278
+r38 (  110 162 ) resistor r=4.11337
+r39 (  110 111 ) resistor r=32
+r40 (  108 112 ) resistor r=6.36951
+r41 (  108 109 ) resistor r=55
+r42 (  103 111 ) resistor r=6.36951
+r43 (  103 105 ) resistor r=181
+r44 (  98 109 ) resistor r=6.36951
+r45 (  98 100 ) resistor r=134
+r46 (  90 95 ) resistor r=6.36951
+r47 (  90 91 ) resistor r=29
+r48 (  89 137 ) resistor r=12.8571
+r49 (  88 92 ) resistor r=6.36951
+r50 (  88 89 ) resistor r=29
+r51 (  87 91 ) resistor r=6.36951
+r52 (  86 137 ) resistor r=10.7622
+r53 (  86 87 ) resistor r=36
+r54 (  82 84 ) resistor r=220
+r55 (  78 81 ) resistor r=170
+r56 (  77 219 ) resistor r=6.46884
+r57 (  76 82 ) resistor r=6.36951
+r58 (  76 77 ) resistor r=23
+r59 (  74 78 ) resistor r=6.36951
+r60 (  74 75 ) resistor r=45
+r61 (  72 75 ) resistor r=6.36951
+r62 (  72 218 ) resistor r=204
+r63 (  68 221 ) resistor r=6.46884
+r64 (  68 70 ) resistor r=147
+r65 (  65 221 ) resistor r=6.46884
+r66 (  57 62 ) resistor r=6.36951
+r67 (  57 216 ) resistor r=40
+r68 (  55 59 ) resistor r=6.36951
+r69 (  55 56 ) resistor r=64
+r70 (  54 211 ) resistor r=6.46884
+r71 (  53 56 ) resistor r=6.36951
+r72 (  53 54 ) resistor r=357
+r73 (  33 65 ) resistor r=156
+r74 (  24 62 ) resistor r=140
+r75 (  19 59 ) resistor r=97
+r76 (  14 92 ) resistor r=243
+r77 (  9 95 ) resistor r=296
+ends PM_ALU_8BIT\%A\<4\>
+
+subckt PM_ALU_8BIT\%XI4\/NET20 ( 5 12 32 55 58 65 71 74 )
+c0 ( 158 0 ) capacitor c=0.282177f
+c1 ( 141 0 ) capacitor c=0.200981f
+c2 ( 122 0 ) capacitor c=0.253617f
+c3 ( 107 0 ) capacitor c=0.142303f
+c4 ( 90 0 ) capacitor c=0.54618f
+c5 ( 74 0 ) capacitor c=0.299871f
+c6 ( 71 0 ) capacitor c=0.158284f
+c7 ( 65 0 ) capacitor c=0.224047f
+c8 ( 58 0 ) capacitor c=0.125433f
+c9 ( 55 0 ) capacitor c=0.101909f
+c10 ( 32 0 ) capacitor c=0.288926f
+c11 ( 4 0 ) capacitor c=0.220279f
+r12 (  168 170 ) resistor r=4.23353
+r13 (  168 169 ) resistor r=11.4582
+r14 (  163 165 ) resistor r=11.5787
+r15 (  163 164 ) resistor r=11.5787
+r16 (  163 177 ) resistor r=30
+r17 (  152 168 ) resistor r=30.1515
+r18 (  122 177 ) resistor r=2.22295
+r19 (  122 152 ) resistor r=2.53373
+r20 (  122 141 ) resistor r=1.50102
+r21 (  101 159 ) resistor r=4.11337
+r22 (  101 158 ) resistor r=11.5787
+r23 (  100 141 ) resistor r=2.2573
+r24 (  100 101 ) resistor r=30
+r25 (  90 141 ) resistor r=3.03861
+r26 (  90 107 ) resistor r=1.50866
+r27 (  81 170 ) resistor r=6.46884
+r28 (  80 81 ) resistor r=130
+r29 (  79 169 ) resistor r=15
+r30 (  76 80 ) resistor r=6.36951
+r31 (  76 77 ) resistor r=38
+r32 (  72 79 ) resistor r=6.36951
+r33 (  72 74 ) resistor r=258
+r34 (  68 77 ) resistor r=6.36951
+r35 (  68 71 ) resistor r=206
+r36 (  65 165 ) resistor r=329
+r37 (  56 58 ) resistor r=181
+r38 (  52 55 ) resistor r=134
+r39 (  51 159 ) resistor r=6.63832
+r40 (  50 56 ) resistor r=6.36951
+r41 (  50 51 ) resistor r=32
+r42 (  48 52 ) resistor r=6.36951
+r43 (  48 49 ) resistor r=55
+r44 (  46 49 ) resistor r=6.36951
+r45 (  46 158 ) resistor r=278
+r46 (  32 164 ) resistor r=277
+r47 (  11 12 ) resistor r=2.75
+r48 (  10 90 ) resistor r=2.05918
+r49 (  10 11 ) resistor r=17.5
+r50 (  4 5 ) resistor r=1.125
+r51 (  4 107 ) resistor r=17.5
+r52 (  4 107 ) resistor r=18.1578
+ends PM_ALU_8BIT\%XI4\/NET20
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET35 ( 1 8 41 42 44 45 50 53 )
+c0 ( 149 0 ) capacitor c=0.113794f
+c1 ( 99 0 ) capacitor c=0.463584f
+c2 ( 97 0 ) capacitor c=0.226978f
+c3 ( 83 0 ) capacitor c=0.260738f
+c4 ( 53 0 ) capacitor c=0.428886f
+c5 ( 50 0 ) capacitor c=0.171584f
+c6 ( 23 0 ) capacitor c=0.125362f
+c7 ( 17 0 ) capacitor c=0.176099f
+c8 ( 8 0 ) capacitor c=0.308138f
+c9 ( 1 0 ) capacitor c=0.224698f
+r10 (  139 141 ) resistor r=11.5787
+r11 (  139 140 ) resistor r=11.5787
+r12 (  139 149 ) resistor r=30
+r13 (  99 149 ) resistor r=3.13919
+r14 (  97 99 ) resistor r=0.923656
+r15 (  86 99 ) resistor r=1.30476
+r16 (  83 97 ) resistor r=2.4696
+r17 (  79 86 ) resistor r=1.17352
+r18 (  72 136 ) resistor r=30
+r19 (  72 97 ) resistor r=2
+r20 (  59 136 ) resistor r=10.7888
+r21 (  59 60 ) resistor r=36
+r22 (  57 60 ) resistor r=6.36951
+r23 (  57 58 ) resistor r=29
+r24 (  55 136 ) resistor r=13.1538
+r25 (  55 56 ) resistor r=29
+r26 (  51 58 ) resistor r=6.36951
+r27 (  51 53 ) resistor r=296
+r28 (  47 56 ) resistor r=6.36951
+r29 (  47 50 ) resistor r=243
+r30 (  24 44 ) resistor r=2.75
+r31 (  24 45 ) resistor r=2.75
+r32 (  23 83 ) resistor r=2.52847
+r33 (  23 24 ) resistor r=17.5
+r34 (  18 41 ) resistor r=1.125
+r35 (  18 42 ) resistor r=1.125
+r36 (  17 18 ) resistor r=18.4646
+r37 (  17 79 ) resistor r=2.51415
+r38 (  17 18 ) resistor r=17.5
+r39 (  8 140 ) resistor r=496
+r40 (  1 141 ) resistor r=110
+ends PM_ALU_8BIT\%XI4\/XI12\/NET35
+
+subckt PM_ALU_8BIT\%X\<4\> ( 1 16 17 31 32 39 )
+c0 ( 67 0 ) capacitor c=0.329721f
+c1 ( 63 0 ) capacitor c=0.231054f
+c2 ( 50 0 ) capacitor c=0.265921f
+c3 ( 1 0 ) capacitor c=0.424358f
+r4 (  65 103 ) resistor r=8.11427
+r5 (  63 67 ) resistor r=4.00491
+r6 (  63 65 ) resistor r=30
+r7 (  50 67 ) resistor r=2
+r8 (  37 103 ) resistor r=6.46884
+r9 (  37 39 ) resistor r=105
+r10 (  34 103 ) resistor r=6.46884
+r11 (  15 50 ) resistor r=35.9019
+r12 (  15 16 ) resistor r=5.5
+r13 (  15 17 ) resistor r=5.5
+r14 (  13 50 ) resistor r=18.4219
+r15 (  13 31 ) resistor r=2.25
+r16 (  13 32 ) resistor r=2.25
+r17 (  1 34 ) resistor r=181
+ends PM_ALU_8BIT\%X\<4\>
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<4\>\/S_INV ( 1 16 25 32 )
+c0 ( 62 0 ) capacitor c=0.351246f
+c1 ( 59 0 ) capacitor c=0.276075f
+c2 ( 1 0 ) capacitor c=0.275207f
+r3 (  72 83 ) resistor r=11.4582
+r4 (  62 78 ) resistor r=30
+r5 (  59 62 ) resistor r=1.12049
+r6 (  59 72 ) resistor r=30
+r7 (  39 62 ) resistor r=1.0461
+r8 (  30 78 ) resistor r=11.4582
+r9 (  30 32 ) resistor r=58.9
+r10 (  12 59 ) resistor r=35.9506
+r11 (  12 16 ) resistor r=5.5
+r12 (  10 25 ) resistor r=2.25
+r13 (  10 39 ) resistor r=17.9035
+r14 (  1 83 ) resistor r=39.9
+ends PM_ALU_8BIT\%XI3\/XMUX\<4\>\/S_INV
+
+subckt PM_ALU_8BIT\%S\<4\> ( 5 12 16 38 )
+c0 ( 120 0 ) capacitor c=0.131402f
+c1 ( 92 0 ) capacitor c=0.326328f
+c2 ( 83 0 ) capacitor c=0.49215f
+c3 ( 61 0 ) capacitor c=0.960655f
+c4 ( 47 0 ) capacitor c=0.250248f
+c5 ( 38 0 ) capacitor c=0.111955f
+c6 ( 16 0 ) capacitor c=0.115771f
+c7 ( 10 0 ) capacitor c=0.347881f
+c8 ( 5 0 ) capacitor c=0.112574f
+c9 ( 3 0 ) capacitor c=0.16204f
+r10 (  115 120 ) resistor r=30
+r11 (  111 115 ) resistor r=7.40868
+r12 (  88 92 ) resistor r=2.4708
+r13 (  83 92 ) resistor r=3.01488
+r14 (  83 120 ) resistor r=2.45203
+r15 (  61 88 ) resistor r=2.3689
+r16 (  47 61 ) resistor r=3.18214
+r17 (  36 111 ) resistor r=6.46884
+r18 (  36 38 ) resistor r=146
+r19 (  33 111 ) resistor r=6.46884
+r20 (  16 33 ) resistor r=140
+r21 (  11 12 ) resistor r=2.7225
+r22 (  10 47 ) resistor r=5.15319
+r23 (  10 11 ) resistor r=17.5
+r24 (  4 5 ) resistor r=1.11375
+r25 (  3 4 ) resistor r=18.3643
+r26 (  3 92 ) resistor r=3.48049
+r27 (  3 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%S\<4\>
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET7 ( 1 8 31 32 34 35 )
+c0 ( 118 0 ) capacitor c=0.168825f
+c1 ( 111 0 ) capacitor c=0.204496f
+c2 ( 85 0 ) capacitor c=0.724108f
+c3 ( 76 0 ) capacitor c=0.257836f
+c4 ( 61 0 ) capacitor c=0.275364f
+c5 ( 19 0 ) capacitor c=0.43504f
+c6 ( 1 0 ) capacitor c=0.157616f
+r7 (  110 112 ) resistor r=3.88074
+r8 (  110 111 ) resistor r=11.4582
+r9 (  76 85 ) resistor r=2.70607
+r10 (  64 76 ) resistor r=1.00091
+r11 (  64 118 ) resistor r=2.13195
+r12 (  61 85 ) resistor r=4.29604
+r13 (  53 110 ) resistor r=30
+r14 (  53 76 ) resistor r=2
+r15 (  47 111 ) resistor r=357
+r16 (  45 112 ) resistor r=6.46884
+r17 (  45 46 ) resistor r=42
+r18 (  43 47 ) resistor r=6.36951
+r19 (  43 44 ) resistor r=64
+r20 (  40 46 ) resistor r=6.36951
+r21 (  37 44 ) resistor r=6.36951
+r22 (  20 34 ) resistor r=2.75
+r23 (  20 35 ) resistor r=2.75
+r24 (  19 61 ) resistor r=2.49302
+r25 (  19 20 ) resistor r=17.5
+r26 (  18 31 ) resistor r=1.125
+r27 (  18 32 ) resistor r=1.125
+r28 (  18 118 ) resistor r=17.5
+r29 (  18 118 ) resistor r=18.4819
+r30 (  8 37 ) resistor r=97
+r31 (  1 40 ) resistor r=140
+ends PM_ALU_8BIT\%XI4\/XI12\/NET7
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET17 ( 1 4 13 29 30 36 )
+c0 ( 52 0 ) capacitor c=0.334251f
+c1 ( 44 0 ) capacitor c=0.163275f
+c2 ( 2 0 ) capacitor c=0.606448f
+r3 (  44 52 ) resistor r=3.11755
+r4 (  44 46 ) resistor r=30
+r5 (  41 46 ) resistor r=10.8176
+r6 (  41 42 ) resistor r=165
+r7 (  39 42 ) resistor r=6.36951
+r8 (  39 40 ) resistor r=50
+r9 (  37 46 ) resistor r=7.64246
+r10 (  37 38 ) resistor r=50
+r11 (  34 40 ) resistor r=6.36951
+r12 (  34 36 ) resistor r=55.1
+r13 (  32 38 ) resistor r=6.36951
+r14 (  16 29 ) resistor r=2.2725
+r15 (  16 30 ) resistor r=2.2275
+r16 (  15 52 ) resistor r=2.85058
+r17 (  15 16 ) resistor r=17.5
+r18 (  13 32 ) resistor r=36.1
+r19 (  3 4 ) resistor r=5.5
+r20 (  2 52 ) resistor r=2.3822
+r21 (  2 3 ) resistor r=35
+r22 (  1 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET17
+
+subckt PM_ALU_8BIT\%B\<5\> ( 1 6 11 16 23 36 41 83 99 102 122 127 285 )
+c0 ( 278 0 ) capacitor c=0.277021f
+c1 ( 275 0 ) capacitor c=0.114896f
+c2 ( 227 0 ) capacitor c=0.429761f
+c3 ( 217 0 ) capacitor c=0.4268f
+c4 ( 186 0 ) capacitor c=0.307273f
+c5 ( 169 0 ) capacitor c=0.232143f
+c6 ( 163 0 ) capacitor c=0.303123f
+c7 ( 127 0 ) capacitor c=0.211266f
+c8 ( 122 0 ) capacitor c=0.128683f
+c9 ( 102 0 ) capacitor c=0.408498f
+c10 ( 69 0 ) capacitor c=0.685051f
+c11 ( 11 0 ) capacitor c=0.429984f
+c12 ( 6 0 ) capacitor c=0.195852f
+c13 ( 1 0 ) capacitor c=0.220832f
+r14 (  270 278 ) resistor r=30
+r15 (  261 262 ) resistor r=12.1291
+r16 (  261 288 ) resistor r=30
+r17 (  257 261 ) resistor r=5.86543
+r18 (  255 285 ) resistor r=30
+r19 (  237 288 ) resistor r=2
+r20 (  227 278 ) resistor r=2.73704
+r21 (  227 237 ) resistor r=1.21577
+r22 (  217 237 ) resistor r=3.21794
+r23 (  217 285 ) resistor r=2.27381
+r24 (  211 276 ) resistor r=3.88074
+r25 (  211 275 ) resistor r=11.4582
+r26 (  186 211 ) resistor r=30.6484
+r27 (  183 273 ) resistor r=11.4582
+r28 (  183 272 ) resistor r=11.4582
+r29 (  181 183 ) resistor r=30
+r30 (  169 186 ) resistor r=1.23716
+r31 (  169 181 ) resistor r=1.01326
+r32 (  165 265 ) resistor r=4.11337
+r33 (  165 264 ) resistor r=11.5787
+r34 (  163 285 ) resistor r=0.861093
+r35 (  163 169 ) resistor r=0.489317
+r36 (  163 165 ) resistor r=30.75
+r37 (  134 275 ) resistor r=204
+r38 (  132 276 ) resistor r=6.46884
+r39 (  132 133 ) resistor r=23
+r40 (  130 134 ) resistor r=6.36951
+r41 (  130 131 ) resistor r=45
+r42 (  125 133 ) resistor r=6.36951
+r43 (  125 127 ) resistor r=220
+r44 (  120 131 ) resistor r=6.36951
+r45 (  120 122 ) resistor r=170
+r46 (  112 270 ) resistor r=10.8476
+r47 (  112 113 ) resistor r=173
+r48 (  110 113 ) resistor r=6.36951
+r49 (  110 111 ) resistor r=49
+r50 (  108 270 ) resistor r=6.54098
+r51 (  108 109 ) resistor r=49
+r52 (  100 102 ) resistor r=206
+r53 (  97 111 ) resistor r=6.36951
+r54 (  97 99 ) resistor r=55.1
+r55 (  94 109 ) resistor r=6.36951
+r56 (  93 265 ) resistor r=6.63832
+r57 (  92 105 ) resistor r=6.36951
+r58 (  92 93 ) resistor r=15
+r59 (  90 100 ) resistor r=6.36951
+r60 (  90 91 ) resistor r=38
+r61 (  88 91 ) resistor r=6.36951
+r62 (  88 264 ) resistor r=129
+r63 (  81 83 ) resistor r=55.1
+r64 (  77 257 ) resistor r=8.13825
+r65 (  76 78 ) resistor r=6.36951
+r66 (  76 77 ) resistor r=17
+r67 (  75 255 ) resistor r=8.14286
+r68 (  74 86 ) resistor r=6.36951
+r69 (  74 75 ) resistor r=49
+r70 (  72 84 ) resistor r=6.36951
+r71 (  72 73 ) resistor r=49
+r72 (  70 81 ) resistor r=6.36951
+r73 (  70 71 ) resistor r=50
+r74 (  69 255 ) resistor r=10.7494
+r75 (  68 73 ) resistor r=6.36951
+r76 (  68 69 ) resistor r=426
+r77 (  67 71 ) resistor r=6.36951
+r78 (  67 262 ) resistor r=173
+r79 (  41 94 ) resistor r=50
+r80 (  36 78 ) resistor r=49
+r81 (  23 84 ) resistor r=55.1
+r82 (  16 86 ) resistor r=92.15
+r83 (  11 105 ) resistor r=258
+r84 (  6 272 ) resistor r=277
+r85 (  1 273 ) resistor r=329
+ends PM_ALU_8BIT\%B\<5\>
+
+subckt PM_ALU_8BIT\%A\<5\> ( 9 14 19 24 33 70 81 84 100 105 238 )
+c0 ( 238 0 ) capacitor c=0.135273f
+c1 ( 229 0 ) capacitor c=0.164311f
+c2 ( 217 0 ) capacitor c=0.200873f
+c3 ( 182 0 ) capacitor c=0.438767f
+c4 ( 173 0 ) capacitor c=0.684233f
+c5 ( 164 0 ) capacitor c=0.188824f
+c6 ( 141 0 ) capacitor c=0.157075f
+c7 ( 140 0 ) capacitor c=0.298914f
+c8 ( 118 0 ) capacitor c=0.287715f
+c9 ( 105 0 ) capacitor c=0.209648f
+c10 ( 84 0 ) capacitor c=0.367505f
+c11 ( 81 0 ) capacitor c=0.116582f
+c12 ( 70 0 ) capacitor c=0.168047f
+c13 ( 54 0 ) capacitor c=0.360567f
+c14 ( 33 0 ) capacitor c=0.112138f
+c15 ( 14 0 ) capacitor c=0.342343f
+c16 ( 9 0 ) capacitor c=0.201276f
+r17 (  220 224 ) resistor r=8.11427
+r18 (  214 238 ) resistor r=30.2467
+r19 (  214 215 ) resistor r=11.4582
+r20 (  210 214 ) resistor r=4.58633
+r21 (  201 224 ) resistor r=30.1454
+r22 (  182 201 ) resistor r=2.2735
+r23 (  173 238 ) resistor r=2.82278
+r24 (  171 182 ) resistor r=1.61632
+r25 (  171 173 ) resistor r=4.34949
+r26 (  162 229 ) resistor r=11.5787
+r27 (  162 164 ) resistor r=30.1229
+r28 (  140 141 ) resistor r=1.77711
+r29 (  140 164 ) resistor r=1.26659
+r30 (  137 141 ) resistor r=30.6571
+r31 (  125 218 ) resistor r=3.88074
+r32 (  125 217 ) resistor r=11.4582
+r33 (  124 125 ) resistor r=30
+r34 (  118 238 ) resistor r=1.83497
+r35 (  118 141 ) resistor r=0.335977
+r36 (  118 124 ) resistor r=1.37916
+r37 (  112 229 ) resistor r=278
+r38 (  110 162 ) resistor r=4.11337
+r39 (  110 111 ) resistor r=32
+r40 (  108 112 ) resistor r=6.36951
+r41 (  108 109 ) resistor r=55
+r42 (  103 111 ) resistor r=6.36951
+r43 (  103 105 ) resistor r=181
+r44 (  98 109 ) resistor r=6.36951
+r45 (  98 100 ) resistor r=134
+r46 (  90 95 ) resistor r=6.36951
+r47 (  90 91 ) resistor r=29
+r48 (  89 137 ) resistor r=12.8571
+r49 (  88 92 ) resistor r=6.36951
+r50 (  88 89 ) resistor r=29
+r51 (  87 91 ) resistor r=6.36951
+r52 (  86 137 ) resistor r=10.7622
+r53 (  86 87 ) resistor r=36
+r54 (  82 84 ) resistor r=220
+r55 (  78 81 ) resistor r=170
+r56 (  77 218 ) resistor r=6.46884
+r57 (  76 82 ) resistor r=6.36951
+r58 (  76 77 ) resistor r=23
+r59 (  74 78 ) resistor r=6.36951
+r60 (  74 75 ) resistor r=45
+r61 (  72 75 ) resistor r=6.36951
+r62 (  72 217 ) resistor r=204
+r63 (  68 220 ) resistor r=6.46884
+r64 (  68 70 ) resistor r=147
+r65 (  65 220 ) resistor r=6.46884
+r66 (  57 62 ) resistor r=6.36951
+r67 (  57 215 ) resistor r=40
+r68 (  55 59 ) resistor r=6.36951
+r69 (  55 56 ) resistor r=64
+r70 (  54 210 ) resistor r=6.46884
+r71 (  53 56 ) resistor r=6.36951
+r72 (  53 54 ) resistor r=357
+r73 (  33 65 ) resistor r=156
+r74 (  24 62 ) resistor r=140
+r75 (  19 59 ) resistor r=97
+r76 (  14 92 ) resistor r=243
+r77 (  9 95 ) resistor r=296
+ends PM_ALU_8BIT\%A\<5\>
+
+subckt PM_ALU_8BIT\%XI4\/NET22 ( 5 12 32 55 58 65 71 74 )
+c0 ( 158 0 ) capacitor c=0.282176f
+c1 ( 141 0 ) capacitor c=0.2005f
+c2 ( 122 0 ) capacitor c=0.253614f
+c3 ( 107 0 ) capacitor c=0.142333f
+c4 ( 90 0 ) capacitor c=0.54622f
+c5 ( 74 0 ) capacitor c=0.299871f
+c6 ( 71 0 ) capacitor c=0.158284f
+c7 ( 65 0 ) capacitor c=0.224047f
+c8 ( 58 0 ) capacitor c=0.125434f
+c9 ( 55 0 ) capacitor c=0.101909f
+c10 ( 32 0 ) capacitor c=0.288926f
+c11 ( 4 0 ) capacitor c=0.220285f
+r12 (  168 170 ) resistor r=4.23353
+r13 (  168 169 ) resistor r=11.4582
+r14 (  163 165 ) resistor r=11.5787
+r15 (  163 164 ) resistor r=11.5787
+r16 (  163 177 ) resistor r=30
+r17 (  152 168 ) resistor r=30.1515
+r18 (  122 177 ) resistor r=2.22295
+r19 (  122 152 ) resistor r=2.53373
+r20 (  122 141 ) resistor r=1.50102
+r21 (  101 159 ) resistor r=4.11337
+r22 (  101 158 ) resistor r=11.5787
+r23 (  100 141 ) resistor r=2.2573
+r24 (  100 101 ) resistor r=30
+r25 (  90 141 ) resistor r=3.03861
+r26 (  90 107 ) resistor r=1.50866
+r27 (  81 170 ) resistor r=6.46884
+r28 (  80 81 ) resistor r=130
+r29 (  79 169 ) resistor r=15
+r30 (  76 80 ) resistor r=6.36951
+r31 (  76 77 ) resistor r=38
+r32 (  72 79 ) resistor r=6.36951
+r33 (  72 74 ) resistor r=258
+r34 (  68 77 ) resistor r=6.36951
+r35 (  68 71 ) resistor r=206
+r36 (  65 165 ) resistor r=329
+r37 (  56 58 ) resistor r=181
+r38 (  52 55 ) resistor r=134
+r39 (  51 159 ) resistor r=6.63832
+r40 (  50 56 ) resistor r=6.36951
+r41 (  50 51 ) resistor r=32
+r42 (  48 52 ) resistor r=6.36951
+r43 (  48 49 ) resistor r=55
+r44 (  46 49 ) resistor r=6.36951
+r45 (  46 158 ) resistor r=278
+r46 (  32 164 ) resistor r=277
+r47 (  11 12 ) resistor r=2.75
+r48 (  10 90 ) resistor r=2.05918
+r49 (  10 11 ) resistor r=17.5
+r50 (  4 5 ) resistor r=1.125
+r51 (  4 107 ) resistor r=17.5
+r52 (  4 107 ) resistor r=18.1578
+ends PM_ALU_8BIT\%XI4\/NET22
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET35 ( 1 8 41 42 44 45 50 53 )
+c0 ( 149 0 ) capacitor c=0.113794f
+c1 ( 99 0 ) capacitor c=0.463584f
+c2 ( 97 0 ) capacitor c=0.226978f
+c3 ( 83 0 ) capacitor c=0.260735f
+c4 ( 53 0 ) capacitor c=0.428889f
+c5 ( 50 0 ) capacitor c=0.171584f
+c6 ( 23 0 ) capacitor c=0.125363f
+c7 ( 17 0 ) capacitor c=0.176104f
+c8 ( 8 0 ) capacitor c=0.308138f
+c9 ( 1 0 ) capacitor c=0.224694f
+r10 (  139 141 ) resistor r=11.5787
+r11 (  139 140 ) resistor r=11.5787
+r12 (  139 149 ) resistor r=30
+r13 (  99 149 ) resistor r=3.13919
+r14 (  97 99 ) resistor r=0.923656
+r15 (  86 99 ) resistor r=1.30476
+r16 (  83 97 ) resistor r=2.4696
+r17 (  79 86 ) resistor r=1.17352
+r18 (  72 136 ) resistor r=30
+r19 (  72 97 ) resistor r=2
+r20 (  59 136 ) resistor r=10.7888
+r21 (  59 60 ) resistor r=36
+r22 (  57 60 ) resistor r=6.36951
+r23 (  57 58 ) resistor r=29
+r24 (  55 136 ) resistor r=13.1538
+r25 (  55 56 ) resistor r=29
+r26 (  51 58 ) resistor r=6.36951
+r27 (  51 53 ) resistor r=296
+r28 (  47 56 ) resistor r=6.36951
+r29 (  47 50 ) resistor r=243
+r30 (  24 44 ) resistor r=2.75
+r31 (  24 45 ) resistor r=2.75
+r32 (  23 83 ) resistor r=2.52847
+r33 (  23 24 ) resistor r=17.5
+r34 (  18 41 ) resistor r=1.125
+r35 (  18 42 ) resistor r=1.125
+r36 (  17 18 ) resistor r=18.4646
+r37 (  17 79 ) resistor r=2.51415
+r38 (  17 18 ) resistor r=17.5
+r39 (  8 140 ) resistor r=496
+r40 (  1 141 ) resistor r=110
+ends PM_ALU_8BIT\%XI4\/XI13\/NET35
+
+subckt PM_ALU_8BIT\%X\<5\> ( 1 16 17 31 32 39 )
+c0 ( 106 0 ) capacitor c=0.270971f
+c1 ( 78 0 ) capacitor c=0.335987f
+c2 ( 72 0 ) capacitor c=0.123321f
+c3 ( 65 0 ) capacitor c=0.113285f
+c4 ( 1 0 ) capacitor c=0.422868f
+r5 (  72 78 ) resistor r=1.51516
+r6 (  72 106 ) resistor r=2.21112
+r7 (  67 103 ) resistor r=8.11427
+r8 (  65 78 ) resistor r=2.24347
+r9 (  65 67 ) resistor r=30
+r10 (  37 103 ) resistor r=6.46884
+r11 (  37 39 ) resistor r=105
+r12 (  34 103 ) resistor r=6.46884
+r13 (  15 106 ) resistor r=35.8913
+r14 (  15 16 ) resistor r=5.5
+r15 (  15 17 ) resistor r=5.5
+r16 (  13 106 ) resistor r=18.4217
+r17 (  13 31 ) resistor r=2.25
+r18 (  13 32 ) resistor r=2.25
+r19 (  1 34 ) resistor r=181
+ends PM_ALU_8BIT\%X\<5\>
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<5\>\/S_INV ( 1 16 25 32 )
+c0 ( 62 0 ) capacitor c=0.354848f
+c1 ( 59 0 ) capacitor c=0.275921f
+c2 ( 1 0 ) capacitor c=0.276184f
+r3 (  72 83 ) resistor r=11.4582
+r4 (  62 78 ) resistor r=30
+r5 (  59 62 ) resistor r=0.984558
+r6 (  59 72 ) resistor r=30
+r7 (  39 62 ) resistor r=1.0461
+r8 (  30 78 ) resistor r=11.4582
+r9 (  30 32 ) resistor r=58.9
+r10 (  12 59 ) resistor r=35.975
+r11 (  12 16 ) resistor r=5.5
+r12 (  10 25 ) resistor r=2.25
+r13 (  10 39 ) resistor r=17.9035
+r14 (  1 83 ) resistor r=39.9
+ends PM_ALU_8BIT\%XI3\/XMUX\<5\>\/S_INV
+
+subckt PM_ALU_8BIT\%S\<5\> ( 5 12 16 38 )
+c0 ( 121 0 ) capacitor c=0.131307f
+c1 ( 92 0 ) capacitor c=0.326944f
+c2 ( 83 0 ) capacitor c=0.466239f
+c3 ( 61 0 ) capacitor c=0.947036f
+c4 ( 47 0 ) capacitor c=0.250243f
+c5 ( 38 0 ) capacitor c=0.112092f
+c6 ( 16 0 ) capacitor c=0.115751f
+c7 ( 10 0 ) capacitor c=0.347881f
+c8 ( 5 0 ) capacitor c=0.112574f
+c9 ( 3 0 ) capacitor c=0.162032f
+r10 (  116 121 ) resistor r=30
+r11 (  112 116 ) resistor r=7.40868
+r12 (  88 92 ) resistor r=2.38994
+r13 (  83 92 ) resistor r=2.94607
+r14 (  83 121 ) resistor r=2.44398
+r15 (  61 88 ) resistor r=2.3689
+r16 (  47 61 ) resistor r=3.18214
+r17 (  36 112 ) resistor r=6.46884
+r18 (  36 38 ) resistor r=146
+r19 (  33 112 ) resistor r=6.46884
+r20 (  16 33 ) resistor r=140
+r21 (  11 12 ) resistor r=2.7225
+r22 (  10 47 ) resistor r=5.15319
+r23 (  10 11 ) resistor r=17.5
+r24 (  4 5 ) resistor r=1.11375
+r25 (  3 4 ) resistor r=18.3643
+r26 (  3 92 ) resistor r=3.48049
+r27 (  3 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%S\<5\>
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET7 ( 1 8 31 32 34 35 )
+c0 ( 118 0 ) capacitor c=0.168825f
+c1 ( 111 0 ) capacitor c=0.204496f
+c2 ( 85 0 ) capacitor c=0.72405f
+c3 ( 76 0 ) capacitor c=0.25784f
+c4 ( 61 0 ) capacitor c=0.275369f
+c5 ( 19 0 ) capacitor c=0.43504f
+c6 ( 1 0 ) capacitor c=0.157616f
+r7 (  110 112 ) resistor r=3.88074
+r8 (  110 111 ) resistor r=11.4582
+r9 (  76 85 ) resistor r=2.70607
+r10 (  64 76 ) resistor r=1.00091
+r11 (  64 118 ) resistor r=2.13195
+r12 (  61 85 ) resistor r=4.29604
+r13 (  53 110 ) resistor r=30
+r14 (  53 76 ) resistor r=2
+r15 (  47 111 ) resistor r=357
+r16 (  45 112 ) resistor r=6.46884
+r17 (  45 46 ) resistor r=42
+r18 (  43 47 ) resistor r=6.36951
+r19 (  43 44 ) resistor r=64
+r20 (  40 46 ) resistor r=6.36951
+r21 (  37 44 ) resistor r=6.36951
+r22 (  20 34 ) resistor r=2.75
+r23 (  20 35 ) resistor r=2.75
+r24 (  19 61 ) resistor r=2.49302
+r25 (  19 20 ) resistor r=17.5
+r26 (  18 31 ) resistor r=1.125
+r27 (  18 32 ) resistor r=1.125
+r28 (  18 118 ) resistor r=17.5
+r29 (  18 118 ) resistor r=18.4819
+r30 (  8 37 ) resistor r=97
+r31 (  1 40 ) resistor r=140
+ends PM_ALU_8BIT\%XI4\/XI13\/NET7
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET17 ( 1 4 13 29 30 36 )
+c0 ( 52 0 ) capacitor c=0.331646f
+c1 ( 44 0 ) capacitor c=0.158998f
+c2 ( 2 0 ) capacitor c=0.606713f
+r3 (  44 52 ) resistor r=3.09739
+r4 (  44 46 ) resistor r=30
+r5 (  41 46 ) resistor r=10.8176
+r6 (  41 42 ) resistor r=165
+r7 (  39 42 ) resistor r=6.36951
+r8 (  39 40 ) resistor r=50
+r9 (  37 46 ) resistor r=7.64246
+r10 (  37 38 ) resistor r=50
+r11 (  34 40 ) resistor r=6.36951
+r12 (  34 36 ) resistor r=55.1
+r13 (  32 38 ) resistor r=6.36951
+r14 (  16 29 ) resistor r=2.2725
+r15 (  16 30 ) resistor r=2.2275
+r16 (  15 52 ) resistor r=2.819
+r17 (  15 16 ) resistor r=17.5
+r18 (  13 32 ) resistor r=36.1
+r19 (  3 4 ) resistor r=5.5
+r20 (  2 52 ) resistor r=2.3822
+r21 (  2 3 ) resistor r=35
+r22 (  1 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET17
+
+subckt PM_ALU_8BIT\%B\<6\> ( 1 6 11 16 23 36 41 83 99 102 122 127 285 )
+c0 ( 278 0 ) capacitor c=0.269928f
+c1 ( 275 0 ) capacitor c=0.114896f
+c2 ( 224 0 ) capacitor c=0.438185f
+c3 ( 214 0 ) capacitor c=0.44553f
+c4 ( 183 0 ) capacitor c=0.307189f
+c5 ( 166 0 ) capacitor c=0.232141f
+c6 ( 160 0 ) capacitor c=0.302842f
+c7 ( 127 0 ) capacitor c=0.211266f
+c8 ( 122 0 ) capacitor c=0.128683f
+c9 ( 102 0 ) capacitor c=0.408443f
+c10 ( 69 0 ) capacitor c=0.684723f
+c11 ( 11 0 ) capacitor c=0.430155f
+c12 ( 6 0 ) capacitor c=0.195852f
+c13 ( 1 0 ) capacitor c=0.220832f
+r14 (  270 278 ) resistor r=30
+r15 (  261 262 ) resistor r=12.1291
+r16 (  261 288 ) resistor r=30
+r17 (  257 261 ) resistor r=5.86543
+r18 (  255 285 ) resistor r=30
+r19 (  237 288 ) resistor r=2
+r20 (  224 278 ) resistor r=2.59902
+r21 (  224 237 ) resistor r=1.21577
+r22 (  214 237 ) resistor r=3.27487
+r23 (  214 285 ) resistor r=2.27381
+r24 (  208 276 ) resistor r=3.88074
+r25 (  208 275 ) resistor r=11.4582
+r26 (  183 208 ) resistor r=30.6484
+r27 (  180 273 ) resistor r=11.4582
+r28 (  180 272 ) resistor r=11.4582
+r29 (  178 180 ) resistor r=30
+r30 (  166 183 ) resistor r=1.23716
+r31 (  166 178 ) resistor r=1.01326
+r32 (  162 265 ) resistor r=4.11337
+r33 (  162 264 ) resistor r=11.5787
+r34 (  160 285 ) resistor r=0.861093
+r35 (  160 166 ) resistor r=0.489317
+r36 (  160 162 ) resistor r=30.75
+r37 (  134 275 ) resistor r=204
+r38 (  132 276 ) resistor r=6.46884
+r39 (  132 133 ) resistor r=23
+r40 (  130 134 ) resistor r=6.36951
+r41 (  130 131 ) resistor r=45
+r42 (  125 133 ) resistor r=6.36951
+r43 (  125 127 ) resistor r=220
+r44 (  120 131 ) resistor r=6.36951
+r45 (  120 122 ) resistor r=170
+r46 (  112 270 ) resistor r=10.8476
+r47 (  112 113 ) resistor r=173
+r48 (  110 113 ) resistor r=6.36951
+r49 (  110 111 ) resistor r=49
+r50 (  108 270 ) resistor r=6.54098
+r51 (  108 109 ) resistor r=49
+r52 (  100 102 ) resistor r=206
+r53 (  97 111 ) resistor r=6.36951
+r54 (  97 99 ) resistor r=55.1
+r55 (  94 109 ) resistor r=6.36951
+r56 (  93 265 ) resistor r=6.63832
+r57 (  92 105 ) resistor r=6.36951
+r58 (  92 93 ) resistor r=15
+r59 (  90 100 ) resistor r=6.36951
+r60 (  90 91 ) resistor r=38
+r61 (  88 91 ) resistor r=6.36951
+r62 (  88 264 ) resistor r=129
+r63 (  81 83 ) resistor r=55.1
+r64 (  77 257 ) resistor r=8.13825
+r65 (  76 78 ) resistor r=6.36951
+r66 (  76 77 ) resistor r=17
+r67 (  75 255 ) resistor r=8.14286
+r68 (  74 86 ) resistor r=6.36951
+r69 (  74 75 ) resistor r=49
+r70 (  72 84 ) resistor r=6.36951
+r71 (  72 73 ) resistor r=49
+r72 (  70 81 ) resistor r=6.36951
+r73 (  70 71 ) resistor r=50
+r74 (  69 255 ) resistor r=10.7494
+r75 (  68 73 ) resistor r=6.36951
+r76 (  68 69 ) resistor r=426
+r77 (  67 71 ) resistor r=6.36951
+r78 (  67 262 ) resistor r=173
+r79 (  41 94 ) resistor r=50
+r80 (  36 78 ) resistor r=49
+r81 (  23 84 ) resistor r=55.1
+r82 (  16 86 ) resistor r=92.15
+r83 (  11 105 ) resistor r=258
+r84 (  6 272 ) resistor r=277
+r85 (  1 273 ) resistor r=329
+ends PM_ALU_8BIT\%B\<6\>
+
+subckt PM_ALU_8BIT\%A\<6\> ( 9 14 19 24 33 70 81 84 100 105 241 )
+c0 ( 241 0 ) capacitor c=0.128972f
+c1 ( 231 0 ) capacitor c=0.164311f
+c2 ( 219 0 ) capacitor c=0.201055f
+c3 ( 187 0 ) capacitor c=0.414514f
+c4 ( 178 0 ) capacitor c=0.665364f
+c5 ( 169 0 ) capacitor c=0.186178f
+c6 ( 146 0 ) capacitor c=0.157072f
+c7 ( 145 0 ) capacitor c=0.298914f
+c8 ( 123 0 ) capacitor c=0.272093f
+c9 ( 105 0 ) capacitor c=0.227847f
+c10 ( 84 0 ) capacitor c=0.367512f
+c11 ( 81 0 ) capacitor c=0.116582f
+c12 ( 70 0 ) capacitor c=0.16982f
+c13 ( 54 0 ) capacitor c=0.360422f
+c14 ( 33 0 ) capacitor c=0.112149f
+c15 ( 14 0 ) capacitor c=0.342366f
+c16 ( 9 0 ) capacitor c=0.201276f
+r17 (  222 226 ) resistor r=8.11427
+r18 (  205 226 ) resistor r=30.1491
+r19 (  187 205 ) resistor r=2.37509
+r20 (  178 241 ) resistor r=2.81318
+r21 (  176 187 ) resistor r=1.61778
+r22 (  176 178 ) resistor r=4.28232
+r23 (  167 231 ) resistor r=11.5787
+r24 (  167 169 ) resistor r=30.1229
+r25 (  145 146 ) resistor r=1.77711
+r26 (  145 169 ) resistor r=1.26659
+r27 (  142 146 ) resistor r=30.6571
+r28 (  130 220 ) resistor r=3.88074
+r29 (  130 219 ) resistor r=11.4582
+r30 (  129 130 ) resistor r=30
+r31 (  123 241 ) resistor r=1.79343
+r32 (  123 146 ) resistor r=0.335977
+r33 (  123 129 ) resistor r=1.37916
+r34 (  121 241 ) resistor r=30.1317
+r35 (  121 217 ) resistor r=11.4582
+r36 (  121 214 ) resistor r=4.58633
+r37 (  112 231 ) resistor r=278
+r38 (  110 167 ) resistor r=4.11337
+r39 (  110 111 ) resistor r=32
+r40 (  108 112 ) resistor r=6.36951
+r41 (  108 109 ) resistor r=55
+r42 (  103 111 ) resistor r=6.36951
+r43 (  103 105 ) resistor r=181
+r44 (  98 109 ) resistor r=6.36951
+r45 (  98 100 ) resistor r=134
+r46 (  90 95 ) resistor r=6.36951
+r47 (  90 91 ) resistor r=29
+r48 (  89 142 ) resistor r=12.8571
+r49 (  88 92 ) resistor r=6.36951
+r50 (  88 89 ) resistor r=29
+r51 (  87 91 ) resistor r=6.36951
+r52 (  86 142 ) resistor r=10.7622
+r53 (  86 87 ) resistor r=36
+r54 (  82 84 ) resistor r=220
+r55 (  78 81 ) resistor r=170
+r56 (  77 220 ) resistor r=6.46884
+r57 (  76 82 ) resistor r=6.36951
+r58 (  76 77 ) resistor r=23
+r59 (  74 78 ) resistor r=6.36951
+r60 (  74 75 ) resistor r=45
+r61 (  72 75 ) resistor r=6.36951
+r62 (  72 219 ) resistor r=204
+r63 (  68 222 ) resistor r=6.46884
+r64 (  68 70 ) resistor r=147
+r65 (  65 222 ) resistor r=6.46884
+r66 (  57 62 ) resistor r=6.36951
+r67 (  57 217 ) resistor r=40
+r68 (  55 59 ) resistor r=6.36951
+r69 (  55 56 ) resistor r=64
+r70 (  54 214 ) resistor r=6.46884
+r71 (  53 56 ) resistor r=6.36951
+r72 (  53 54 ) resistor r=357
+r73 (  33 65 ) resistor r=156
+r74 (  24 62 ) resistor r=140
+r75 (  19 59 ) resistor r=97
+r76 (  14 92 ) resistor r=243
+r77 (  9 95 ) resistor r=296
+ends PM_ALU_8BIT\%A\<6\>
+
+subckt PM_ALU_8BIT\%XI4\/NET24 ( 5 12 32 55 58 65 71 74 )
+c0 ( 159 0 ) capacitor c=0.282165f
+c1 ( 142 0 ) capacitor c=0.201378f
+c2 ( 122 0 ) capacitor c=0.253621f
+c3 ( 107 0 ) capacitor c=0.142219f
+c4 ( 90 0 ) capacitor c=0.545187f
+c5 ( 74 0 ) capacitor c=0.299871f
+c6 ( 71 0 ) capacitor c=0.158284f
+c7 ( 65 0 ) capacitor c=0.224047f
+c8 ( 58 0 ) capacitor c=0.125431f
+c9 ( 55 0 ) capacitor c=0.101909f
+c10 ( 32 0 ) capacitor c=0.288926f
+c11 ( 4 0 ) capacitor c=0.220281f
+r12 (  169 171 ) resistor r=4.23353
+r13 (  169 170 ) resistor r=11.4582
+r14 (  164 166 ) resistor r=11.5787
+r15 (  164 165 ) resistor r=11.5787
+r16 (  164 178 ) resistor r=30
+r17 (  153 169 ) resistor r=30.1515
+r18 (  122 178 ) resistor r=2.22295
+r19 (  122 153 ) resistor r=2.53373
+r20 (  122 142 ) resistor r=1.50102
+r21 (  101 160 ) resistor r=4.11337
+r22 (  101 159 ) resistor r=11.5787
+r23 (  100 142 ) resistor r=2.2573
+r24 (  100 101 ) resistor r=30
+r25 (  90 142 ) resistor r=3.03861
+r26 (  90 107 ) resistor r=1.50866
+r27 (  81 171 ) resistor r=6.46884
+r28 (  80 81 ) resistor r=130
+r29 (  79 170 ) resistor r=15
+r30 (  76 80 ) resistor r=6.36951
+r31 (  76 77 ) resistor r=38
+r32 (  72 79 ) resistor r=6.36951
+r33 (  72 74 ) resistor r=258
+r34 (  68 77 ) resistor r=6.36951
+r35 (  68 71 ) resistor r=206
+r36 (  65 166 ) resistor r=329
+r37 (  56 58 ) resistor r=181
+r38 (  52 55 ) resistor r=134
+r39 (  51 160 ) resistor r=6.63832
+r40 (  50 56 ) resistor r=6.36951
+r41 (  50 51 ) resistor r=32
+r42 (  48 52 ) resistor r=6.36951
+r43 (  48 49 ) resistor r=55
+r44 (  46 49 ) resistor r=6.36951
+r45 (  46 159 ) resistor r=278
+r46 (  32 165 ) resistor r=277
+r47 (  11 12 ) resistor r=2.75
+r48 (  10 90 ) resistor r=2.05918
+r49 (  10 11 ) resistor r=17.5
+r50 (  4 5 ) resistor r=1.125
+r51 (  4 107 ) resistor r=17.5
+r52 (  4 107 ) resistor r=18.1578
+ends PM_ALU_8BIT\%XI4\/NET24
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET35 ( 1 8 41 42 44 45 50 53 )
+c0 ( 149 0 ) capacitor c=0.113794f
+c1 ( 99 0 ) capacitor c=0.463584f
+c2 ( 97 0 ) capacitor c=0.226978f
+c3 ( 83 0 ) capacitor c=0.26074f
+c4 ( 53 0 ) capacitor c=0.42888f
+c5 ( 50 0 ) capacitor c=0.171584f
+c6 ( 23 0 ) capacitor c=0.125361f
+c7 ( 17 0 ) capacitor c=0.176102f
+c8 ( 8 0 ) capacitor c=0.308138f
+c9 ( 1 0 ) capacitor c=0.224694f
+r10 (  139 141 ) resistor r=11.5787
+r11 (  139 140 ) resistor r=11.5787
+r12 (  139 149 ) resistor r=30
+r13 (  99 149 ) resistor r=3.13919
+r14 (  97 99 ) resistor r=0.923656
+r15 (  86 99 ) resistor r=1.30476
+r16 (  83 97 ) resistor r=2.4696
+r17 (  79 86 ) resistor r=1.17352
+r18 (  72 136 ) resistor r=30
+r19 (  72 97 ) resistor r=2
+r20 (  59 136 ) resistor r=10.7888
+r21 (  59 60 ) resistor r=36
+r22 (  57 60 ) resistor r=6.36951
+r23 (  57 58 ) resistor r=29
+r24 (  55 136 ) resistor r=13.1538
+r25 (  55 56 ) resistor r=29
+r26 (  51 58 ) resistor r=6.36951
+r27 (  51 53 ) resistor r=296
+r28 (  47 56 ) resistor r=6.36951
+r29 (  47 50 ) resistor r=243
+r30 (  24 44 ) resistor r=2.75
+r31 (  24 45 ) resistor r=2.75
+r32 (  23 83 ) resistor r=2.52847
+r33 (  23 24 ) resistor r=17.5
+r34 (  18 41 ) resistor r=1.125
+r35 (  18 42 ) resistor r=1.125
+r36 (  17 18 ) resistor r=18.4646
+r37 (  17 79 ) resistor r=2.51415
+r38 (  17 18 ) resistor r=17.5
+r39 (  8 140 ) resistor r=496
+r40 (  1 141 ) resistor r=110
+ends PM_ALU_8BIT\%XI4\/XI14\/NET35
+
+subckt PM_ALU_8BIT\%X\<6\> ( 1 16 17 31 32 39 )
+c0 ( 111 0 ) capacitor c=0.269989f
+c1 ( 78 0 ) capacitor c=0.333053f
+c2 ( 69 0 ) capacitor c=0.106515f
+c3 ( 65 0 ) capacitor c=0.114147f
+c4 ( 1 0 ) capacitor c=0.425331f
+r5 (  69 78 ) resistor r=1.66185
+r6 (  69 111 ) resistor r=2
+r7 (  67 105 ) resistor r=8.11427
+r8 (  65 78 ) resistor r=2.27571
+r9 (  65 67 ) resistor r=30
+r10 (  37 105 ) resistor r=6.46884
+r11 (  37 39 ) resistor r=105
+r12 (  34 105 ) resistor r=6.46884
+r13 (  15 111 ) resistor r=35.8913
+r14 (  15 16 ) resistor r=5.5
+r15 (  15 17 ) resistor r=5.5
+r16 (  13 111 ) resistor r=18.4217
+r17 (  13 31 ) resistor r=2.25
+r18 (  13 32 ) resistor r=2.25
+r19 (  1 34 ) resistor r=181
+ends PM_ALU_8BIT\%X\<6\>
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<6\>\/S_INV ( 1 16 25 32 )
+c0 ( 62 0 ) capacitor c=0.34942f
+c1 ( 59 0 ) capacitor c=0.278951f
+c2 ( 1 0 ) capacitor c=0.277415f
+r3 (  70 81 ) resistor r=11.4582
+r4 (  62 76 ) resistor r=30
+r5 (  59 62 ) resistor r=1.16719
+r6 (  59 70 ) resistor r=30
+r7 (  39 62 ) resistor r=1.0461
+r8 (  30 76 ) resistor r=11.4582
+r9 (  30 32 ) resistor r=58.9
+r10 (  12 59 ) resistor r=35.9538
+r11 (  12 16 ) resistor r=5.5
+r12 (  10 25 ) resistor r=2.25
+r13 (  10 39 ) resistor r=17.9035
+r14 (  1 81 ) resistor r=39.9
+ends PM_ALU_8BIT\%XI3\/XMUX\<6\>\/S_INV
+
+subckt PM_ALU_8BIT\%S\<6\> ( 5 12 16 38 )
+c0 ( 121 0 ) capacitor c=0.135723f
+c1 ( 92 0 ) capacitor c=0.331668f
+c2 ( 83 0 ) capacitor c=0.467651f
+c3 ( 61 0 ) capacitor c=0.945387f
+c4 ( 47 0 ) capacitor c=0.250252f
+c5 ( 38 0 ) capacitor c=0.111733f
+c6 ( 16 0 ) capacitor c=0.11541f
+c7 ( 10 0 ) capacitor c=0.347881f
+c8 ( 5 0 ) capacitor c=0.112574f
+c9 ( 3 0 ) capacitor c=0.16203f
+r10 (  116 121 ) resistor r=30
+r11 (  112 116 ) resistor r=7.40868
+r12 (  88 92 ) resistor r=2.37702
+r13 (  83 92 ) resistor r=2.9585
+r14 (  83 121 ) resistor r=2.42536
+r15 (  61 88 ) resistor r=2.3689
+r16 (  47 61 ) resistor r=3.18214
+r17 (  36 112 ) resistor r=6.46884
+r18 (  36 38 ) resistor r=146
+r19 (  33 112 ) resistor r=6.46884
+r20 (  16 33 ) resistor r=140
+r21 (  11 12 ) resistor r=2.7225
+r22 (  10 47 ) resistor r=5.15319
+r23 (  10 11 ) resistor r=17.5
+r24 (  4 5 ) resistor r=1.11375
+r25 (  3 4 ) resistor r=18.3643
+r26 (  3 92 ) resistor r=3.48049
+r27 (  3 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%S\<6\>
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET7 ( 1 8 31 32 34 35 )
+c0 ( 118 0 ) capacitor c=0.168825f
+c1 ( 111 0 ) capacitor c=0.204496f
+c2 ( 85 0 ) capacitor c=0.724095f
+c3 ( 76 0 ) capacitor c=0.257304f
+c4 ( 61 0 ) capacitor c=0.275364f
+c5 ( 19 0 ) capacitor c=0.43504f
+c6 ( 1 0 ) capacitor c=0.157616f
+r7 (  110 112 ) resistor r=3.88074
+r8 (  110 111 ) resistor r=11.4582
+r9 (  76 85 ) resistor r=2.70607
+r10 (  64 76 ) resistor r=1.00091
+r11 (  64 118 ) resistor r=2.13195
+r12 (  61 85 ) resistor r=4.29604
+r13 (  53 110 ) resistor r=30
+r14 (  53 76 ) resistor r=2
+r15 (  47 111 ) resistor r=357
+r16 (  45 112 ) resistor r=6.46884
+r17 (  45 46 ) resistor r=42
+r18 (  43 47 ) resistor r=6.36951
+r19 (  43 44 ) resistor r=64
+r20 (  40 46 ) resistor r=6.36951
+r21 (  37 44 ) resistor r=6.36951
+r22 (  20 34 ) resistor r=2.75
+r23 (  20 35 ) resistor r=2.75
+r24 (  19 61 ) resistor r=2.49302
+r25 (  19 20 ) resistor r=17.5
+r26 (  18 31 ) resistor r=1.125
+r27 (  18 32 ) resistor r=1.125
+r28 (  18 118 ) resistor r=17.5
+r29 (  18 118 ) resistor r=18.4819
+r30 (  8 37 ) resistor r=97
+r31 (  1 40 ) resistor r=140
+ends PM_ALU_8BIT\%XI4\/XI14\/NET7
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET17 ( 1 4 13 29 30 36 )
+c0 ( 49 0 ) capacitor c=0.333752f
+c1 ( 44 0 ) capacitor c=0.159872f
+c2 ( 2 0 ) capacitor c=0.606091f
+r3 (  44 49 ) resistor r=3.10123
+r4 (  44 46 ) resistor r=30
+r5 (  41 46 ) resistor r=10.8176
+r6 (  41 42 ) resistor r=165
+r7 (  39 42 ) resistor r=6.36951
+r8 (  39 40 ) resistor r=50
+r9 (  37 46 ) resistor r=7.64246
+r10 (  37 38 ) resistor r=50
+r11 (  34 40 ) resistor r=6.36951
+r12 (  34 36 ) resistor r=55.1
+r13 (  32 38 ) resistor r=6.36951
+r14 (  16 29 ) resistor r=2.2725
+r15 (  16 30 ) resistor r=2.2275
+r16 (  15 49 ) resistor r=2.83613
+r17 (  15 16 ) resistor r=17.5
+r18 (  13 32 ) resistor r=36.1
+r19 (  3 4 ) resistor r=5.5
+r20 (  2 49 ) resistor r=2.37765
+r21 (  2 3 ) resistor r=35
+r22 (  1 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET17
+
+subckt PM_ALU_8BIT\%B\<7\> ( 1 6 11 16 23 36 41 83 99 102 122 127 283 )
+c0 ( 276 0 ) capacitor c=0.276976f
+c1 ( 273 0 ) capacitor c=0.114896f
+c2 ( 224 0 ) capacitor c=0.423709f
+c3 ( 214 0 ) capacitor c=0.464433f
+c4 ( 183 0 ) capacitor c=0.307129f
+c5 ( 166 0 ) capacitor c=0.232143f
+c6 ( 160 0 ) capacitor c=0.302843f
+c7 ( 127 0 ) capacitor c=0.211266f
+c8 ( 122 0 ) capacitor c=0.128683f
+c9 ( 102 0 ) capacitor c=0.408184f
+c10 ( 71 0 ) capacitor c=0.607123f
+c11 ( 11 0 ) capacitor c=0.505297f
+c12 ( 6 0 ) capacitor c=0.195852f
+c13 ( 1 0 ) capacitor c=0.220914f
+r14 (  268 276 ) resistor r=30
+r15 (  259 260 ) resistor r=12.1291
+r16 (  259 286 ) resistor r=30
+r17 (  255 259 ) resistor r=5.86543
+r18 (  253 283 ) resistor r=30
+r19 (  235 286 ) resistor r=2
+r20 (  224 276 ) resistor r=2.75358
+r21 (  224 235 ) resistor r=1.19517
+r22 (  214 235 ) resistor r=3.33015
+r23 (  214 283 ) resistor r=2.27381
+r24 (  208 274 ) resistor r=3.88074
+r25 (  208 273 ) resistor r=11.4582
+r26 (  183 208 ) resistor r=30.6484
+r27 (  180 271 ) resistor r=11.4582
+r28 (  180 270 ) resistor r=11.4582
+r29 (  178 180 ) resistor r=30
+r30 (  166 183 ) resistor r=1.23716
+r31 (  166 178 ) resistor r=1.01326
+r32 (  162 263 ) resistor r=4.11337
+r33 (  162 262 ) resistor r=11.5787
+r34 (  160 283 ) resistor r=0.861093
+r35 (  160 166 ) resistor r=0.489317
+r36 (  160 162 ) resistor r=30.75
+r37 (  134 273 ) resistor r=204
+r38 (  132 274 ) resistor r=6.46884
+r39 (  132 133 ) resistor r=23
+r40 (  130 134 ) resistor r=6.36951
+r41 (  130 131 ) resistor r=45
+r42 (  125 133 ) resistor r=6.36951
+r43 (  125 127 ) resistor r=220
+r44 (  120 131 ) resistor r=6.36951
+r45 (  120 122 ) resistor r=170
+r46 (  112 268 ) resistor r=10.8476
+r47 (  112 113 ) resistor r=173
+r48 (  110 113 ) resistor r=6.36951
+r49 (  110 111 ) resistor r=49
+r50 (  108 268 ) resistor r=6.54098
+r51 (  108 109 ) resistor r=49
+r52 (  100 102 ) resistor r=206
+r53 (  97 111 ) resistor r=6.36951
+r54 (  97 99 ) resistor r=55.1
+r55 (  94 109 ) resistor r=6.36951
+r56 (  93 263 ) resistor r=6.63832
+r57 (  92 105 ) resistor r=6.36951
+r58 (  92 93 ) resistor r=15
+r59 (  90 100 ) resistor r=6.36951
+r60 (  90 91 ) resistor r=38
+r61 (  88 91 ) resistor r=6.36951
+r62 (  88 262 ) resistor r=129
+r63 (  81 83 ) resistor r=55.1
+r64 (  77 255 ) resistor r=8.13825
+r65 (  76 78 ) resistor r=6.36951
+r66 (  76 77 ) resistor r=17
+r67 (  75 253 ) resistor r=8.14286
+r68 (  74 86 ) resistor r=6.36951
+r69 (  74 75 ) resistor r=49
+r70 (  72 84 ) resistor r=6.36951
+r71 (  72 73 ) resistor r=49
+r72 (  71 253 ) resistor r=10.7494
+r73 (  70 73 ) resistor r=6.36951
+r74 (  70 71 ) resistor r=426
+r75 (  68 81 ) resistor r=6.36951
+r76 (  68 69 ) resistor r=50
+r77 (  67 69 ) resistor r=6.36951
+r78 (  67 260 ) resistor r=173
+r79 (  41 94 ) resistor r=50
+r80 (  36 78 ) resistor r=49
+r81 (  23 84 ) resistor r=55.1
+r82 (  16 86 ) resistor r=92.15
+r83 (  11 105 ) resistor r=258
+r84 (  6 270 ) resistor r=277
+r85 (  1 271 ) resistor r=329
+ends PM_ALU_8BIT\%B\<7\>
+
+subckt PM_ALU_8BIT\%A\<7\> ( 9 14 19 24 33 70 81 84 100 105 241 )
+c0 ( 241 0 ) capacitor c=0.128502f
+c1 ( 231 0 ) capacitor c=0.164311f
+c2 ( 219 0 ) capacitor c=0.202015f
+c3 ( 187 0 ) capacitor c=0.425552f
+c4 ( 178 0 ) capacitor c=0.695265f
+c5 ( 169 0 ) capacitor c=0.172074f
+c6 ( 146 0 ) capacitor c=0.157075f
+c7 ( 145 0 ) capacitor c=0.298914f
+c8 ( 123 0 ) capacitor c=0.272084f
+c9 ( 105 0 ) capacitor c=0.227745f
+c10 ( 84 0 ) capacitor c=0.367512f
+c11 ( 81 0 ) capacitor c=0.116582f
+c12 ( 70 0 ) capacitor c=0.167324f
+c13 ( 54 0 ) capacitor c=0.360424f
+c14 ( 33 0 ) capacitor c=0.112149f
+c15 ( 14 0 ) capacitor c=0.342365f
+c16 ( 9 0 ) capacitor c=0.201276f
+r17 (  222 226 ) resistor r=8.11427
+r18 (  205 226 ) resistor r=30.1163
+r19 (  187 205 ) resistor r=2.22463
+r20 (  179 187 ) resistor r=1.60051
+r21 (  178 241 ) resistor r=2.81145
+r22 (  178 179 ) resistor r=4.20789
+r23 (  167 231 ) resistor r=11.5787
+r24 (  167 169 ) resistor r=30.1229
+r25 (  145 146 ) resistor r=1.77711
+r26 (  145 169 ) resistor r=1.26659
+r27 (  142 146 ) resistor r=30.6571
+r28 (  130 220 ) resistor r=3.88074
+r29 (  130 219 ) resistor r=11.4582
+r30 (  129 130 ) resistor r=30
+r31 (  123 241 ) resistor r=1.79343
+r32 (  123 146 ) resistor r=0.335977
+r33 (  123 129 ) resistor r=1.37916
+r34 (  121 241 ) resistor r=30.1317
+r35 (  121 217 ) resistor r=11.4582
+r36 (  121 214 ) resistor r=4.58633
+r37 (  112 231 ) resistor r=278
+r38 (  110 167 ) resistor r=4.11337
+r39 (  110 111 ) resistor r=32
+r40 (  108 112 ) resistor r=6.36951
+r41 (  108 109 ) resistor r=55
+r42 (  103 111 ) resistor r=6.36951
+r43 (  103 105 ) resistor r=181
+r44 (  98 109 ) resistor r=6.36951
+r45 (  98 100 ) resistor r=134
+r46 (  90 95 ) resistor r=6.36951
+r47 (  90 91 ) resistor r=29
+r48 (  89 142 ) resistor r=12.8571
+r49 (  88 92 ) resistor r=6.36951
+r50 (  88 89 ) resistor r=29
+r51 (  87 91 ) resistor r=6.36951
+r52 (  86 142 ) resistor r=10.7622
+r53 (  86 87 ) resistor r=36
+r54 (  82 84 ) resistor r=220
+r55 (  78 81 ) resistor r=170
+r56 (  77 220 ) resistor r=6.46884
+r57 (  76 82 ) resistor r=6.36951
+r58 (  76 77 ) resistor r=23
+r59 (  74 78 ) resistor r=6.36951
+r60 (  74 75 ) resistor r=45
+r61 (  72 75 ) resistor r=6.36951
+r62 (  72 219 ) resistor r=204
+r63 (  68 222 ) resistor r=6.46884
+r64 (  68 70 ) resistor r=147
+r65 (  65 222 ) resistor r=6.46884
+r66 (  57 62 ) resistor r=6.36951
+r67 (  57 217 ) resistor r=40
+r68 (  55 59 ) resistor r=6.36951
+r69 (  55 56 ) resistor r=64
+r70 (  54 214 ) resistor r=6.46884
+r71 (  53 56 ) resistor r=6.36951
+r72 (  53 54 ) resistor r=357
+r73 (  33 65 ) resistor r=156
+r74 (  24 62 ) resistor r=140
+r75 (  19 59 ) resistor r=97
+r76 (  14 92 ) resistor r=243
+r77 (  9 95 ) resistor r=296
+ends PM_ALU_8BIT\%A\<7\>
+
+subckt PM_ALU_8BIT\%XI4\/NET26 ( 5 12 32 55 58 65 71 74 )
+c0 ( 159 0 ) capacitor c=0.282165f
+c1 ( 142 0 ) capacitor c=0.200118f
+c2 ( 122 0 ) capacitor c=0.253614f
+c3 ( 107 0 ) capacitor c=0.142163f
+c4 ( 90 0 ) capacitor c=0.544694f
+c5 ( 74 0 ) capacitor c=0.299871f
+c6 ( 71 0 ) capacitor c=0.158284f
+c7 ( 65 0 ) capacitor c=0.224129f
+c8 ( 58 0 ) capacitor c=0.125431f
+c9 ( 55 0 ) capacitor c=0.101909f
+c10 ( 32 0 ) capacitor c=0.288926f
+c11 ( 4 0 ) capacitor c=0.22023f
+r12 (  169 171 ) resistor r=4.23353
+r13 (  169 170 ) resistor r=11.4582
+r14 (  164 166 ) resistor r=11.5787
+r15 (  164 165 ) resistor r=11.5787
+r16 (  164 178 ) resistor r=30
+r17 (  153 169 ) resistor r=30.1515
+r18 (  122 178 ) resistor r=2.22295
+r19 (  122 153 ) resistor r=2.53373
+r20 (  122 142 ) resistor r=1.50102
+r21 (  101 160 ) resistor r=4.11337
+r22 (  101 159 ) resistor r=11.5787
+r23 (  100 142 ) resistor r=2.2573
+r24 (  100 101 ) resistor r=30
+r25 (  90 142 ) resistor r=3.03861
+r26 (  90 107 ) resistor r=1.50866
+r27 (  81 171 ) resistor r=6.46884
+r28 (  80 81 ) resistor r=130
+r29 (  79 170 ) resistor r=15
+r30 (  76 80 ) resistor r=6.36951
+r31 (  76 77 ) resistor r=38
+r32 (  72 79 ) resistor r=6.36951
+r33 (  72 74 ) resistor r=258
+r34 (  68 77 ) resistor r=6.36951
+r35 (  68 71 ) resistor r=206
+r36 (  65 166 ) resistor r=329
+r37 (  56 58 ) resistor r=181
+r38 (  52 55 ) resistor r=134
+r39 (  51 160 ) resistor r=6.63832
+r40 (  50 56 ) resistor r=6.36951
+r41 (  50 51 ) resistor r=32
+r42 (  48 52 ) resistor r=6.36951
+r43 (  48 49 ) resistor r=55
+r44 (  46 49 ) resistor r=6.36951
+r45 (  46 159 ) resistor r=278
+r46 (  32 165 ) resistor r=277
+r47 (  11 12 ) resistor r=2.75
+r48 (  10 90 ) resistor r=2.05918
+r49 (  10 11 ) resistor r=17.5
+r50 (  4 5 ) resistor r=1.125
+r51 (  4 107 ) resistor r=17.5
+r52 (  4 107 ) resistor r=18.1578
+ends PM_ALU_8BIT\%XI4\/NET26
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET248 ( 1 8 41 42 44 45 50 53 )
+c0 ( 149 0 ) capacitor c=0.113783f
+c1 ( 99 0 ) capacitor c=0.463597f
+c2 ( 97 0 ) capacitor c=0.226978f
+c3 ( 83 0 ) capacitor c=0.260735f
+c4 ( 53 0 ) capacitor c=0.42887f
+c5 ( 50 0 ) capacitor c=0.171584f
+c6 ( 23 0 ) capacitor c=0.125363f
+c7 ( 17 0 ) capacitor c=0.1761f
+c8 ( 8 0 ) capacitor c=0.309516f
+c9 ( 1 0 ) capacitor c=0.225831f
+r10 (  139 141 ) resistor r=11.5787
+r11 (  139 140 ) resistor r=11.5787
+r12 (  139 149 ) resistor r=30
+r13 (  99 149 ) resistor r=3.13919
+r14 (  97 99 ) resistor r=0.923656
+r15 (  86 99 ) resistor r=1.30476
+r16 (  83 97 ) resistor r=2.4696
+r17 (  79 86 ) resistor r=1.17352
+r18 (  72 136 ) resistor r=30
+r19 (  72 97 ) resistor r=2
+r20 (  59 136 ) resistor r=10.7888
+r21 (  59 60 ) resistor r=36
+r22 (  57 60 ) resistor r=6.36951
+r23 (  57 58 ) resistor r=29
+r24 (  55 136 ) resistor r=13.1538
+r25 (  55 56 ) resistor r=29
+r26 (  51 58 ) resistor r=6.36951
+r27 (  51 53 ) resistor r=296
+r28 (  47 56 ) resistor r=6.36951
+r29 (  47 50 ) resistor r=243
+r30 (  24 44 ) resistor r=2.75
+r31 (  24 45 ) resistor r=2.75
+r32 (  23 83 ) resistor r=2.52847
+r33 (  23 24 ) resistor r=17.5
+r34 (  18 41 ) resistor r=1.125
+r35 (  18 42 ) resistor r=1.125
+r36 (  17 18 ) resistor r=18.4646
+r37 (  17 79 ) resistor r=2.51415
+r38 (  17 18 ) resistor r=17.5
+r39 (  8 140 ) resistor r=496
+r40 (  1 141 ) resistor r=110
+ends PM_ALU_8BIT\%XI4\/XI19\/NET248
+
+subckt PM_ALU_8BIT\%X\<7\> ( 1 16 17 31 32 39 )
+c0 ( 70 0 ) capacitor c=0.336021f
+c1 ( 65 0 ) capacitor c=0.226199f
+c2 ( 50 0 ) capacitor c=0.269869f
+c3 ( 1 0 ) capacitor c=0.420839f
+r4 (  67 106 ) resistor r=8.11427
+r5 (  65 70 ) resistor r=3.90389
+r6 (  65 67 ) resistor r=30
+r7 (  50 70 ) resistor r=2
+r8 (  37 106 ) resistor r=6.46884
+r9 (  37 39 ) resistor r=105
+r10 (  34 106 ) resistor r=6.46884
+r11 (  15 50 ) resistor r=35.9073
+r12 (  15 16 ) resistor r=5.5
+r13 (  15 17 ) resistor r=5.5
+r14 (  13 50 ) resistor r=18.3953
+r15 (  13 31 ) resistor r=2.25
+r16 (  13 32 ) resistor r=2.25
+r17 (  1 34 ) resistor r=181
+ends PM_ALU_8BIT\%X\<7\>
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<7\>\/S_INV ( 1 16 25 32 )
+c0 ( 62 0 ) capacitor c=0.353221f
+c1 ( 59 0 ) capacitor c=0.273679f
+c2 ( 1 0 ) capacitor c=0.277697f
+r3 (  72 83 ) resistor r=11.4582
+r4 (  62 78 ) resistor r=30
+r5 (  59 62 ) resistor r=1.12138
+r6 (  59 72 ) resistor r=30
+r7 (  39 62 ) resistor r=1.0461
+r8 (  30 78 ) resistor r=11.4582
+r9 (  30 32 ) resistor r=58.9
+r10 (  12 59 ) resistor r=35.9801
+r11 (  12 16 ) resistor r=5.5
+r12 (  10 25 ) resistor r=2.25
+r13 (  10 39 ) resistor r=17.9035
+r14 (  1 83 ) resistor r=39.9
+ends PM_ALU_8BIT\%XI3\/XMUX\<7\>\/S_INV
+
+subckt PM_ALU_8BIT\%S\<7\> ( 5 12 16 38 )
+c0 ( 115 0 ) capacitor c=0.122759f
+c1 ( 89 0 ) capacitor c=0.368f
+c2 ( 82 0 ) capacitor c=0.231668f
+c3 ( 61 0 ) capacitor c=0.954188f
+c4 ( 47 0 ) capacitor c=0.250243f
+c5 ( 38 0 ) capacitor c=0.10509f
+c6 ( 16 0 ) capacitor c=0.115215f
+c7 ( 10 0 ) capacitor c=0.347881f
+c8 ( 5 0 ) capacitor c=0.112574f
+c9 ( 3 0 ) capacitor c=0.161703f
+r10 (  113 115 ) resistor r=30
+r11 (  109 113 ) resistor r=7.40868
+r12 (  82 89 ) resistor r=3.1109
+r13 (  82 115 ) resistor r=2
+r14 (  61 89 ) resistor r=4.34998
+r15 (  47 61 ) resistor r=3.18214
+r16 (  36 109 ) resistor r=6.46884
+r17 (  36 38 ) resistor r=146
+r18 (  33 109 ) resistor r=6.46884
+r19 (  16 33 ) resistor r=140
+r20 (  11 12 ) resistor r=2.7225
+r21 (  10 47 ) resistor r=5.15319
+r22 (  10 11 ) resistor r=17.5
+r23 (  4 5 ) resistor r=1.11375
+r24 (  3 4 ) resistor r=18.3643
+r25 (  3 89 ) resistor r=3.48049
+r26 (  3 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%S\<7\>
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET255 ( 1 8 31 32 34 35 )
+c0 ( 118 0 ) capacitor c=0.168737f
+c1 ( 111 0 ) capacitor c=0.204496f
+c2 ( 85 0 ) capacitor c=0.725914f
+c3 ( 76 0 ) capacitor c=0.256039f
+c4 ( 61 0 ) capacitor c=0.273806f
+c5 ( 19 0 ) capacitor c=0.43504f
+c6 ( 1 0 ) capacitor c=0.157614f
+r7 (  110 112 ) resistor r=3.88074
+r8 (  110 111 ) resistor r=11.4582
+r9 (  76 85 ) resistor r=2.70607
+r10 (  64 76 ) resistor r=1.00091
+r11 (  64 118 ) resistor r=2.13195
+r12 (  61 85 ) resistor r=4.29604
+r13 (  53 110 ) resistor r=30
+r14 (  53 76 ) resistor r=2
+r15 (  47 111 ) resistor r=357
+r16 (  45 112 ) resistor r=6.46884
+r17 (  45 46 ) resistor r=42
+r18 (  43 47 ) resistor r=6.36951
+r19 (  43 44 ) resistor r=64
+r20 (  40 46 ) resistor r=6.36951
+r21 (  37 44 ) resistor r=6.36951
+r22 (  20 34 ) resistor r=2.75
+r23 (  20 35 ) resistor r=2.75
+r24 (  19 61 ) resistor r=2.49302
+r25 (  19 20 ) resistor r=17.5
+r26 (  18 31 ) resistor r=1.125
+r27 (  18 32 ) resistor r=1.125
+r28 (  18 118 ) resistor r=17.5
+r29 (  18 118 ) resistor r=18.4819
+r30 (  8 37 ) resistor r=97
+r31 (  1 40 ) resistor r=140
+ends PM_ALU_8BIT\%XI4\/XI19\/NET255
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET17 ( 1 4 13 29 30 36 )
+c0 ( 52 0 ) capacitor c=0.293994f
+c1 ( 44 0 ) capacitor c=0.15165f
+c2 ( 2 0 ) capacitor c=0.591592f
+r3 (  44 52 ) resistor r=3.10232
+r4 (  44 46 ) resistor r=30
+r5 (  41 46 ) resistor r=10.8176
+r6 (  41 42 ) resistor r=165
+r7 (  39 42 ) resistor r=6.36951
+r8 (  39 40 ) resistor r=50
+r9 (  37 46 ) resistor r=7.64246
+r10 (  37 38 ) resistor r=50
+r11 (  34 40 ) resistor r=6.36951
+r12 (  34 36 ) resistor r=55.1
+r13 (  32 38 ) resistor r=6.36951
+r14 (  16 29 ) resistor r=2.2725
+r15 (  16 30 ) resistor r=2.2275
+r16 (  15 52 ) resistor r=2.85085
+r17 (  15 16 ) resistor r=17.5
+r18 (  13 32 ) resistor r=36.1
+r19 (  3 4 ) resistor r=5.5
+r20 (  2 52 ) resistor r=2.3822
+r21 (  2 3 ) resistor r=35
+r22 (  1 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET17
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET246 ( 3 22 23 )
+c0 ( 20 0 ) capacitor c=0.196382f
+c1 ( 16 0 ) capacitor c=0.102541f
+c2 ( 2 0 ) capacitor c=0.120029f
+r3 (  23 26 ) resistor r=2.7775
+r4 (  22 26 ) resistor r=2.7225
+r5 (  20 26 ) resistor r=17.6417
+r6 (  14 20 ) resistor r=2.32305
+r7 (  14 16 ) resistor r=2
+r8 (  2 16 ) resistor r=17.643
+r9 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI18\/NET246
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET247 ( 5 14 23 )
+c0 ( 32 0 ) capacitor c=0.186967f
+c1 ( 10 0 ) capacitor c=0.16054f
+c2 ( 4 0 ) capacitor c=0.189008f
+r3 (  32 37 ) resistor r=2
+r4 (  11 23 ) resistor r=1.13625
+r5 (  11 14 ) resistor r=1.11375
+r6 (  10 11 ) resistor r=18.4589
+r7 (  10 37 ) resistor r=2.35945
+r8 (  10 11 ) resistor r=17.5
+r9 (  4 5 ) resistor r=1.125
+r10 (  4 32 ) resistor r=18.1917
+r11 (  4 32 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI18\/NET247
+
+subckt PM_ALU_8BIT\%noxref_78 ( 1 4 7 12 )
+c0 ( 30 0 ) capacitor c=0.423422f
+c1 ( 1 0 ) capacitor c=0.153172f
+r2 (  30 52 ) resistor r=2.42448
+r3 (  11 12 ) resistor r=5.5
+r4 (  11 30 ) resistor r=36.6866
+r5 (  6 7 ) resistor r=5.445
+r6 (  6 52 ) resistor r=35
+r7 (  3 30 ) resistor r=36
+r8 (  3 4 ) resistor r=5.445
+r9 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_78
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<0\>\/NET011 ( 9 10 12 )
+c0 ( 36 0 ) capacitor c=0.155311f
+c1 ( 27 0 ) capacitor c=0.140195f
+c2 ( 4 0 ) capacitor c=0.118276f
+r3 (  27 36 ) resistor r=2.3379
+r4 (  4 12 ) resistor r=2.25
+r5 (  4 36 ) resistor r=17.5
+r6 (  2 9 ) resistor r=2.25
+r7 (  2 10 ) resistor r=2.25
+r8 (  2 27 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<0\>\/NET011
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET252 ( 3 8 26 27 )
+c0 ( 23 0 ) capacitor c=0.203701f
+c1 ( 19 0 ) capacitor c=0.128114f
+c2 ( 8 0 ) capacitor c=0.15615f
+r3 (  27 30 ) resistor r=2.7775
+r4 (  26 30 ) resistor r=2.7225
+r5 (  19 30 ) resistor r=17.6417
+r6 (  17 23 ) resistor r=2.3381
+r7 (  17 19 ) resistor r=2
+r8 (  2 23 ) resistor r=17.6333
+r9 (  2 8 ) resistor r=2.75
+r10 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI18\/NET252
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET253 ( 33 34 38 39 )
+c0 ( 12 0 ) capacitor c=0.42581f
+c1 ( 2 0 ) capacitor c=0.148245f
+r2 (  42 46 ) resistor r=35
+r3 (  39 42 ) resistor r=1.13625
+r4 (  38 42 ) resistor r=1.11375
+r5 (  36 37 ) resistor r=35
+r6 (  34 37 ) resistor r=1.13625
+r7 (  33 37 ) resistor r=1.11375
+r8 (  24 46 ) resistor r=2.33215
+r9 (  24 36 ) resistor r=2
+r10 (  12 42 ) resistor r=17.6033
+r11 (  12 46 ) resistor r=0.161274
+r12 (  12 42 ) resistor r=35
+r13 (  2 37 ) resistor r=17.6033
+r14 (  2 36 ) resistor r=0.267561
+r15 (  2 37 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI18\/NET253
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET51 ( 3 6 14 )
+c0 ( 29 0 ) capacitor c=0.127867f
+c1 ( 5 0 ) capacitor c=0.272435f
+r2 (  23 29 ) resistor r=2.32305
+r3 (  23 25 ) resistor r=2
+r4 (  5 25 ) resistor r=17.643
+r5 (  5 6 ) resistor r=2.75
+r6 (  2 29 ) resistor r=17.643
+r7 (  2 14 ) resistor r=2.75
+r8 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI9\/NET51
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET06 ( 5 14 23 )
+c0 ( 32 0 ) capacitor c=0.173905f
+c1 ( 10 0 ) capacitor c=0.160737f
+c2 ( 4 0 ) capacitor c=0.188617f
+r3 (  32 37 ) resistor r=2
+r4 (  11 23 ) resistor r=1.13625
+r5 (  11 14 ) resistor r=1.11375
+r6 (  10 11 ) resistor r=18.4589
+r7 (  10 37 ) resistor r=2.35945
+r8 (  10 11 ) resistor r=17.5
+r9 (  4 5 ) resistor r=1.125
+r10 (  4 32 ) resistor r=18.1917
+r11 (  4 32 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI9\/NET06
+
+subckt PM_ALU_8BIT\%noxref_84 ( 1 4 7 12 )
+c0 ( 52 0 ) capacitor c=0.102824f
+c1 ( 30 0 ) capacitor c=0.357285f
+c2 ( 1 0 ) capacitor c=0.143221f
+r3 (  30 52 ) resistor r=2.42448
+r4 (  11 12 ) resistor r=5.5
+r5 (  11 30 ) resistor r=36.6866
+r6 (  6 7 ) resistor r=5.445
+r7 (  6 52 ) resistor r=35
+r8 (  3 30 ) resistor r=36
+r9 (  3 4 ) resistor r=5.445
+r10 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_84
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<1\>\/NET011 ( 9 10 12 )
+c0 ( 36 0 ) capacitor c=0.152955f
+c1 ( 27 0 ) capacitor c=0.138523f
+c2 ( 4 0 ) capacitor c=0.118051f
+r3 (  27 36 ) resistor r=2.33482
+r4 (  4 12 ) resistor r=2.25
+r5 (  4 36 ) resistor r=17.5
+r6 (  2 9 ) resistor r=2.25
+r7 (  2 10 ) resistor r=2.25
+r8 (  2 27 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<1\>\/NET011
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET21 ( 3 4 7 19 )
+c0 ( 34 0 ) capacitor c=0.140371f
+c1 ( 30 0 ) capacitor c=0.128114f
+c2 ( 4 0 ) capacitor c=0.21948f
+r3 (  28 34 ) resistor r=2.3381
+r4 (  28 30 ) resistor r=2
+r5 (  6 30 ) resistor r=17.643
+r6 (  6 7 ) resistor r=2.75
+r7 (  4 6 ) resistor r=2.75
+r8 (  2 34 ) resistor r=17.6333
+r9 (  2 19 ) resistor r=2.75
+r10 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI9\/NET21
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET015 ( 1 6 43 44 )
+c0 ( 22 0 ) capacitor c=0.118986f
+c1 ( 4 0 ) capacitor c=0.161799f
+c2 ( 1 0 ) capacitor c=0.293292f
+r3 (  47 51 ) resistor r=35
+r4 (  44 47 ) resistor r=1.13625
+r5 (  43 47 ) resistor r=1.11375
+r6 (  34 51 ) resistor r=2.33215
+r7 (  22 47 ) resistor r=17.6033
+r8 (  22 51 ) resistor r=0.161274
+r9 (  22 47 ) resistor r=35
+r10 (  5 6 ) resistor r=1.125
+r11 (  4 5 ) resistor r=18.2859
+r12 (  4 34 ) resistor r=2
+r13 (  4 5 ) resistor r=17.5
+r14 (  1 5 ) resistor r=1.125
+ends PM_ALU_8BIT\%XI4\/XI9\/NET015
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET51 ( 3 6 14 )
+c0 ( 29 0 ) capacitor c=0.127864f
+c1 ( 5 0 ) capacitor c=0.272362f
+r2 (  23 29 ) resistor r=2.32305
+r3 (  23 25 ) resistor r=2
+r4 (  5 25 ) resistor r=17.643
+r5 (  5 6 ) resistor r=2.75
+r6 (  2 29 ) resistor r=17.643
+r7 (  2 14 ) resistor r=2.75
+r8 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI10\/NET51
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET06 ( 5 14 23 )
+c0 ( 32 0 ) capacitor c=0.174593f
+c1 ( 10 0 ) capacitor c=0.160759f
+c2 ( 4 0 ) capacitor c=0.188668f
+r3 (  32 37 ) resistor r=2
+r4 (  11 23 ) resistor r=1.13625
+r5 (  11 14 ) resistor r=1.11375
+r6 (  10 11 ) resistor r=18.4589
+r7 (  10 37 ) resistor r=2.35945
+r8 (  10 11 ) resistor r=17.5
+r9 (  4 5 ) resistor r=1.125
+r10 (  4 32 ) resistor r=18.1917
+r11 (  4 32 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI10\/NET06
+
+subckt PM_ALU_8BIT\%noxref_90 ( 1 4 7 12 )
+c0 ( 52 0 ) capacitor c=0.103596f
+c1 ( 30 0 ) capacitor c=0.357597f
+c2 ( 1 0 ) capacitor c=0.143234f
+r3 (  30 52 ) resistor r=2.42448
+r4 (  11 12 ) resistor r=5.5
+r5 (  11 30 ) resistor r=36.6866
+r6 (  6 7 ) resistor r=5.445
+r7 (  6 52 ) resistor r=35
+r8 (  3 30 ) resistor r=36
+r9 (  3 4 ) resistor r=5.445
+r10 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_90
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<2\>\/NET011 ( 9 10 12 )
+c0 ( 36 0 ) capacitor c=0.152444f
+c1 ( 27 0 ) capacitor c=0.138177f
+c2 ( 4 0 ) capacitor c=0.11801f
+r3 (  27 36 ) resistor r=2.33421
+r4 (  4 12 ) resistor r=2.25
+r5 (  4 36 ) resistor r=17.5
+r6 (  2 9 ) resistor r=2.25
+r7 (  2 10 ) resistor r=2.25
+r8 (  2 27 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<2\>\/NET011
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET21 ( 3 4 7 19 )
+c0 ( 34 0 ) capacitor c=0.140371f
+c1 ( 30 0 ) capacitor c=0.128114f
+c2 ( 4 0 ) capacitor c=0.21948f
+r3 (  28 34 ) resistor r=2.3381
+r4 (  28 30 ) resistor r=2
+r5 (  6 30 ) resistor r=17.643
+r6 (  6 7 ) resistor r=2.75
+r7 (  4 6 ) resistor r=2.75
+r8 (  2 34 ) resistor r=17.6333
+r9 (  2 19 ) resistor r=2.75
+r10 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI10\/NET21
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET015 ( 1 6 43 44 )
+c0 ( 22 0 ) capacitor c=0.118986f
+c1 ( 4 0 ) capacitor c=0.161799f
+c2 ( 1 0 ) capacitor c=0.293367f
+r3 (  47 51 ) resistor r=35
+r4 (  44 47 ) resistor r=1.125
+r5 (  43 47 ) resistor r=1.125
+r6 (  34 51 ) resistor r=2.33215
+r7 (  22 47 ) resistor r=17.6033
+r8 (  22 51 ) resistor r=0.161274
+r9 (  22 47 ) resistor r=35
+r10 (  5 6 ) resistor r=1.125
+r11 (  4 5 ) resistor r=18.2859
+r12 (  4 34 ) resistor r=2
+r13 (  4 5 ) resistor r=17.5
+r14 (  1 5 ) resistor r=1.125
+ends PM_ALU_8BIT\%XI4\/XI10\/NET015
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET51 ( 3 6 14 )
+c0 ( 29 0 ) capacitor c=0.127867f
+c1 ( 5 0 ) capacitor c=0.272435f
+r2 (  23 29 ) resistor r=2.32305
+r3 (  23 25 ) resistor r=2
+r4 (  5 25 ) resistor r=17.643
+r5 (  5 6 ) resistor r=2.75
+r6 (  2 29 ) resistor r=17.643
+r7 (  2 14 ) resistor r=2.75
+r8 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI11\/NET51
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET06 ( 5 14 23 )
+c0 ( 32 0 ) capacitor c=0.174574f
+c1 ( 10 0 ) capacitor c=0.16076f
+c2 ( 4 0 ) capacitor c=0.188667f
+r3 (  32 37 ) resistor r=2
+r4 (  11 23 ) resistor r=1.13625
+r5 (  11 14 ) resistor r=1.11375
+r6 (  10 11 ) resistor r=18.4589
+r7 (  10 37 ) resistor r=2.35945
+r8 (  10 11 ) resistor r=17.5
+r9 (  4 5 ) resistor r=1.125
+r10 (  4 32 ) resistor r=18.1917
+r11 (  4 32 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI11\/NET06
+
+subckt PM_ALU_8BIT\%noxref_96 ( 1 4 7 12 )
+c0 ( 52 0 ) capacitor c=0.103741f
+c1 ( 30 0 ) capacitor c=0.357302f
+c2 ( 1 0 ) capacitor c=0.14323f
+r3 (  30 52 ) resistor r=2.42448
+r4 (  11 12 ) resistor r=5.5
+r5 (  11 30 ) resistor r=36.6866
+r6 (  6 7 ) resistor r=5.445
+r7 (  6 52 ) resistor r=35
+r8 (  3 30 ) resistor r=36
+r9 (  3 4 ) resistor r=5.445
+r10 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_96
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<3\>\/NET011 ( 9 10 12 )
+c0 ( 36 0 ) capacitor c=0.155066f
+c1 ( 27 0 ) capacitor c=0.139795f
+c2 ( 4 0 ) capacitor c=0.117999f
+r3 (  27 36 ) resistor r=2.33915
+r4 (  4 12 ) resistor r=2.25
+r5 (  4 36 ) resistor r=17.5
+r6 (  2 9 ) resistor r=2.25
+r7 (  2 10 ) resistor r=2.25
+r8 (  2 27 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<3\>\/NET011
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET21 ( 3 4 7 19 )
+c0 ( 34 0 ) capacitor c=0.140371f
+c1 ( 30 0 ) capacitor c=0.128114f
+c2 ( 4 0 ) capacitor c=0.21948f
+r3 (  28 34 ) resistor r=2.3381
+r4 (  28 30 ) resistor r=2
+r5 (  6 30 ) resistor r=17.643
+r6 (  6 7 ) resistor r=2.75
+r7 (  4 6 ) resistor r=2.75
+r8 (  2 34 ) resistor r=17.6333
+r9 (  2 19 ) resistor r=2.75
+r10 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI11\/NET21
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET015 ( 1 6 43 44 )
+c0 ( 22 0 ) capacitor c=0.118986f
+c1 ( 4 0 ) capacitor c=0.161799f
+c2 ( 1 0 ) capacitor c=0.293398f
+r3 (  47 51 ) resistor r=35
+r4 (  44 47 ) resistor r=1.125
+r5 (  43 47 ) resistor r=1.125
+r6 (  34 51 ) resistor r=2.33215
+r7 (  22 47 ) resistor r=17.6033
+r8 (  22 51 ) resistor r=0.161274
+r9 (  22 47 ) resistor r=35
+r10 (  5 6 ) resistor r=1.125
+r11 (  4 5 ) resistor r=18.2859
+r12 (  4 34 ) resistor r=2
+r13 (  4 5 ) resistor r=17.5
+r14 (  1 5 ) resistor r=1.125
+ends PM_ALU_8BIT\%XI4\/XI11\/NET015
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET51 ( 3 6 14 )
+c0 ( 29 0 ) capacitor c=0.127865f
+c1 ( 5 0 ) capacitor c=0.272399f
+r2 (  23 29 ) resistor r=2.32305
+r3 (  23 25 ) resistor r=2
+r4 (  5 25 ) resistor r=17.643
+r5 (  5 6 ) resistor r=2.75
+r6 (  2 29 ) resistor r=17.643
+r7 (  2 14 ) resistor r=2.75
+r8 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI12\/NET51
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET06 ( 5 14 23 )
+c0 ( 32 0 ) capacitor c=0.174423f
+c1 ( 10 0 ) capacitor c=0.160756f
+c2 ( 4 0 ) capacitor c=0.188651f
+r3 (  32 37 ) resistor r=2
+r4 (  11 23 ) resistor r=1.13625
+r5 (  11 14 ) resistor r=1.11375
+r6 (  10 11 ) resistor r=18.4589
+r7 (  10 37 ) resistor r=2.35945
+r8 (  10 11 ) resistor r=17.5
+r9 (  4 5 ) resistor r=1.125
+r10 (  4 32 ) resistor r=18.1917
+r11 (  4 32 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI12\/NET06
+
+subckt PM_ALU_8BIT\%noxref_102 ( 1 4 7 12 )
+c0 ( 52 0 ) capacitor c=0.103928f
+c1 ( 30 0 ) capacitor c=0.357577f
+c2 ( 1 0 ) capacitor c=0.143236f
+r3 (  30 52 ) resistor r=2.42448
+r4 (  11 12 ) resistor r=5.5
+r5 (  11 30 ) resistor r=36.6866
+r6 (  6 7 ) resistor r=5.445
+r7 (  6 52 ) resistor r=35
+r8 (  3 30 ) resistor r=36
+r9 (  3 4 ) resistor r=5.445
+r10 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_102
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<4\>\/NET011 ( 9 10 12 )
+c0 ( 36 0 ) capacitor c=0.153377f
+c1 ( 27 0 ) capacitor c=0.138759f
+c2 ( 4 0 ) capacitor c=0.118008f
+r3 (  27 36 ) resistor r=2.33605
+r4 (  4 12 ) resistor r=2.25
+r5 (  4 36 ) resistor r=17.5
+r6 (  2 9 ) resistor r=2.25
+r7 (  2 10 ) resistor r=2.25
+r8 (  2 27 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<4\>\/NET011
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET21 ( 3 4 7 19 )
+c0 ( 34 0 ) capacitor c=0.140371f
+c1 ( 30 0 ) capacitor c=0.128114f
+c2 ( 4 0 ) capacitor c=0.21948f
+r3 (  28 34 ) resistor r=2.3381
+r4 (  28 30 ) resistor r=2
+r5 (  6 30 ) resistor r=17.643
+r6 (  6 7 ) resistor r=2.75
+r7 (  4 6 ) resistor r=2.75
+r8 (  2 34 ) resistor r=17.6333
+r9 (  2 19 ) resistor r=2.75
+r10 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI12\/NET21
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET015 ( 1 6 43 44 )
+c0 ( 22 0 ) capacitor c=0.118986f
+c1 ( 4 0 ) capacitor c=0.161799f
+c2 ( 1 0 ) capacitor c=0.293461f
+r3 (  47 51 ) resistor r=35
+r4 (  44 47 ) resistor r=1.125
+r5 (  43 47 ) resistor r=1.125
+r6 (  34 51 ) resistor r=2.33215
+r7 (  22 47 ) resistor r=17.6033
+r8 (  22 51 ) resistor r=0.161274
+r9 (  22 47 ) resistor r=35
+r10 (  5 6 ) resistor r=1.125
+r11 (  4 5 ) resistor r=18.2859
+r12 (  4 34 ) resistor r=2
+r13 (  4 5 ) resistor r=17.5
+r14 (  1 5 ) resistor r=1.125
+ends PM_ALU_8BIT\%XI4\/XI12\/NET015
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET51 ( 3 6 14 )
+c0 ( 29 0 ) capacitor c=0.127867f
+c1 ( 5 0 ) capacitor c=0.272436f
+r2 (  23 29 ) resistor r=2.32305
+r3 (  23 25 ) resistor r=2
+r4 (  5 25 ) resistor r=17.643
+r5 (  5 6 ) resistor r=2.75
+r6 (  2 29 ) resistor r=17.643
+r7 (  2 14 ) resistor r=2.75
+r8 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI13\/NET51
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET06 ( 5 14 23 )
+c0 ( 32 0 ) capacitor c=0.174606f
+c1 ( 10 0 ) capacitor c=0.160761f
+c2 ( 4 0 ) capacitor c=0.188667f
+r3 (  32 37 ) resistor r=2
+r4 (  11 23 ) resistor r=1.13625
+r5 (  11 14 ) resistor r=1.11375
+r6 (  10 11 ) resistor r=18.4589
+r7 (  10 37 ) resistor r=2.35945
+r8 (  10 11 ) resistor r=17.5
+r9 (  4 5 ) resistor r=1.125
+r10 (  4 32 ) resistor r=18.1917
+r11 (  4 32 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI13\/NET06
+
+subckt PM_ALU_8BIT\%noxref_108 ( 1 4 7 12 )
+c0 ( 52 0 ) capacitor c=0.104155f
+c1 ( 30 0 ) capacitor c=0.357438f
+c2 ( 1 0 ) capacitor c=0.143235f
+r3 (  30 52 ) resistor r=2.42448
+r4 (  11 12 ) resistor r=5.5
+r5 (  11 30 ) resistor r=36.6866
+r6 (  6 7 ) resistor r=5.445
+r7 (  6 52 ) resistor r=35
+r8 (  3 30 ) resistor r=36
+r9 (  3 4 ) resistor r=5.445
+r10 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_108
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<5\>\/NET011 ( 9 10 12 )
+c0 ( 36 0 ) capacitor c=0.154565f
+c1 ( 27 0 ) capacitor c=0.139516f
+c2 ( 4 0 ) capacitor c=0.117984f
+r3 (  27 36 ) resistor r=2.33852
+r4 (  4 12 ) resistor r=2.25
+r5 (  4 36 ) resistor r=17.5
+r6 (  2 9 ) resistor r=2.25
+r7 (  2 10 ) resistor r=2.25
+r8 (  2 27 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<5\>\/NET011
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET21 ( 3 4 7 19 )
+c0 ( 34 0 ) capacitor c=0.140371f
+c1 ( 30 0 ) capacitor c=0.128114f
+c2 ( 4 0 ) capacitor c=0.21948f
+r3 (  28 34 ) resistor r=2.3381
+r4 (  28 30 ) resistor r=2
+r5 (  6 30 ) resistor r=17.643
+r6 (  6 7 ) resistor r=2.75
+r7 (  4 6 ) resistor r=2.75
+r8 (  2 34 ) resistor r=17.6333
+r9 (  2 19 ) resistor r=2.75
+r10 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI13\/NET21
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET015 ( 1 6 43 44 )
+c0 ( 22 0 ) capacitor c=0.118986f
+c1 ( 4 0 ) capacitor c=0.161378f
+c2 ( 1 0 ) capacitor c=0.293483f
+r3 (  47 51 ) resistor r=35
+r4 (  44 47 ) resistor r=1.125
+r5 (  43 47 ) resistor r=1.125
+r6 (  34 51 ) resistor r=2.33215
+r7 (  22 47 ) resistor r=17.6033
+r8 (  22 51 ) resistor r=0.161274
+r9 (  22 47 ) resistor r=35
+r10 (  5 6 ) resistor r=1.125
+r11 (  4 5 ) resistor r=18.2859
+r12 (  4 34 ) resistor r=2
+r13 (  4 5 ) resistor r=17.5
+r14 (  1 5 ) resistor r=1.125
+ends PM_ALU_8BIT\%XI4\/XI13\/NET015
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET51 ( 3 6 14 )
+c0 ( 29 0 ) capacitor c=0.127864f
+c1 ( 5 0 ) capacitor c=0.272473f
+r2 (  23 29 ) resistor r=2.32305
+r3 (  23 25 ) resistor r=2
+r4 (  5 25 ) resistor r=17.643
+r5 (  5 6 ) resistor r=2.75
+r6 (  2 29 ) resistor r=17.643
+r7 (  2 14 ) resistor r=2.75
+r8 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI14\/NET51
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET06 ( 5 14 23 )
+c0 ( 32 0 ) capacitor c=0.174691f
+c1 ( 10 0 ) capacitor c=0.16077f
+c2 ( 4 0 ) capacitor c=0.188668f
+r3 (  32 37 ) resistor r=2
+r4 (  11 23 ) resistor r=1.13625
+r5 (  11 14 ) resistor r=1.11375
+r6 (  10 11 ) resistor r=18.4589
+r7 (  10 37 ) resistor r=2.35945
+r8 (  10 11 ) resistor r=17.5
+r9 (  4 5 ) resistor r=1.125
+r10 (  4 32 ) resistor r=18.1917
+r11 (  4 32 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI14\/NET06
+
+subckt PM_ALU_8BIT\%noxref_114 ( 1 4 7 12 )
+c0 ( 52 0 ) capacitor c=0.104468f
+c1 ( 30 0 ) capacitor c=0.357522f
+c2 ( 1 0 ) capacitor c=0.143244f
+r3 (  30 52 ) resistor r=2.42448
+r4 (  11 12 ) resistor r=5.5
+r5 (  11 30 ) resistor r=36.6866
+r6 (  6 7 ) resistor r=5.445
+r7 (  6 52 ) resistor r=35
+r8 (  3 30 ) resistor r=36
+r9 (  3 4 ) resistor r=5.445
+r10 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_114
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<6\>\/NET011 ( 9 10 12 )
+c0 ( 36 0 ) capacitor c=0.155288f
+c1 ( 27 0 ) capacitor c=0.139868f
+c2 ( 4 0 ) capacitor c=0.11802f
+r3 (  27 36 ) resistor r=2.33915
+r4 (  4 12 ) resistor r=2.25
+r5 (  4 36 ) resistor r=17.5
+r6 (  2 9 ) resistor r=2.25
+r7 (  2 10 ) resistor r=2.25
+r8 (  2 27 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<6\>\/NET011
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET21 ( 3 4 7 19 )
+c0 ( 34 0 ) capacitor c=0.140371f
+c1 ( 30 0 ) capacitor c=0.128114f
+c2 ( 4 0 ) capacitor c=0.21948f
+r3 (  28 34 ) resistor r=2.3381
+r4 (  28 30 ) resistor r=2
+r5 (  6 30 ) resistor r=17.643
+r6 (  6 7 ) resistor r=2.75
+r7 (  4 6 ) resistor r=2.75
+r8 (  2 34 ) resistor r=17.6333
+r9 (  2 19 ) resistor r=2.75
+r10 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI14\/NET21
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET015 ( 1 6 43 44 )
+c0 ( 22 0 ) capacitor c=0.119001f
+c1 ( 4 0 ) capacitor c=0.161799f
+c2 ( 1 0 ) capacitor c=0.29356f
+r3 (  47 51 ) resistor r=35
+r4 (  44 47 ) resistor r=1.125
+r5 (  43 47 ) resistor r=1.125
+r6 (  34 51 ) resistor r=2.33215
+r7 (  22 47 ) resistor r=17.6033
+r8 (  22 51 ) resistor r=0.161274
+r9 (  22 47 ) resistor r=35
+r10 (  5 6 ) resistor r=1.125
+r11 (  4 5 ) resistor r=18.2859
+r12 (  4 34 ) resistor r=2
+r13 (  4 5 ) resistor r=17.5
+r14 (  1 5 ) resistor r=1.125
+ends PM_ALU_8BIT\%XI4\/XI14\/NET015
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET246 ( 3 6 14 )
+c0 ( 29 0 ) capacitor c=0.127867f
+c1 ( 5 0 ) capacitor c=0.272546f
+r2 (  23 29 ) resistor r=2.32305
+r3 (  23 25 ) resistor r=2
+r4 (  5 25 ) resistor r=17.643
+r5 (  5 6 ) resistor r=2.75
+r6 (  2 29 ) resistor r=17.643
+r7 (  2 14 ) resistor r=2.75
+r8 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI19\/NET246
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET247 ( 5 14 23 )
+c0 ( 32 0 ) capacitor c=0.174701f
+c1 ( 10 0 ) capacitor c=0.160772f
+c2 ( 4 0 ) capacitor c=0.188667f
+r3 (  32 37 ) resistor r=2
+r4 (  11 23 ) resistor r=1.13625
+r5 (  11 14 ) resistor r=1.11375
+r6 (  10 11 ) resistor r=18.4589
+r7 (  10 37 ) resistor r=2.35945
+r8 (  10 11 ) resistor r=17.5
+r9 (  4 5 ) resistor r=1.125
+r10 (  4 32 ) resistor r=18.1917
+r11 (  4 32 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI19\/NET247
+
+subckt PM_ALU_8BIT\%noxref_120 ( 1 4 7 12 )
+c0 ( 52 0 ) capacitor c=0.104831f
+c1 ( 30 0 ) capacitor c=0.357443f
+c2 ( 1 0 ) capacitor c=0.143244f
+r3 (  30 52 ) resistor r=2.42448
+r4 (  11 12 ) resistor r=5.5
+r5 (  11 30 ) resistor r=36.6866
+r6 (  6 7 ) resistor r=5.445
+r7 (  6 52 ) resistor r=35
+r8 (  3 30 ) resistor r=36
+r9 (  3 4 ) resistor r=5.445
+r10 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_120
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<7\>\/NET011 ( 9 10 12 )
+c0 ( 36 0 ) capacitor c=0.134108f
+c1 ( 27 0 ) capacitor c=0.128225f
+c2 ( 4 0 ) capacitor c=0.118381f
+r3 (  27 36 ) resistor r=2.33605
+r4 (  4 12 ) resistor r=2.25
+r5 (  4 36 ) resistor r=17.5
+r6 (  2 9 ) resistor r=2.25
+r7 (  2 10 ) resistor r=2.25
+r8 (  2 27 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<7\>\/NET011
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET252 ( 3 4 7 19 )
+c0 ( 34 0 ) capacitor c=0.140371f
+c1 ( 30 0 ) capacitor c=0.128114f
+c2 ( 4 0 ) capacitor c=0.21948f
+r3 (  28 34 ) resistor r=2.3381
+r4 (  28 30 ) resistor r=2
+r5 (  6 30 ) resistor r=17.643
+r6 (  6 7 ) resistor r=2.75
+r7 (  4 6 ) resistor r=2.75
+r8 (  2 34 ) resistor r=17.6333
+r9 (  2 19 ) resistor r=2.75
+r10 (  2 3 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI19\/NET252
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET253 ( 1 6 43 44 )
+c0 ( 22 0 ) capacitor c=0.11893f
+c1 ( 4 0 ) capacitor c=0.161328f
+c2 ( 1 0 ) capacitor c=0.291557f
+r3 (  47 51 ) resistor r=35
+r4 (  44 47 ) resistor r=1.125
+r5 (  43 47 ) resistor r=1.125
+r6 (  34 51 ) resistor r=2.33215
+r7 (  22 47 ) resistor r=17.6033
+r8 (  22 51 ) resistor r=0.161274
+r9 (  22 47 ) resistor r=35
+r10 (  5 6 ) resistor r=1.125
+r11 (  4 5 ) resistor r=18.2859
+r12 (  4 34 ) resistor r=2
+r13 (  4 5 ) resistor r=17.5
+r14 (  1 5 ) resistor r=1.125
+ends PM_ALU_8BIT\%XI4\/XI19\/NET253
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<0\>\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.206049f
+r1 (  2 5 ) resistor r=2.25
+r2 (  2 6 ) resistor r=2.25
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<0\>\/NET16
+
+subckt PM_ALU_8BIT\%VDD ( 1 6 10 23 27 40 44 57 61 74 78 91 95 108 112 125 129 \
+ 196 202 208 214 220 226 232 234 236 238 240 242 244 246 252 258 264 270 276 \
+ 282 288 294 303 310 319 326 335 342 351 358 367 374 383 390 399 406 415 706 \
+ 736 739 740 742 743 745 746 748 751 752 755 757 758 760 761 763 766 767 770 \
+ 772 773 775 776 778 781 782 785 787 788 790 791 793 796 797 800 802 803 805 \
+ 806 808 811 812 815 817 818 820 821 823 826 827 830 832 833 835 836 838 841 \
+ 842 845 847 848 850 851 869 1979 1980 1982 1983 1985 1987 1989 1991 1993 1995 \
+ 1997 1999 )
+c0 ( 1833 0 ) capacitor c=1.95585f
+c1 ( 1828 0 ) capacitor c=0.154919f
+c2 ( 1803 0 ) capacitor c=0.166247f
+c3 ( 1756 0 ) capacitor c=1.20319f
+c4 ( 1718 0 ) capacitor c=0.336036f
+c5 ( 1711 0 ) capacitor c=0.726907f
+c6 ( 1705 0 ) capacitor c=0.242614f
+c7 ( 1683 0 ) capacitor c=0.166467f
+c8 ( 1636 0 ) capacitor c=0.388026f
+c9 ( 1598 0 ) capacitor c=0.339052f
+c10 ( 1591 0 ) capacitor c=0.730272f
+c11 ( 1585 0 ) capacitor c=0.242635f
+c12 ( 1563 0 ) capacitor c=0.166468f
+c13 ( 1516 0 ) capacitor c=0.389998f
+c14 ( 1478 0 ) capacitor c=0.339873f
+c15 ( 1471 0 ) capacitor c=0.728392f
+c16 ( 1465 0 ) capacitor c=0.24266f
+c17 ( 1443 0 ) capacitor c=0.166474f
+c18 ( 1396 0 ) capacitor c=0.389664f
+c19 ( 1358 0 ) capacitor c=0.339813f
+c20 ( 1351 0 ) capacitor c=0.729177f
+c21 ( 1345 0 ) capacitor c=0.242655f
+c22 ( 1323 0 ) capacitor c=0.166472f
+c23 ( 1276 0 ) capacitor c=0.389326f
+c24 ( 1238 0 ) capacitor c=0.339982f
+c25 ( 1231 0 ) capacitor c=0.728295f
+c26 ( 1225 0 ) capacitor c=0.242616f
+c27 ( 1203 0 ) capacitor c=0.166467f
+c28 ( 1156 0 ) capacitor c=0.388967f
+c29 ( 1118 0 ) capacitor c=0.338662f
+c30 ( 1111 0 ) capacitor c=0.730331f
+c31 ( 1105 0 ) capacitor c=0.242639f
+c32 ( 1083 0 ) capacitor c=0.166468f
+c33 ( 1036 0 ) capacitor c=0.388933f
+c34 ( 998 0 ) capacitor c=0.338709f
+c35 ( 991 0 ) capacitor c=0.729721f
+c36 ( 985 0 ) capacitor c=0.242643f
+c37 ( 963 0 ) capacitor c=0.166474f
+c38 ( 931 0 ) capacitor c=0.174198f
+c39 ( 918 0 ) capacitor c=0.164429f
+c40 ( 908 0 ) capacitor c=0.389552f
+c41 ( 887 0 ) capacitor c=0.560952f
+c42 ( 869 0 ) capacitor c=0.231496f
+c43 ( 854 0 ) capacitor c=0.286041f
+c44 ( 706 0 ) capacitor c=3.04948f
+c45 ( 404 0 ) capacitor c=0.914778f
+c46 ( 388 0 ) capacitor c=0.255072f
+c47 ( 372 0 ) capacitor c=0.255057f
+c48 ( 356 0 ) capacitor c=0.25504f
+c49 ( 340 0 ) capacitor c=0.255057f
+c50 ( 324 0 ) capacitor c=0.255072f
+c51 ( 308 0 ) capacitor c=0.254983f
+c52 ( 292 0 ) capacitor c=0.256578f
+c53 ( 284 0 ) capacitor c=0.164166f
+c54 ( 278 0 ) capacitor c=0.164166f
+c55 ( 272 0 ) capacitor c=0.164166f
+c56 ( 266 0 ) capacitor c=0.164162f
+c57 ( 260 0 ) capacitor c=0.164183f
+c58 ( 254 0 ) capacitor c=0.164199f
+c59 ( 248 0 ) capacitor c=0.164219f
+c60 ( 228 0 ) capacitor c=0.722626f
+c61 ( 222 0 ) capacitor c=0.174409f
+c62 ( 216 0 ) capacitor c=0.173985f
+c63 ( 210 0 ) capacitor c=0.174409f
+c64 ( 204 0 ) capacitor c=0.174409f
+c65 ( 198 0 ) capacitor c=0.174409f
+c66 ( 192 0 ) capacitor c=0.174409f
+c67 ( 1 0 ) capacitor c=3.54843f
+r68 (  1828 1833 ) resistor r=0.309615
+r69 (  1798 1999 ) resistor r=1.125
+r70 (  1798 1803 ) resistor r=17.5
+r71 (  1798 1803 ) resistor r=17.9634
+r72 (  1718 1756 ) resistor r=0.232675
+r73 (  1711 1803 ) resistor r=0.737576
+r74 (  1711 1833 ) resistor r=0.105723
+r75 (  1708 1711 ) resistor r=0.395661
+r76 (  1705 1708 ) resistor r=0.309615
+r77 (  1678 1997 ) resistor r=1.125
+r78 (  1678 1683 ) resistor r=17.5
+r79 (  1678 1683 ) resistor r=17.9634
+r80 (  1636 1718 ) resistor r=0.488648
+r81 (  1598 1636 ) resistor r=0.247037
+r82 (  1591 1683 ) resistor r=0.737576
+r83 (  1591 1708 ) resistor r=0.105723
+r84 (  1588 1591 ) resistor r=0.398865
+r85 (  1585 1588 ) resistor r=0.309615
+r86 (  1558 1995 ) resistor r=1.125
+r87 (  1558 1563 ) resistor r=17.5
+r88 (  1558 1563 ) resistor r=17.9634
+r89 (  1516 1598 ) resistor r=0.482265
+r90 (  1478 1516 ) resistor r=0.253421
+r91 (  1471 1563 ) resistor r=0.737576
+r92 (  1471 1588 ) resistor r=0.105723
+r93 (  1468 1471 ) resistor r=0.395661
+r94 (  1465 1468 ) resistor r=0.309615
+r95 (  1438 1993 ) resistor r=1.125
+r96 (  1438 1443 ) resistor r=17.5
+r97 (  1438 1443 ) resistor r=17.9634
+r98 (  1396 1478 ) resistor r=0.483861
+r99 (  1358 1396 ) resistor r=0.252144
+r100 (  1351 1443 ) resistor r=0.737576
+r101 (  1351 1468 ) resistor r=0.105723
+r102 (  1348 1351 ) resistor r=0.397263
+r103 (  1345 1348 ) resistor r=0.309615
+r104 (  1318 1991 ) resistor r=1.125
+r105 (  1318 1323 ) resistor r=17.5
+r106 (  1318 1323 ) resistor r=17.9634
+r107 (  1276 1358 ) resistor r=0.483542
+r108 (  1238 1276 ) resistor r=0.252144
+r109 (  1231 1323 ) resistor r=0.737576
+r110 (  1231 1348 ) resistor r=0.105723
+r111 (  1228 1231 ) resistor r=0.395661
+r112 (  1225 1228 ) resistor r=0.309615
+r113 (  1198 1989 ) resistor r=1.125
+r114 (  1198 1203 ) resistor r=17.5
+r115 (  1198 1203 ) resistor r=17.9634
+r116 (  1156 1238 ) resistor r=0.483542
+r117 (  1118 1156 ) resistor r=0.252144
+r118 (  1111 1203 ) resistor r=0.737576
+r119 (  1111 1228 ) resistor r=0.105723
+r120 (  1108 1111 ) resistor r=0.398865
+r121 (  1105 1108 ) resistor r=0.309615
+r122 (  1078 1987 ) resistor r=1.125
+r123 (  1078 1083 ) resistor r=17.5
+r124 (  1078 1083 ) resistor r=17.9634
+r125 (  1036 1118 ) resistor r=0.483542
+r126 (  998 1036 ) resistor r=0.252144
+r127 (  991 1083 ) resistor r=0.737576
+r128 (  991 1108 ) resistor r=0.105723
+r129 (  988 991 ) resistor r=0.395661
+r130 (  985 988 ) resistor r=0.309615
+r131 (  958 1985 ) resistor r=1.13625
+r132 (  958 963 ) resistor r=17.5
+r133 (  958 963 ) resistor r=17.9634
+r134 (  925 1982 ) resistor r=1.11375
+r135 (  925 1983 ) resistor r=1.13625
+r136 (  925 931 ) resistor r=17.5
+r137 (  925 931 ) resistor r=17.9683
+r138 (  913 1979 ) resistor r=1.11375
+r139 (  913 1980 ) resistor r=1.13625
+r140 (  913 918 ) resistor r=17.5
+r141 (  913 918 ) resistor r=17.9724
+r142 (  908 998 ) resistor r=0.483542
+r143 (  887 963 ) resistor r=0.737576
+r144 (  887 931 ) resistor r=0.782266
+r145 (  887 918 ) resistor r=0.782266
+r146 (  887 988 ) resistor r=0.105723
+r147 (  869 908 ) resistor r=0.252144
+r148 (  854 887 ) resistor r=4.32928
+r149 (  854 869 ) resistor r=1.10879
+r150 (  706 1756 ) resistor r=958.172
+r151 (  706 869 ) resistor r=957.992
+r152 (  456 1718 ) resistor r=18.3069
+r153 (  456 841 ) resistor r=2.25
+r154 (  456 842 ) resistor r=2.25
+r155 (  454 1718 ) resistor r=18.2329
+r156 (  454 838 ) resistor r=2.2275
+r157 (  451 1598 ) resistor r=18.3069
+r158 (  451 826 ) resistor r=2.25
+r159 (  451 827 ) resistor r=2.25
+r160 (  449 1598 ) resistor r=18.2329
+r161 (  449 823 ) resistor r=2.2275
+r162 (  446 1478 ) resistor r=18.3069
+r163 (  446 811 ) resistor r=2.25
+r164 (  446 812 ) resistor r=2.25
+r165 (  444 1478 ) resistor r=18.2329
+r166 (  444 808 ) resistor r=2.2275
+r167 (  441 1358 ) resistor r=18.3069
+r168 (  441 796 ) resistor r=2.25
+r169 (  441 797 ) resistor r=2.25
+r170 (  439 1358 ) resistor r=18.2329
+r171 (  439 793 ) resistor r=2.2275
+r172 (  436 1238 ) resistor r=18.3069
+r173 (  436 781 ) resistor r=2.25
+r174 (  436 782 ) resistor r=2.25
+r175 (  434 1238 ) resistor r=18.2329
+r176 (  434 778 ) resistor r=2.2275
+r177 (  431 1118 ) resistor r=18.3069
+r178 (  431 766 ) resistor r=2.25
+r179 (  431 767 ) resistor r=2.25
+r180 (  429 1118 ) resistor r=18.2329
+r181 (  429 763 ) resistor r=2.2275
+r182 (  426 998 ) resistor r=18.3069
+r183 (  426 751 ) resistor r=2.25
+r184 (  426 752 ) resistor r=2.25
+r185 (  424 998 ) resistor r=18.2329
+r186 (  424 748 ) resistor r=2.2275
+r187 (  421 869 ) resistor r=18.3069
+r188 (  421 739 ) resistor r=2.25
+r189 (  421 740 ) resistor r=2.25
+r190 (  419 869 ) resistor r=18.2776
+r191 (  419 736 ) resistor r=2.2275
+r192 (  405 406 ) resistor r=1.11375
+r193 (  405 415 ) resistor r=1.13625
+r194 (  404 1711 ) resistor r=0.420295
+r195 (  404 405 ) resistor r=18.4682
+r196 (  404 405 ) resistor r=17.5
+r197 (  389 390 ) resistor r=1.11375
+r198 (  389 399 ) resistor r=1.13625
+r199 (  388 1591 ) resistor r=0.420295
+r200 (  388 389 ) resistor r=18.4682
+r201 (  388 389 ) resistor r=17.5
+r202 (  373 374 ) resistor r=1.11375
+r203 (  373 383 ) resistor r=1.13625
+r204 (  372 1471 ) resistor r=0.420295
+r205 (  372 373 ) resistor r=18.4682
+r206 (  372 373 ) resistor r=17.5
+r207 (  357 358 ) resistor r=1.11375
+r208 (  357 367 ) resistor r=1.13625
+r209 (  356 1351 ) resistor r=0.420295
+r210 (  356 357 ) resistor r=18.4682
+r211 (  356 357 ) resistor r=17.5
+r212 (  341 342 ) resistor r=1.11375
+r213 (  341 351 ) resistor r=1.13625
+r214 (  340 1231 ) resistor r=0.420295
+r215 (  340 341 ) resistor r=18.4682
+r216 (  340 341 ) resistor r=17.5
+r217 (  325 326 ) resistor r=1.11375
+r218 (  325 335 ) resistor r=1.13625
+r219 (  324 1111 ) resistor r=0.420295
+r220 (  324 325 ) resistor r=18.4682
+r221 (  324 325 ) resistor r=17.5
+r222 (  309 310 ) resistor r=1.11375
+r223 (  309 319 ) resistor r=1.13625
+r224 (  308 991 ) resistor r=0.420295
+r225 (  308 309 ) resistor r=18.4682
+r226 (  308 309 ) resistor r=17.5
+r227 (  293 294 ) resistor r=1.11375
+r228 (  293 303 ) resistor r=1.13625
+r229 (  292 887 ) resistor r=0.464985
+r230 (  292 293 ) resistor r=18.4682
+r231 (  292 293 ) resistor r=17.5
+r232 (  287 288 ) resistor r=1.11375
+r233 (  284 287 ) resistor r=18.2897
+r234 (  284 1711 ) resistor r=0.464985
+r235 (  284 287 ) resistor r=17.5
+r236 (  281 282 ) resistor r=1.11375
+r237 (  278 281 ) resistor r=18.2897
+r238 (  278 1591 ) resistor r=0.464985
+r239 (  278 281 ) resistor r=17.5
+r240 (  275 276 ) resistor r=1.11375
+r241 (  272 275 ) resistor r=18.2897
+r242 (  272 1471 ) resistor r=0.464985
+r243 (  272 275 ) resistor r=17.5
+r244 (  269 270 ) resistor r=1.11375
+r245 (  266 269 ) resistor r=18.2897
+r246 (  266 1351 ) resistor r=0.464985
+r247 (  266 269 ) resistor r=17.5
+r248 (  263 264 ) resistor r=1.11375
+r249 (  260 263 ) resistor r=18.2897
+r250 (  260 1231 ) resistor r=0.464985
+r251 (  260 263 ) resistor r=17.5
+r252 (  257 258 ) resistor r=1.11375
+r253 (  254 257 ) resistor r=18.2897
+r254 (  254 1111 ) resistor r=0.464985
+r255 (  254 257 ) resistor r=17.5
+r256 (  251 252 ) resistor r=1.11375
+r257 (  248 251 ) resistor r=18.2897
+r258 (  248 991 ) resistor r=0.464985
+r259 (  248 251 ) resistor r=17.5
+r260 (  246 287 ) resistor r=1.13625
+r261 (  244 281 ) resistor r=1.13625
+r262 (  242 275 ) resistor r=1.13625
+r263 (  240 269 ) resistor r=1.13625
+r264 (  238 263 ) resistor r=1.13625
+r265 (  236 257 ) resistor r=1.13625
+r266 (  234 251 ) resistor r=1.13625
+r267 (  231 845 ) resistor r=1.13625
+r268 (  231 232 ) resistor r=1.11375
+r269 (  228 231 ) resistor r=18.2855
+r270 (  228 1711 ) resistor r=0.464985
+r271 (  228 231 ) resistor r=17.5
+r272 (  225 830 ) resistor r=1.13625
+r273 (  225 226 ) resistor r=1.11375
+r274 (  222 225 ) resistor r=18.2855
+r275 (  222 1591 ) resistor r=0.464985
+r276 (  222 225 ) resistor r=17.5
+r277 (  219 815 ) resistor r=1.13625
+r278 (  219 220 ) resistor r=1.11375
+r279 (  216 219 ) resistor r=18.2855
+r280 (  216 1471 ) resistor r=0.464985
+r281 (  216 219 ) resistor r=17.5
+r282 (  213 800 ) resistor r=1.13625
+r283 (  213 214 ) resistor r=1.11375
+r284 (  210 213 ) resistor r=18.2855
+r285 (  210 1351 ) resistor r=0.464985
+r286 (  210 213 ) resistor r=17.5
+r287 (  207 785 ) resistor r=1.13625
+r288 (  207 208 ) resistor r=1.11375
+r289 (  204 207 ) resistor r=18.2855
+r290 (  204 1231 ) resistor r=0.464985
+r291 (  204 207 ) resistor r=17.5
+r292 (  201 770 ) resistor r=1.13625
+r293 (  201 202 ) resistor r=1.11375
+r294 (  198 201 ) resistor r=18.2855
+r295 (  198 1111 ) resistor r=0.464985
+r296 (  198 201 ) resistor r=17.5
+r297 (  195 755 ) resistor r=1.13625
+r298 (  195 196 ) resistor r=1.11375
+r299 (  192 195 ) resistor r=18.2855
+r300 (  192 991 ) resistor r=0.464985
+r301 (  192 195 ) resistor r=17.5
+r302 (  190 1756 ) resistor r=18.1174
+r303 (  190 847 ) resistor r=2.2725
+r304 (  190 848 ) resistor r=2.2275
+r305 (  188 1756 ) resistor r=18.1174
+r306 (  188 850 ) resistor r=2.2725
+r307 (  188 851 ) resistor r=2.2275
+r308 (  185 1636 ) resistor r=18.1174
+r309 (  185 832 ) resistor r=2.2725
+r310 (  185 833 ) resistor r=2.2275
+r311 (  183 1636 ) resistor r=18.1174
+r312 (  183 835 ) resistor r=2.2725
+r313 (  183 836 ) resistor r=2.2275
+r314 (  180 1516 ) resistor r=18.1174
+r315 (  180 817 ) resistor r=2.2725
+r316 (  180 818 ) resistor r=2.2275
+r317 (  178 1516 ) resistor r=18.1174
+r318 (  178 820 ) resistor r=2.2725
+r319 (  178 821 ) resistor r=2.2275
+r320 (  175 1396 ) resistor r=18.1174
+r321 (  175 802 ) resistor r=2.2725
+r322 (  175 803 ) resistor r=2.2275
+r323 (  173 1396 ) resistor r=18.1174
+r324 (  173 805 ) resistor r=2.2725
+r325 (  173 806 ) resistor r=2.2275
+r326 (  170 1276 ) resistor r=18.1174
+r327 (  170 787 ) resistor r=2.2725
+r328 (  170 788 ) resistor r=2.2275
+r329 (  168 1276 ) resistor r=18.1174
+r330 (  168 790 ) resistor r=2.2725
+r331 (  168 791 ) resistor r=2.2275
+r332 (  165 1156 ) resistor r=18.1174
+r333 (  165 772 ) resistor r=2.2725
+r334 (  165 773 ) resistor r=2.2275
+r335 (  163 1156 ) resistor r=18.1174
+r336 (  163 775 ) resistor r=2.2725
+r337 (  163 776 ) resistor r=2.2275
+r338 (  160 1036 ) resistor r=18.1174
+r339 (  160 757 ) resistor r=2.2725
+r340 (  160 758 ) resistor r=2.2275
+r341 (  158 1036 ) resistor r=18.1174
+r342 (  158 760 ) resistor r=2.2725
+r343 (  158 761 ) resistor r=2.2275
+r344 (  155 908 ) resistor r=18.1174
+r345 (  155 742 ) resistor r=2.2725
+r346 (  155 743 ) resistor r=2.2275
+r347 (  153 908 ) resistor r=18.1174
+r348 (  153 745 ) resistor r=2.2725
+r349 (  153 746 ) resistor r=2.2275
+r350 (  129 1798 ) resistor r=1.125
+r351 (  124 125 ) resistor r=1.11375
+r352 (  124 1828 ) resistor r=18.1078
+r353 (  124 1828 ) resistor r=17.5
+r354 (  112 1678 ) resistor r=1.125
+r355 (  107 108 ) resistor r=1.11375
+r356 (  107 1705 ) resistor r=18.1078
+r357 (  107 1705 ) resistor r=17.5
+r358 (  95 1558 ) resistor r=1.125
+r359 (  90 91 ) resistor r=1.11375
+r360 (  90 1585 ) resistor r=18.1078
+r361 (  90 1585 ) resistor r=17.5
+r362 (  78 1438 ) resistor r=1.125
+r363 (  73 74 ) resistor r=1.11375
+r364 (  73 1465 ) resistor r=18.1078
+r365 (  73 1465 ) resistor r=17.5
+r366 (  61 1318 ) resistor r=1.125
+r367 (  56 57 ) resistor r=1.11375
+r368 (  56 1345 ) resistor r=18.1078
+r369 (  56 1345 ) resistor r=17.5
+r370 (  44 1198 ) resistor r=1.125
+r371 (  39 40 ) resistor r=1.11375
+r372 (  39 1225 ) resistor r=18.1078
+r373 (  39 1225 ) resistor r=17.5
+r374 (  27 1078 ) resistor r=1.125
+r375 (  22 23 ) resistor r=1.11375
+r376 (  22 1105 ) resistor r=18.1078
+r377 (  22 1105 ) resistor r=17.5
+r378 (  10 958 ) resistor r=1.11375
+r379 (  5 6 ) resistor r=1.11375
+r380 (  5 985 ) resistor r=18.1078
+r381 (  5 985 ) resistor r=17.5
+r382 (  1 1833 ) resistor r=958.037
+r383 (  1 887 ) resistor r=957.992
+ends PM_ALU_8BIT\%VDD
+
+subckt PM_ALU_8BIT\%noxref_126 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.14648f
+r1 (  3 4 ) resistor r=5.445
+r2 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_126
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET259 ( 13 14 )
+c0 ( 9 0 ) capacitor c=0.160512f
+c1 ( 5 0 ) capacitor c=0.0947993f
+r2 (  5 13 ) resistor r=1.11375
+r3 (  5 14 ) resistor r=1.13625
+r4 (  5 9 ) resistor r=17.5
+r5 (  5 9 ) resistor r=17.9663
+ends PM_ALU_8BIT\%XI4\/XI18\/NET259
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET029 ( 11 12 )
+c0 ( 7 0 ) capacitor c=0.188255f
+r1 (  10 11 ) resistor r=2.7225
+r2 (  10 12 ) resistor r=2.7775
+r3 (  7 10 ) resistor r=35.2375
+r4 (  7 10 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI18\/NET029
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET20 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.114412f
+c1 ( 1 0 ) capacitor c=0.047348f
+r2 (  3 4 ) resistor r=5.445
+r3 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET20
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET021 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.202474f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET021
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET261 ( 11 12 )
+c0 ( 7 0 ) capacitor c=0.198357f
+r1 (  10 11 ) resistor r=2.7225
+r2 (  10 12 ) resistor r=2.7775
+r3 (  7 10 ) resistor r=35.2363
+r4 (  7 10 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI18\/NET261
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET258 ( 14 15 )
+c0 ( 9 0 ) capacitor c=0.159098f
+c1 ( 5 0 ) capacitor c=0.0977387f
+r2 (  5 14 ) resistor r=1.11375
+r3 (  5 15 ) resistor r=1.13625
+r4 (  5 9 ) resistor r=17.5
+r5 (  5 9 ) resistor r=17.9679
+ends PM_ALU_8BIT\%XI4\/XI18\/NET258
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET260 ( 9 10 )
+c0 ( 3 0 ) capacitor c=0.20035f
+r1 (  8 9 ) resistor r=2.7225
+r2 (  8 10 ) resistor r=2.7775
+r3 (  3 8 ) resistor r=35.329
+r4 (  3 8 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI18\/NET260
+
+subckt PM_ALU_8BIT\%XI4\/XI18\/NET257 ( 13 14 )
+c0 ( 8 0 ) capacitor c=0.160432f
+c1 ( 5 0 ) capacitor c=0.0923109f
+r2 (  5 13 ) resistor r=1.11375
+r3 (  5 14 ) resistor r=1.13625
+r4 (  5 8 ) resistor r=17.5
+r5 (  5 8 ) resistor r=17.9678
+ends PM_ALU_8BIT\%XI4\/XI18\/NET257
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET025 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.203918f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET025
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET020 ( 3 4 )
+c0 ( 2 0 ) capacitor c=0.156061f
+r1 (  2 4 ) resistor r=5.5
+r2 (  2 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<0\>\/NET020
+
+subckt PM_ALU_8BIT\%O\<0\> ( 5 11 17 )
+c0 ( 17 0 ) capacitor c=0.132252f
+c1 ( 4 0 ) capacitor c=0.135462f
+c2 ( 2 0 ) capacitor c=0.0946195f
+r3 (  4 17 ) resistor r=35.8497
+r4 (  4 5 ) resistor r=5.445
+r5 (  2 11 ) resistor r=2.2275
+r6 (  2 17 ) resistor r=18.5048
+ends PM_ALU_8BIT\%O\<0\>
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<1\>\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.202253f
+r1 (  2 5 ) resistor r=2.25
+r2 (  2 6 ) resistor r=2.25
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<1\>\/NET16
+
+subckt PM_ALU_8BIT\%noxref_139 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.144731f
+r1 (  3 4 ) resistor r=5.445
+r2 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_139
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET033 ( 5 12 )
+c0 ( 1 0 ) capacitor c=0.255328f
+r1 (  4 5 ) resistor r=1.125
+r2 (  4 12 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2836
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI9\/NET033
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET4 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.18821f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI9\/NET4
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET031 ( 9 10 )
+c0 ( 1 0 ) capacitor c=0.256839f
+r1 (  4 9 ) resistor r=1.125
+r2 (  4 10 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2851
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI9\/NET031
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198357f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI9\/NET16
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET20 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.114389f
+c1 ( 1 0 ) capacitor c=0.0473588f
+r2 (  3 4 ) resistor r=5.445
+r3 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET20
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET021 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.20209f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET021
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET032 ( 13 14 )
+c0 ( 8 0 ) capacitor c=0.160429f
+c1 ( 5 0 ) capacitor c=0.0923109f
+r2 (  5 13 ) resistor r=1.125
+r3 (  5 14 ) resistor r=1.125
+r4 (  5 8 ) resistor r=17.5
+r5 (  5 8 ) resistor r=17.9678
+ends PM_ALU_8BIT\%XI4\/XI9\/NET032
+
+subckt PM_ALU_8BIT\%XI4\/XI9\/NET13 ( 9 10 )
+c0 ( 3 0 ) capacitor c=0.20035f
+r1 (  8 9 ) resistor r=2.75
+r2 (  8 10 ) resistor r=2.75
+r3 (  3 8 ) resistor r=35.329
+r4 (  3 8 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI9\/NET13
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET025 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.205346f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET025
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET020 ( 3 4 )
+c0 ( 2 0 ) capacitor c=0.155674f
+r1 (  2 4 ) resistor r=5.5
+r2 (  2 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<1\>\/NET020
+
+subckt PM_ALU_8BIT\%O\<1\> ( 5 11 17 )
+c0 ( 17 0 ) capacitor c=0.13413f
+c1 ( 4 0 ) capacitor c=0.136997f
+c2 ( 2 0 ) capacitor c=0.0945317f
+r3 (  4 17 ) resistor r=35.7481
+r4 (  4 5 ) resistor r=5.445
+r5 (  2 11 ) resistor r=2.2275
+r6 (  2 17 ) resistor r=18.4748
+ends PM_ALU_8BIT\%O\<1\>
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<2\>\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.202109f
+r1 (  2 5 ) resistor r=2.25
+r2 (  2 6 ) resistor r=2.25
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<2\>\/NET16
+
+subckt PM_ALU_8BIT\%noxref_152 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.144736f
+r1 (  3 4 ) resistor r=5.445
+r2 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_152
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET033 ( 5 12 )
+c0 ( 1 0 ) capacitor c=0.255336f
+r1 (  4 5 ) resistor r=1.125
+r2 (  4 12 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2836
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI10\/NET033
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET4 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.188211f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI10\/NET4
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET031 ( 9 10 )
+c0 ( 1 0 ) capacitor c=0.256849f
+r1 (  4 9 ) resistor r=1.125
+r2 (  4 10 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2851
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI10\/NET031
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198357f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI10\/NET16
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET20 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.114369f
+c1 ( 1 0 ) capacitor c=0.0473594f
+r2 (  3 4 ) resistor r=5.445
+r3 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET20
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET021 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.202002f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET021
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET032 ( 13 14 )
+c0 ( 8 0 ) capacitor c=0.160431f
+c1 ( 5 0 ) capacitor c=0.0923109f
+r2 (  5 13 ) resistor r=1.125
+r3 (  5 14 ) resistor r=1.125
+r4 (  5 8 ) resistor r=17.5
+r5 (  5 8 ) resistor r=17.9678
+ends PM_ALU_8BIT\%XI4\/XI10\/NET032
+
+subckt PM_ALU_8BIT\%XI4\/XI10\/NET13 ( 9 10 )
+c0 ( 3 0 ) capacitor c=0.20035f
+r1 (  8 9 ) resistor r=2.75
+r2 (  8 10 ) resistor r=2.75
+r3 (  3 8 ) resistor r=35.329
+r4 (  3 8 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI10\/NET13
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET025 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.205356f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET025
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET020 ( 3 4 )
+c0 ( 2 0 ) capacitor c=0.155664f
+r1 (  2 4 ) resistor r=5.5
+r2 (  2 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<2\>\/NET020
+
+subckt PM_ALU_8BIT\%O\<2\> ( 5 11 17 )
+c0 ( 17 0 ) capacitor c=0.134306f
+c1 ( 4 0 ) capacitor c=0.137177f
+c2 ( 2 0 ) capacitor c=0.0945226f
+r3 (  4 17 ) resistor r=35.7481
+r4 (  4 5 ) resistor r=5.445
+r5 (  2 11 ) resistor r=2.2275
+r6 (  2 17 ) resistor r=18.5778
+ends PM_ALU_8BIT\%O\<2\>
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<3\>\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.203607f
+r1 (  2 5 ) resistor r=2.25
+r2 (  2 6 ) resistor r=2.25
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<3\>\/NET16
+
+subckt PM_ALU_8BIT\%noxref_165 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.144737f
+r1 (  3 4 ) resistor r=5.445
+r2 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_165
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET033 ( 5 12 )
+c0 ( 1 0 ) capacitor c=0.255341f
+r1 (  4 5 ) resistor r=1.125
+r2 (  4 12 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2836
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI11\/NET033
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET4 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.18821f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI11\/NET4
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET031 ( 9 10 )
+c0 ( 1 0 ) capacitor c=0.256852f
+r1 (  4 9 ) resistor r=1.125
+r2 (  4 10 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2851
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI11\/NET031
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198357f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI11\/NET16
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET20 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.114356f
+c1 ( 1 0 ) capacitor c=0.0473602f
+r2 (  3 4 ) resistor r=5.445
+r3 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET20
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET021 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.201946f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET021
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET032 ( 13 14 )
+c0 ( 8 0 ) capacitor c=0.160433f
+c1 ( 5 0 ) capacitor c=0.0923109f
+r2 (  5 13 ) resistor r=1.125
+r3 (  5 14 ) resistor r=1.125
+r4 (  5 8 ) resistor r=17.5
+r5 (  5 8 ) resistor r=17.9678
+ends PM_ALU_8BIT\%XI4\/XI11\/NET032
+
+subckt PM_ALU_8BIT\%XI4\/XI11\/NET13 ( 9 10 )
+c0 ( 3 0 ) capacitor c=0.20035f
+r1 (  8 9 ) resistor r=2.75
+r2 (  8 10 ) resistor r=2.75
+r3 (  3 8 ) resistor r=35.329
+r4 (  3 8 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI11\/NET13
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET025 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.205356f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET025
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET020 ( 3 4 )
+c0 ( 2 0 ) capacitor c=0.155655f
+r1 (  2 4 ) resistor r=5.5
+r2 (  2 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<3\>\/NET020
+
+subckt PM_ALU_8BIT\%O\<3\> ( 5 11 17 )
+c0 ( 17 0 ) capacitor c=0.133045f
+c1 ( 4 0 ) capacitor c=0.135889f
+c2 ( 2 0 ) capacitor c=0.0945226f
+r3 (  4 17 ) resistor r=35.7481
+r4 (  4 5 ) resistor r=5.445
+r5 (  2 11 ) resistor r=2.2275
+r6 (  2 17 ) resistor r=18.5988
+ends PM_ALU_8BIT\%O\<3\>
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<4\>\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.202328f
+r1 (  2 5 ) resistor r=2.25
+r2 (  2 6 ) resistor r=2.25
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<4\>\/NET16
+
+subckt PM_ALU_8BIT\%noxref_178 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.144738f
+r1 (  3 4 ) resistor r=5.445
+r2 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_178
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET033 ( 5 12 )
+c0 ( 1 0 ) capacitor c=0.25535f
+r1 (  4 5 ) resistor r=1.125
+r2 (  4 12 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2836
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI12\/NET033
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET4 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.188211f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI12\/NET4
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET031 ( 9 10 )
+c0 ( 1 0 ) capacitor c=0.256858f
+r1 (  4 9 ) resistor r=1.125
+r2 (  4 10 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2851
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI12\/NET031
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198357f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI12\/NET16
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET20 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.114375f
+c1 ( 1 0 ) capacitor c=0.0473598f
+r2 (  3 4 ) resistor r=5.445
+r3 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET20
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET021 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.201922f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET021
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET032 ( 13 14 )
+c0 ( 8 0 ) capacitor c=0.160437f
+c1 ( 5 0 ) capacitor c=0.0923109f
+r2 (  5 13 ) resistor r=1.125
+r3 (  5 14 ) resistor r=1.125
+r4 (  5 8 ) resistor r=17.5
+r5 (  5 8 ) resistor r=17.9678
+ends PM_ALU_8BIT\%XI4\/XI12\/NET032
+
+subckt PM_ALU_8BIT\%XI4\/XI12\/NET13 ( 9 10 )
+c0 ( 3 0 ) capacitor c=0.20035f
+r1 (  8 9 ) resistor r=2.75
+r2 (  8 10 ) resistor r=2.75
+r3 (  3 8 ) resistor r=35.329
+r4 (  3 8 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI12\/NET13
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET025 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.205352f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET025
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET020 ( 3 4 )
+c0 ( 2 0 ) capacitor c=0.155636f
+r1 (  2 4 ) resistor r=5.5
+r2 (  2 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<4\>\/NET020
+
+subckt PM_ALU_8BIT\%O\<4\> ( 5 11 17 )
+c0 ( 17 0 ) capacitor c=0.132916f
+c1 ( 4 0 ) capacitor c=0.135757f
+c2 ( 2 0 ) capacitor c=0.0945252f
+r3 (  4 17 ) resistor r=35.7481
+r4 (  4 5 ) resistor r=5.445
+r5 (  2 11 ) resistor r=2.2275
+r6 (  2 17 ) resistor r=18.6176
+ends PM_ALU_8BIT\%O\<4\>
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<5\>\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.202285f
+r1 (  2 5 ) resistor r=2.25
+r2 (  2 6 ) resistor r=2.25
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<5\>\/NET16
+
+subckt PM_ALU_8BIT\%noxref_191 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.144719f
+r1 (  3 4 ) resistor r=5.445
+r2 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_191
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET033 ( 5 12 )
+c0 ( 1 0 ) capacitor c=0.255357f
+r1 (  4 5 ) resistor r=1.125
+r2 (  4 12 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2836
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI13\/NET033
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET4 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.18821f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI13\/NET4
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET031 ( 9 10 )
+c0 ( 1 0 ) capacitor c=0.256858f
+r1 (  4 9 ) resistor r=1.125
+r2 (  4 10 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2851
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI13\/NET031
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198357f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI13\/NET16
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET20 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.114385f
+c1 ( 1 0 ) capacitor c=0.0473597f
+r2 (  3 4 ) resistor r=5.445
+r3 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET20
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET021 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.201809f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET021
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET032 ( 13 14 )
+c0 ( 8 0 ) capacitor c=0.160437f
+c1 ( 5 0 ) capacitor c=0.0923109f
+r2 (  5 13 ) resistor r=1.125
+r3 (  5 14 ) resistor r=1.125
+r4 (  5 8 ) resistor r=17.5
+r5 (  5 8 ) resistor r=17.9678
+ends PM_ALU_8BIT\%XI4\/XI13\/NET032
+
+subckt PM_ALU_8BIT\%XI4\/XI13\/NET13 ( 9 10 )
+c0 ( 3 0 ) capacitor c=0.20035f
+r1 (  8 9 ) resistor r=2.75
+r2 (  8 10 ) resistor r=2.75
+r3 (  3 8 ) resistor r=35.329
+r4 (  3 8 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI13\/NET13
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET025 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.20497f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET025
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET020 ( 3 4 )
+c0 ( 2 0 ) capacitor c=0.155636f
+r1 (  2 4 ) resistor r=5.5
+r2 (  2 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<5\>\/NET020
+
+subckt PM_ALU_8BIT\%O\<5\> ( 5 11 17 )
+c0 ( 17 0 ) capacitor c=0.133551f
+c1 ( 4 0 ) capacitor c=0.136405f
+c2 ( 2 0 ) capacitor c=0.0945186f
+r3 (  4 17 ) resistor r=35.7481
+r4 (  4 5 ) resistor r=5.445
+r5 (  2 11 ) resistor r=2.2275
+r6 (  2 17 ) resistor r=18.5975
+ends PM_ALU_8BIT\%O\<5\>
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<6\>\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.203078f
+r1 (  2 5 ) resistor r=2.25
+r2 (  2 6 ) resistor r=2.25
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<6\>\/NET16
+
+subckt PM_ALU_8BIT\%noxref_204 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.144742f
+r1 (  3 4 ) resistor r=5.445
+r2 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_204
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET033 ( 5 12 )
+c0 ( 1 0 ) capacitor c=0.255362f
+r1 (  4 5 ) resistor r=1.125
+r2 (  4 12 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2836
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI14\/NET033
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET4 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.188211f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI14\/NET4
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET031 ( 9 10 )
+c0 ( 1 0 ) capacitor c=0.256873f
+r1 (  4 9 ) resistor r=1.125
+r2 (  4 10 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2851
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI14\/NET031
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198357f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI14\/NET16
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET20 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.114388f
+c1 ( 1 0 ) capacitor c=0.0473574f
+r2 (  3 4 ) resistor r=5.445
+r3 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET20
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET021 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.201988f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET021
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET032 ( 13 14 )
+c0 ( 8 0 ) capacitor c=0.16045f
+c1 ( 5 0 ) capacitor c=0.0923109f
+r2 (  5 13 ) resistor r=1.125
+r3 (  5 14 ) resistor r=1.125
+r4 (  5 8 ) resistor r=17.5
+r5 (  5 8 ) resistor r=17.9678
+ends PM_ALU_8BIT\%XI4\/XI14\/NET032
+
+subckt PM_ALU_8BIT\%XI4\/XI14\/NET13 ( 9 10 )
+c0 ( 3 0 ) capacitor c=0.20035f
+r1 (  8 9 ) resistor r=2.75
+r2 (  8 10 ) resistor r=2.75
+r3 (  3 8 ) resistor r=35.329
+r4 (  3 8 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI14\/NET13
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET025 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.205348f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET025
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET020 ( 3 4 )
+c0 ( 2 0 ) capacitor c=0.155611f
+r1 (  2 4 ) resistor r=5.5
+r2 (  2 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<6\>\/NET020
+
+subckt PM_ALU_8BIT\%O\<6\> ( 5 11 17 )
+c0 ( 17 0 ) capacitor c=0.134146f
+c1 ( 4 0 ) capacitor c=0.137014f
+c2 ( 2 0 ) capacitor c=0.0945355f
+r3 (  4 17 ) resistor r=35.7481
+r4 (  4 5 ) resistor r=5.445
+r5 (  2 11 ) resistor r=2.2275
+r6 (  2 17 ) resistor r=18.6029
+ends PM_ALU_8BIT\%O\<6\>
+
+subckt PM_ALU_8BIT\%XI0\/XLOGIC\<7\>\/NET16 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.194238f
+r1 (  2 5 ) resistor r=2.25
+r2 (  2 6 ) resistor r=2.25
+ends PM_ALU_8BIT\%XI0\/XLOGIC\<7\>\/NET16
+
+subckt PM_ALU_8BIT\%noxref_217 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.14478f
+r1 (  3 4 ) resistor r=5.445
+r2 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%noxref_217
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET259 ( 5 12 )
+c0 ( 1 0 ) capacitor c=0.255363f
+r1 (  4 5 ) resistor r=1.125
+r2 (  4 12 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2836
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI19\/NET259
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET262 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.18821f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI19\/NET262
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET20 ( 1 4 )
+c0 ( 3 0 ) capacitor c=0.110508f
+c1 ( 1 0 ) capacitor c=0.0472891f
+r2 (  3 4 ) resistor r=5.445
+r3 (  1 3 ) resistor r=5.555
+ends PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET20
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET021 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198983f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET021
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET258 ( 9 10 )
+c0 ( 1 0 ) capacitor c=0.256762f
+r1 (  4 9 ) resistor r=1.125
+r2 (  4 10 ) resistor r=1.125
+r3 (  1 4 ) resistor r=18.2851
+r4 (  1 4 ) resistor r=17.5
+ends PM_ALU_8BIT\%XI4\/XI19\/NET258
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET261 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198357f
+r1 (  2 5 ) resistor r=2.75
+r2 (  2 6 ) resistor r=2.75
+ends PM_ALU_8BIT\%XI4\/XI19\/NET261
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET257 ( 13 14 )
+c0 ( 8 0 ) capacitor c=0.160434f
+c1 ( 5 0 ) capacitor c=0.0923109f
+r2 (  5 13 ) resistor r=1.125
+r3 (  5 14 ) resistor r=1.125
+r4 (  5 8 ) resistor r=17.5
+r5 (  5 8 ) resistor r=17.9678
+ends PM_ALU_8BIT\%XI4\/XI19\/NET257
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET260 ( 9 10 )
+c0 ( 3 0 ) capacitor c=0.20035f
+r1 (  8 9 ) resistor r=2.75
+r2 (  8 10 ) resistor r=2.75
+r3 (  3 8 ) resistor r=35.329
+r4 (  3 8 ) resistor r=35
+ends PM_ALU_8BIT\%XI4\/XI19\/NET260
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET025 ( 5 6 )
+c0 ( 2 0 ) capacitor c=0.198876f
+r1 (  2 5 ) resistor r=2.2725
+r2 (  2 6 ) resistor r=2.2275
+ends PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET025
+
+subckt PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET020 ( 3 4 )
+c0 ( 2 0 ) capacitor c=0.153792f
+r1 (  2 4 ) resistor r=5.5
+r2 (  2 3 ) resistor r=5.5
+ends PM_ALU_8BIT\%XI3\/XMUX\<7\>\/NET020
+
+subckt PM_ALU_8BIT\%O\<7\> ( 5 11 17 )
+c0 ( 17 0 ) capacitor c=0.134676f
+c1 ( 4 0 ) capacitor c=0.137554f
+c2 ( 2 0 ) capacitor c=0.103484f
+r3 (  4 17 ) resistor r=35.7481
+r4 (  4 5 ) resistor r=5.445
+r5 (  2 11 ) resistor r=2.2275
+r6 (  2 17 ) resistor r=18.6163
+ends PM_ALU_8BIT\%O\<7\>
+
+subckt PM_ALU_8BIT\%XI4\/XI19\/NET250 ( 5 12 )
+c0 ( 32 0 ) capacitor c=0.257743f
+c1 ( 10 0 ) capacitor c=0.333353f
+c2 ( 4 0 ) capacitor c=0.135422f
+r3 (  11 12 ) resistor r=2.75
+r4 (  10 32 ) resistor r=3.78423
+r5 (  10 11 ) resistor r=17.5
+r6 (  4 5 ) resistor r=1.125
+r7 (  4 32 ) resistor r=17.5
+r8 (  4 32 ) resistor r=18.1578
+ends PM_ALU_8BIT\%XI4\/XI19\/NET250
+

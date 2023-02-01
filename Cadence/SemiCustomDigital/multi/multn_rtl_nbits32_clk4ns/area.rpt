@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : area
+Design : multn_NBITS32
+Version: Q-2019.12
+Date   : Sat Dec  3 23:44:24 2022
+****************************************
+
+Library(s) Used:
+
+    uk65lscllmvbbr_108c125_wc (File: /dkits/umc/lms65ll_stclib_umc_uk65lscllmvbbr_b03pb/synopsys/uk65lscllmvbbr_108c125_wc.db)
+
+Number of ports:                          719
+Number of nets:                          1842
+Number of cells:                         1239
+Number of combinational cells:           1002
+Number of sequential cells:               228
+Number of macros/black boxes:               0
+Number of buf/inv:                        199
+Number of references:                      23
+
+Combinational area:               2497.320055
+Buf/Inv area:                      219.600009
+Noncombinational area:            2218.320061
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  4715.640116
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ------------------------
+multn_NBITS32                     4715.6401    100.0   817.2000  2218.3201  0.0000  multn_NBITS32
+add_54                             827.6400     17.6   827.6400     0.0000  0.0000  multn_NBITS32_DW01_add_1
+sub_66                             428.4000      9.1   428.4000     0.0000  0.0000  multn_NBITS32_DW01_sub_3
+sub_abs_43                         212.7600      4.5   212.7600     0.0000  0.0000  multn_NBITS32_DW01_sub_4
+sub_abs_44                         211.3200      4.5   211.3200     0.0000  0.0000  multn_NBITS32_DW01_sub_5
+--------------------------------  ---------  -------  ---------  ---------  ------  ------------------------
+Total                                                 2497.3201  2218.3201  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+                                      Perc. of
+  Module   Implem.  Count       Area cell area
+  -------- -------  ----- ---------- ---------
+  DW01_add  pparch      1   827.6387     17.6%
+  DW01_sub  pparch      3   852.4802     18.1%
+  -------- -------  ----- ---------- ---------
+  Total:                4  1680.1189     35.6%
+
+Total synthetic cell area:              1680.1189  35.6%  
+
+1
